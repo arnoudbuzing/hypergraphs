@@ -77,769 +77,769 @@ Cell[BoxData[
             PaneBox[GridBox[{
                {
                 ButtonBox[
-                 StyleBox["CreateHyperGraph", "InformationGridButton"],
+                 StyleBox["CreateHypergraph", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "CreateHyperGraph", "hypernetx`"}, False},
+                   "CreateHypergraph", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphDistance", "InformationGridButton"],
+                 StyleBox["HypergraphDistance", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDistance", "hypernetx`"}, False},
+                   "HypergraphDistance", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphFromNumpyArray", "InformationGridButton"],
-                 
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphFromNumpyArray", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphNodeDiameters", "InformationGridButton"],
+                 StyleBox["HypergraphFromNumpyArray", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodeDiameters", "hypernetx`"}, False},
+                   "HypergraphFromNumpyArray", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphNodeDiameters", "InformationGridButton"],
+                 
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphNodeDiameters", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphRestrictToEdges", 
+                 StyleBox["HypergraphRestrictToEdges", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRestrictToEdges", "hypernetx`"}, False},
+                   "HypergraphRestrictToEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
                  
-                 StyleBox["HyperGraphAdjacencyMatrix", 
+                 StyleBox["HypergraphAdjacencyMatrix", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphAdjacencyMatrix", "hypernetx`"}, False},
+                   "HypergraphAdjacencyMatrix", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphDual", "InformationGridButton"],
+                 StyleBox["HypergraphDual", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDual", "hypernetx`"}, False},
+                   "HypergraphDual", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphGetCellProperties", 
+                 StyleBox["HypergraphGetCellProperties", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphGetCellProperties", "hypernetx`"}, False},
+                   "HypergraphGetCellProperties", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNodeProperties", "InformationGridButton"],
+                 StyleBox["HypergraphNodeProperties", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodeProperties", "hypernetx`"}, False},
+                   "HypergraphNodeProperties", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphRestrictToNodes", 
+                 StyleBox["HypergraphRestrictToNodes", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRestrictToNodes", "hypernetx`"}, False},
+                   "HypergraphRestrictToNodes", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
                  
-                 StyleBox["HyperGraphAuxiliaryMatrix", 
+                 StyleBox["HypergraphAuxiliaryMatrix", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphAuxiliaryMatrix", "hypernetx`"}, False},
+                   "HypergraphAuxiliaryMatrix", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphEdgeAdjacencyMatrix", 
+                 StyleBox["HypergraphEdgeAdjacencyMatrix", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeAdjacencyMatrix", "hypernetx`"}, False},
+                   "HypergraphEdgeAdjacencyMatrix", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphGetLineGraph", "InformationGridButton"],
+                 StyleBox["HypergraphGetLineGraph", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphGetLineGraph", "hypernetx`"}, False},
+                   "HypergraphGetLineGraph", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNodeProps", "InformationGridButton"],
+                 StyleBox["HypergraphNodeProps", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodeProps", "hypernetx`"}, False},
+                   "HypergraphNodeProps", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphSComponents", "InformationGridButton"],
+                 StyleBox["HypergraphSComponents", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSComponents", "hypernetx`"}, False},
+                   "HypergraphSComponents", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphBipartite", "InformationGridButton"],
+                 StyleBox["HypergraphBipartite", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphBipartite", "hypernetx`"}, False},
+                   "HypergraphBipartite", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphEdgeCol", "InformationGridButton"],
+                 StyleBox["HypergraphEdgeCol", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeCol", "hypernetx`"}, False},
+                   "HypergraphEdgeCol", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphGetProperties", "InformationGridButton"],
+                 StyleBox["HypergraphGetProperties", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphGetProperties", "hypernetx`"}, False},
+                   "HypergraphGetProperties", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNodes", "InformationGridButton"],
+                 StyleBox["HypergraphNodes", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodes", "hypernetx`"}, False},
+                   "HypergraphNodes", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphSComponentSubgraphs", 
+                 StyleBox["HypergraphSComponentSubgraphs", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSComponentSubgraphs", "hypernetx`"}, False},
+                   "HypergraphSComponentSubgraphs", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphCollapseEdges", "InformationGridButton"],
+                 StyleBox["HypergraphCollapseEdges", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphCollapseEdges", "hypernetx`"}, False},
+                   "HypergraphCollapseEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphEdgeDiameter", "InformationGridButton"],
+                 StyleBox["HypergraphEdgeDiameter", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeDiameter", "hypernetx`"}, False},
+                   "HypergraphEdgeDiameter", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphIncidenceDataFrame", 
+                 StyleBox["HypergraphIncidenceDataFrame", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphIncidenceDataFrame", "hypernetx`"}, False},
+                   "HypergraphIncidenceDataFrame", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphNodeWeightPropCol", 
+                 StyleBox["HypergraphNodeWeightPropCol", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodeWeightPropCol", "hypernetx`"}, False},
+                   "HypergraphNodeWeightPropCol", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphSConnectedComponents", 
+                 StyleBox["HypergraphSConnectedComponents", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSConnectedComponents", "hypernetx`"}, False},
+                   "HypergraphSConnectedComponents", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphCollapseNodes", "InformationGridButton"],
+                 StyleBox["HypergraphCollapseNodes", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphCollapseNodes", "hypernetx`"}, False},
+                   "HypergraphCollapseNodes", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphEdgeDistance", "InformationGridButton"],
+                 StyleBox["HypergraphEdgeDistance", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeDistance", "hypernetx`"}, False},
+                   "HypergraphEdgeDistance", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphIncidenceDict", "InformationGridButton"],
+                 StyleBox["HypergraphIncidenceDict", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphIncidenceDict", "hypernetx`"}, False},
+                   "HypergraphIncidenceDict", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNumberOfEdges", "InformationGridButton"],
+                 StyleBox["HypergraphNumberOfEdges", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNumberOfEdges", "hypernetx`"}, False},
+                   "HypergraphNumberOfEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphSelf", "InformationGridButton"],
+                 StyleBox["HypergraphSelf", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSelf", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic]},
-               {
-                ButtonBox[
-                 
-                 StyleBox["HyperGraphCollapseNodesAndEdges", 
-                  "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphCollapseNodesAndEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphEdgeNeighbors", "InformationGridButton"],
-                 
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeNeighbors", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 
-                 StyleBox["HyperGraphIncidenceMatrix", 
-                  "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphIncidenceMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphNumberOfNodes", "InformationGridButton"],
-                 
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNumberOfNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphSetState", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSetState", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic]},
-               {
-                ButtonBox[
-                 StyleBox["HyperGraphComponents", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphComponents", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphEdgeProperties", "InformationGridButton"],
-                 
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphIsConnected", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphIsConnected", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphOrder", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphOrder", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphSetSystem", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSetSystem", "hypernetx`"}, False},
+                   "HypergraphSelf", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
                  
-                 StyleBox["HyperGraphComponentSubGraphs", 
+                 StyleBox["HypergraphCollapseNodesAndEdges", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphComponentSubGraphs", "hypernetx`"}, False},
+                   "HypergraphCollapseNodesAndEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphEdgeProps", "InformationGridButton"],
+                 StyleBox["HypergraphEdgeNeighbors", "InformationGridButton"],
+                 
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeProps", "hypernetx`"}, False},
+                   "HypergraphEdgeNeighbors", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphMiscCellProperties", 
+                 StyleBox["HypergraphIncidenceMatrix", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphMiscCellProperties", "hypernetx`"}, False},
+                   "HypergraphIncidenceMatrix", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphProperties", "InformationGridButton"],
+                 StyleBox["HypergraphNumberOfNodes", "InformationGridButton"],
+                 
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphProperties", "hypernetx`"}, False},
+                   "HypergraphNumberOfNodes", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphShape", "InformationGridButton"],
+                 StyleBox["HypergraphSetState", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphShape", "hypernetx`"}, False},
+                   "HypergraphSetState", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["HypergraphComponents", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphComponents", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphEdgeProperties", "InformationGridButton"],
+                 
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphEdgeProperties", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphIsConnected", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphIsConnected", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphOrder", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphOrder", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphSetSystem", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphSetSystem", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
                  
-                 StyleBox["HyperGraphConnectedComponents", 
+                 StyleBox["HypergraphComponentSubGraphs", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphConnectedComponents", "hypernetx`"}, False},
+                   "HypergraphComponentSubGraphs", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphEdges", "InformationGridButton"],
+                 StyleBox["HypergraphEdgeProps", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdges", "hypernetx`"}, False},
+                   "HypergraphEdgeProps", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphMiscCellPropertiesCol", 
+                 StyleBox["HypergraphMiscCellProperties", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphMiscCellPropertiesCol", "hypernetx`"}, False},
+                   "HypergraphMiscCellProperties", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphProps2Dict", "InformationGridButton"],
+                 StyleBox["HypergraphProperties", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphProps2Dict", "hypernetx`"}, False},
+                   "HypergraphProperties", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphSingletons", "InformationGridButton"],
+                 StyleBox["HypergraphShape", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSingletons", "hypernetx`"}, False},
+                   "HypergraphShape", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphDataset", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
                  
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDataset", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 StyleBox["HyperGraphEdgeSizeDist", "InformationGridButton"],
-                 Appearance->None,
-                 BaseStyle->"InformationGridLink",
-                 
-                 ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphEdgeSizeDist", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
-                 Evaluator->Automatic], 
-                ButtonBox[
-                 
-                 StyleBox["HyperGraphMiscPropertiesCol", 
+                 StyleBox["HypergraphConnectedComponents", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphMiscPropertiesCol", "hypernetx`"}, False},
+                   "HypergraphConnectedComponents", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphRemove", "InformationGridButton"],
+                 StyleBox["HypergraphEdges", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRemove", "hypernetx`"}, False},
+                   "HypergraphEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphSize", "InformationGridButton"],
+                 
+                 StyleBox["HypergraphMiscCellPropertiesCol", 
+                  "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSize", "hypernetx`"}, False},
+                   "HypergraphMiscCellPropertiesCol", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphProps2Dict", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphProps2Dict", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphSingletons", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphSingletons", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphDegree", "InformationGridButton"],
+                 StyleBox["HypergraphDataset", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDegree", "hypernetx`"}, False},
+                   "HypergraphDataset", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphFromBipartite", "InformationGridButton"],
-                 
+                 StyleBox["HypergraphEdgeSizeDist", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphFromBipartite", "hypernetx`"}, False},
+                   "HypergraphEdgeSizeDist", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphName", "InformationGridButton"],
+                 
+                 StyleBox["HypergraphMiscPropertiesCol", 
+                  "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphName", "hypernetx`"}, False},
+                   "HypergraphMiscPropertiesCol", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphRemoveEdges", "InformationGridButton"],
+                 StyleBox["HypergraphRemove", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRemoveEdges", "hypernetx`"}, False},
+                   "HypergraphRemove", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphSubGraphs", "InformationGridButton"],
+                 StyleBox["HypergraphSize", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphSubGraphs", "hypernetx`"}, False},
+                   "HypergraphSize", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphDiameter", "InformationGridButton"],
+                 StyleBox["HypergraphDegree", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDiameter", "hypernetx`"}, False},
+                   "HypergraphDegree", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
+                 StyleBox["HypergraphFromBipartite", "InformationGridButton"],
                  
-                 StyleBox["HyperGraphFromIncidenceDataFrame", 
-                  "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphFromIncidenceDataFrame", "hypernetx`"}, False},
+                   "HypergraphFromBipartite", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNeighbors", "InformationGridButton"],
+                 StyleBox["HypergraphName", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNeighbors", "hypernetx`"}, False},
+                   "HypergraphName", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphRemoveNodes", "InformationGridButton"],
+                 StyleBox["HypergraphRemoveEdges", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRemoveNodes", "hypernetx`"}, False},
+                   "HypergraphRemoveEdges", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphToplexes", "InformationGridButton"],
+                 StyleBox["HypergraphSubGraphs", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphToplexes", "hypernetx`"}, False},
+                   "HypergraphSubGraphs", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
-                 StyleBox["HyperGraphDim", "InformationGridButton"],
+                 StyleBox["HypergraphDiameter", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphDim", "hypernetx`"}, False},
+                   "HypergraphDiameter", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphFromIncidenceMatrix", 
+                 StyleBox["HypergraphFromIncidenceDataFrame", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphFromIncidenceMatrix", "hypernetx`"}, False},
+                   "HypergraphFromIncidenceDataFrame", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphNodeCol", "InformationGridButton"],
+                 StyleBox["HypergraphNeighbors", "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphNodeCol", "hypernetx`"}, False},
+                   "HypergraphNeighbors", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphRemoveNodes", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphRemoveNodes", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphToplexes", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphToplexes", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic]},
+               {
+                ButtonBox[
+                 StyleBox["HypergraphDim", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphDim", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
-                 StyleBox["HyperGraphRemoveSingletons", 
+                 StyleBox["HypergraphFromIncidenceMatrix", 
                   "InformationGridButton"],
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphRemoveSingletons", "hypernetx`"}, False},
+                   "HypergraphFromIncidenceMatrix", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic], 
                 ButtonBox[
-                 StyleBox["HyperGraphWeightPropCol", "InformationGridButton"],
+                 StyleBox["HypergraphNodeCol", "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphNodeCol", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 
+                 StyleBox["HypergraphRemoveSingletons", 
+                  "InformationGridButton"],
+                 Appearance->None,
+                 BaseStyle->"InformationGridLink",
+                 
+                 ButtonData:>{
+                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
+                   "HypergraphRemoveSingletons", "hypernetx`"}, False},
+                 ButtonNote->"hypernetx`",
+                 Evaluator->Automatic], 
+                ButtonBox[
+                 StyleBox["HypergraphWeightPropCol", "InformationGridButton"],
                  
                  Appearance->None,
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
                   "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HyperGraphWeightPropCol", "hypernetx`"}, False},
+                   "HypergraphWeightPropCol", "hypernetx`"}, False},
                  ButtonNote->"hypernetx`",
                  Evaluator->Automatic]}
               },
@@ -879,7 +879,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"hg", "=", 
-  RowBox[{"CreateHyperGraph", "[", 
+  RowBox[{"CreateHypergraph", "[", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
@@ -1038,7 +1038,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                RowBox[{
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
-                 TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
+                 TagBox["\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}], 
                
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
@@ -1194,7 +1194,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                 "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
+                 "\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
@@ -1234,7 +1234,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
   ExternalObject[
    ExternalSessionObject["fd26fdd6-5bb2-4bd9-b112-e6dee26634f0"], 
    ExternalEvaluate`RPC["Fetch", {6266600272}], <|
-   "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
+   "IsModule" -> False, "Module" -> "hypernetx.classes.Hypergraph", "IsClass" -> 
     False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
     False|>],
   Editable->False,
@@ -1259,7 +1259,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"HyperGraphDataset", "[", "hg", "]"}], "[", 
+       RowBox[{"HypergraphDataset", "[", "hg", "]"}], "[", 
        RowBox[{"All", ",", 
         RowBox[{"{", 
          RowBox[{"\"\<edges\>\"", ",", "\"\<nodes\>\""}], "}"}]}], "]"}], "//",
@@ -1433,7 +1433,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"HyperGraphAdjacencyMatrix", "[", "hg", "]"}], "//", 
+  RowBox[{"HypergraphAdjacencyMatrix", "[", "hg", "]"}], "//", 
   "Normal"}]], "Input",
  CellChangeTimes->{{3.922795433916806*^9, 3.922795438432323*^9}, {
   3.922795907414611*^9, 3.922795907481412*^9}, {3.922796168229356*^9, 
@@ -1461,7 +1461,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"HyperGraphAuxiliaryMatrix", "[", "hg", "]"}], "//", 
+  RowBox[{"HypergraphAuxiliaryMatrix", "[", "hg", "]"}], "//", 
   "Normal"}]], "Input",
  CellChangeTimes->{{3.922795433916806*^9, 3.922795438432323*^9}, {
   3.922795907414611*^9, 3.922795907481412*^9}, {3.922796168229356*^9, 
@@ -1485,7 +1485,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphBipartite", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphBipartite", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922795433916806*^9, 3.922795438432323*^9}, {
   3.922795907414611*^9, 3.922795907481412*^9}, {3.922796168229356*^9, 
   3.9227961695158863`*^9}, {3.922797011066362*^9, 3.9227970324159718`*^9}},
@@ -1850,8 +1850,8 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{
-      RowBox[{"HyperGraphCollapseEdges", "[", "hg", "]"}], "//", 
-      "HyperGraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
+      RowBox[{"HypergraphCollapseEdges", "[", "hg", "]"}], "//", 
+      "HypergraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
    "Values"}], "//", 
   RowBox[{"ResourceFunction", "[", "\"\<HypergraphPlot\>\"", "]"}]}]], "Input",\
 
@@ -2066,8 +2066,8 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"HyperGraphCollapseNodes", "[", "hg", "]"}], "//", 
-       "HyperGraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
+       RowBox[{"HypergraphCollapseNodes", "[", "hg", "]"}], "//", 
+       "HypergraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
     "Values"}], "//", "Round"}], "//", 
   RowBox[{"ResourceFunction", "[", "\"\<HypergraphPlot\>\"", "]"}]}]], "Input",\
 
@@ -2238,7 +2238,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphCollapseNodesAndEdges", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphCollapseNodesAndEdges", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922797044871284*^9, 3.922797048842415*^9}, {
   3.922797140682054*^9, 3.922797157929029*^9}},
  CellLabel->"In[14]:=",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
@@ -2388,7 +2388,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                RowBox[{
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
-                 TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
+                 TagBox["\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}], 
                
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
@@ -2544,7 +2544,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                 "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
+                 "\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
@@ -2584,7 +2584,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
   ExternalObject[
    ExternalSessionObject["4412c19d-12e2-4c9a-b100-dd88d0e74d8e"], 
    ExternalEvaluate`RPC["Fetch", {5727215248}], <|
-   "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
+   "IsModule" -> False, "Module" -> "hypernetx.classes.Hypergraph", "IsClass" -> 
     False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
     False|>],
   Editable->False,
@@ -2598,7 +2598,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphComponentSubGraphs", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphComponentSubGraphs", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922797044871284*^9, 3.922797048842415*^9}, {
   3.922797140682054*^9, 3.9227971726051283`*^9}},
  CellLabel->"In[15]:=",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
@@ -2748,7 +2748,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                 RowBox[{
                   TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                   "\[InvisibleSpace]", 
-                  TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
+                  TagBox["\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}], 
                 RowBox[{
                   TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                   "\[InvisibleSpace]", 
@@ -2904,7 +2904,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                   TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                   "\[InvisibleSpace]", 
                   TagBox[
-                  "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
+                  "\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}]}, {
                 RowBox[{
                   TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                   "\[InvisibleSpace]", 
@@ -2945,7 +2945,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
    ExternalObject[
     ExternalSessionObject["4412c19d-12e2-4c9a-b100-dd88d0e74d8e"], 
     ExternalEvaluate`RPC["Fetch", {5727429712}], <|
-    "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", 
+    "IsModule" -> False, "Module" -> "hypernetx.classes.Hypergraph", 
      "IsClass" -> False, "IsFunction" -> False, "IsMethod" -> False, 
      "IsCallable" -> False|>],
    Editable->False,
@@ -2959,7 +2959,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphComponents", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphComponents", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922797044871284*^9, 3.922797048842415*^9}, {
   3.922797140682054*^9, 3.922797185153812*^9}},
  CellLabel->"In[16]:=",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
@@ -2976,7 +2976,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphConnectedComponents", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphConnectedComponents", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9227973248257427`*^9, 3.922797325878213*^9}},
  CellLabel->"In[17]:=",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
 
@@ -2992,7 +2992,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDataset", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDataset", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.92279733321402*^9, 3.922797334049519*^9}},
  CellLabel->"In[18]:=",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
 
@@ -3976,7 +3976,7 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"HyperGraphDataset", "[", "hg", "]"}], "[", 
+       RowBox[{"HypergraphDataset", "[", "hg", "]"}], "[", 
        RowBox[{"All", ",", 
         RowBox[{"{", 
          RowBox[{"\"\<edges\>\"", ",", "\"\<nodes\>\""}], "}"}]}], "]"}], "//",
@@ -4152,7 +4152,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDegree", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDegree", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9227973419872913`*^9, 3.922797342647338*^9}},
  CellLabel->"In[20]:=",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
 
@@ -7052,7 +7052,7 @@ object at 0x155653560>, <generator object WXFParser.tokens at \
 0x1555ec100>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -7084,7 +7084,7 @@ object at 0x155653560>, <generator object WXFParser.tokens at \
 0x1555ec100>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -7154,7 +7154,7 @@ object at 0x155653560>, <generator object WXFParser.tokens at \
 0x1555ec100>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -7277,7 +7277,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=20>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -7302,7 +7302,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "route", "Call"}, {"args", 
                     "(<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -7366,7 +7366,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "route", "Call"}, {"args", 
                     "(<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -7479,9 +7479,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"<ExternalEvaluateConsumer globals=4 objects=20>\""}, {
                     "\"result\"", "\"<function degree at 0x1553ee520>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -7507,9 +7507,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "result", "<function degree at 0x1553ee520>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -7568,9 +7568,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "result", "<function degree at 0x1553ee520>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -7586,15 +7586,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"degree\""}, "RowDefault"]}},
                      GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -7611,15 +7611,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"degree\""}, 
                     "RowDefault"]}, {"", 
@@ -7673,7 +7673,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -7696,7 +7696,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -7719,16 +7719,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "degree"}], 
                     Column[{
                     
@@ -7749,7 +7749,7 @@ py"]], Appearance -> "Frameless"], " in ", "degree"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -8468,7 +8468,7 @@ object at 0x155653560>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -8521,7 +8521,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -8565,25 +8565,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "result", "<function degree at 0x1553ee520>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "degree"}], 
                     Column[{
                     
@@ -8604,7 +8604,7 @@ py"]], Appearance -> "Frameless"], " in ", "degree"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -9295,7 +9295,7 @@ object at 0x155653560>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -9346,7 +9346,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function degree at 0x1553ee520>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -9389,21 +9389,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                   "result", "<function degree at 0x1553ee520>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "degree"}], 
             Column[{
               
@@ -9423,7 +9423,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -9437,7 +9437,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDiameter", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDiameter", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.92279738067467*^9, 3.922797381749537*^9}},
  CellLabel->"In[21]:=",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
 
@@ -9450,7 +9450,7 @@ Cell[BoxData["1"], "Output",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDim", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDim", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922797392344247*^9, 3.922797393214918*^9}},
  CellLabel->"In[22]:=",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
 
@@ -12350,7 +12350,7 @@ object at 0x15567ca40>, <generator object WXFParser.tokens at \
 0x1555ed480>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -12382,7 +12382,7 @@ object at 0x15567ca40>, <generator object WXFParser.tokens at \
 0x1555ed480>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -12452,7 +12452,7 @@ object at 0x15567ca40>, <generator object WXFParser.tokens at \
 0x1555ed480>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -12574,7 +12574,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=22>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -12599,7 +12599,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "route", "Call"}, {"args", 
                     "(<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -12663,7 +12663,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "route", "Call"}, {"args", 
                     "(<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -12776,9 +12776,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"<ExternalEvaluateConsumer globals=4 objects=22>\""}, {
                     "\"result\"", "\"<function dim at 0x1553ee660>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -12804,9 +12804,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "result", "<function dim at 0x1553ee660>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -12866,9 +12866,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "result", "<function dim at 0x1553ee660>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -12884,15 +12884,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"dim\""}, "RowDefault"]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -12909,15 +12909,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"dim\""}, "RowDefault"]}, {
                     "", 
@@ -12971,7 +12971,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -12994,7 +12994,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -13017,16 +13017,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "dim"}], 
                     Column[{
                     
@@ -13047,7 +13047,7 @@ py"]], Appearance -> "Frameless"], " in ", "dim"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -13765,7 +13765,7 @@ object at 0x15567ca40>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -13819,7 +13819,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -13863,25 +13863,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "result", "<function dim at 0x1553ee660>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "dim"}], 
                     Column[{
                     
@@ -13902,7 +13902,7 @@ py"]], Appearance -> "Frameless"], " in ", "dim"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -14593,7 +14593,7 @@ object at 0x15567ca40>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -14644,7 +14644,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function dim at 0x1553ee660>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -14687,21 +14687,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                   "result", "<function dim at 0x1553ee660>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "dim"}], 
             Column[{
               
@@ -14720,7 +14720,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -14734,7 +14734,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDistance", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDistance", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922797401725026*^9, 3.9227974024052258`*^9}},
  CellLabel->"In[23]:=",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
 
@@ -17634,7 +17634,7 @@ object at 0x15565e9d0>, <generator object WXFParser.tokens at \
 0x1555ed840>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -17666,7 +17666,7 @@ object at 0x15565e9d0>, <generator object WXFParser.tokens at \
 0x1555ed840>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -17736,7 +17736,7 @@ object at 0x15565e9d0>, <generator object WXFParser.tokens at \
 0x1555ed840>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -17859,7 +17859,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=23>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -17884,7 +17884,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "route", "Call"}, {"args", 
                     "(<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -17948,7 +17948,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "route", "Call"}, {"args", 
                     "(<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -18061,9 +18061,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"<ExternalEvaluateConsumer globals=4 objects=23>\""}, {
                     "\"result\"", "\"<function distance at 0x1553ee700>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -18089,9 +18089,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "result", "<function distance at 0x1553ee700>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -18151,9 +18151,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "result", "<function distance at 0x1553ee700>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -18169,15 +18169,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"distance\""}, 
                     "RowDefault"]}}, GridBoxAlignment -> {
@@ -18195,15 +18195,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"distance\""}, 
                     "RowDefault"]}, {"", 
@@ -18257,7 +18257,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -18280,7 +18280,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -18303,16 +18303,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "distance"}], 
                     Column[{
                     
@@ -18333,7 +18333,7 @@ py"]], Appearance -> "Frameless"], " in ", "distance"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -19053,7 +19053,7 @@ object at 0x15565e9d0>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -19106,7 +19106,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -19150,25 +19150,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "result", "<function distance at 0x1553ee700>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "distance"}], 
                     Column[{
                     
@@ -19189,7 +19189,7 @@ py"]], Appearance -> "Frameless"], " in ", "distance"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -19881,7 +19881,7 @@ object at 0x15565e9d0>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -19932,7 +19932,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function distance at 0x1553ee700>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -19975,21 +19975,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                   "result", "<function distance at 0x1553ee700>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "distance"}], 
             Column[{
               
@@ -20010,7 +20010,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -20024,7 +20024,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphDual", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphDual", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.922796987715042*^9, 3.9227969930295258`*^9}},
  CellLabel->"In[24]:=",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
 
@@ -20173,7 +20173,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                RowBox[{
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
-                 TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
+                 TagBox["\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}], 
                
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
@@ -20329,7 +20329,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                 "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
+                 "\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
@@ -20369,7 +20369,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
   ExternalObject[
    ExternalSessionObject["4412c19d-12e2-4c9a-b100-dd88d0e74d8e"], 
    ExternalEvaluate`RPC["Fetch", {5727310928}], <|
-   "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
+   "IsModule" -> False, "Module" -> "hypernetx.classes.Hypergraph", "IsClass" -> 
     False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
     False|>],
   Editable->False,
@@ -20385,7 +20385,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"HyperGraphEdgeAdjacencyMatrix", "[", "hg", "]"}], "//", 
+  RowBox[{"HypergraphEdgeAdjacencyMatrix", "[", "hg", "]"}], "//", 
   "Normal"}]], "Input",
  CellChangeTimes->{{3.922802061069201*^9, 3.922802075474206*^9}, {
   3.9228021718616323`*^9, 3.922802173094804*^9}},
@@ -20408,7 +20408,7 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphEdgeCol", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphEdgeCol", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.922802229509693*^9}},
  CellLabel->"In[7]:=",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
 
@@ -23299,7 +23299,7 @@ object at 0x175644950>, <generator object WXFParser.tokens at \
 0x1755b7580>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -23331,7 +23331,7 @@ object at 0x175644950>, <generator object WXFParser.tokens at \
 0x1755b7580>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -23402,7 +23402,7 @@ object at 0x175644950>, <generator object WXFParser.tokens at \
 0x1755b7580>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -23524,7 +23524,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=4>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -23549,7 +23549,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -23613,7 +23613,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -23726,9 +23726,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"<ExternalEvaluateConsumer globals=4 objects=4>\""}, {
                     "\"result\"", "\"<function edge_col at 0x1756168e0>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -23754,9 +23754,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "result", "<function edge_col at 0x1756168e0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -23816,9 +23816,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "result", "<function edge_col at 0x1756168e0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -23834,15 +23834,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_col\""}, 
                     "RowDefault"]}}, GridBoxAlignment -> {
@@ -23860,15 +23860,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_col\""}, 
                     "RowDefault"]}, {"", 
@@ -23922,7 +23922,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -23945,7 +23945,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -23968,16 +23968,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_col"}], 
                     Column[{
                     
@@ -23998,7 +23998,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_col"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -24712,7 +24712,7 @@ object at 0x175644950>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -24765,7 +24765,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -24809,25 +24809,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "result", "<function edge_col at 0x1756168e0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_col"}], 
                     Column[{
                     
@@ -24848,7 +24848,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_col"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -25524,7 +25524,7 @@ object at 0x175644950>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -25574,7 +25574,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function edge_col at 0x1756168e0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -25617,21 +25617,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                   "result", "<function edge_col at 0x1756168e0>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "edge_col"}], 
             Column[{
               
@@ -25651,7 +25651,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -25664,7 +25664,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphEdgeDiameter", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphEdgeDiameter", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.922802241423326*^9}},
  CellLabel->"In[8]:=",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
 
@@ -25676,7 +25676,7 @@ Cell[BoxData["1"], "Output",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphEdgeDistance", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphEdgeDistance", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.922802251342264*^9}},
  CellLabel->"In[9]:=",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
 
@@ -28572,7 +28572,7 @@ object at 0x175668f40>, <generator object WXFParser.tokens at \
 0x1755b7e80>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -28604,7 +28604,7 @@ object at 0x175668f40>, <generator object WXFParser.tokens at \
 0x1755b7e80>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -28674,7 +28674,7 @@ object at 0x175668f40>, <generator object WXFParser.tokens at \
 0x1755b7e80>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -28797,7 +28797,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=6>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -28822,7 +28822,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -28886,7 +28886,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -29000,9 +29000,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"result\"", 
                     "\"<function edge_distance at 0x175616a20>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -29028,9 +29028,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "result", "<function edge_distance at 0x175616a20>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -29090,9 +29090,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "result", "<function edge_distance at 0x175616a20>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -29108,15 +29108,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_distance\""}, 
                     "RowDefault"]}}, GridBoxAlignment -> {
@@ -29134,15 +29134,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_distance\""}, 
                     "RowDefault"]}, {"", 
@@ -29196,7 +29196,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -29219,7 +29219,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -29242,16 +29242,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_distance"}], 
                     Column[{
                     
@@ -29272,7 +29272,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_distance"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -29991,7 +29991,7 @@ object at 0x175668f40>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -30044,7 +30044,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -30088,25 +30088,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "result", "<function edge_distance at 0x175616a20>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_distance"}], 
                     Column[{
                     
@@ -30127,7 +30127,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_distance"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -30809,7 +30809,7 @@ object at 0x175668f40>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -30859,7 +30859,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function edge_distance at 0x175616a20>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -30902,21 +30902,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                   "result", "<function edge_distance at 0x175616a20>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "edge_distance"}], 
             Column[{
               
@@ -30937,7 +30937,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -30950,7 +30950,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphEdgeNeighbors", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphEdgeNeighbors", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.9228022642717123`*^9}},
  CellLabel->"In[10]:=",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
 
@@ -33846,7 +33846,7 @@ object at 0x1756459e0>, <generator object WXFParser.tokens at \
 0x175660f40>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -33878,7 +33878,7 @@ object at 0x1756459e0>, <generator object WXFParser.tokens at \
 0x175660f40>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -33948,7 +33948,7 @@ object at 0x1756459e0>, <generator object WXFParser.tokens at \
 0x175660f40>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -34070,7 +34070,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=7>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -34095,7 +34095,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -34159,7 +34159,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "route", "Call"}, {"args", 
                     "(<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -34273,9 +34273,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"result\"", 
                     "\"<function edge_neighbors at 0x175616ac0>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -34301,9 +34301,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "result", "<function edge_neighbors at 0x175616ac0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -34363,9 +34363,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "result", "<function edge_neighbors at 0x175616ac0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -34381,15 +34381,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_neighbors\""}, 
                     "RowDefault"]}}, GridBoxAlignment -> {
@@ -34407,15 +34407,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"edge_neighbors\""}, 
                     "RowDefault"]}, {"", 
@@ -34469,7 +34469,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -34492,7 +34492,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -34515,16 +34515,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_neighbors"}], 
                     Column[{
                     
@@ -34546,7 +34546,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_neighbors"}],
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -35265,7 +35265,7 @@ object at 0x1756459e0>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -35318,7 +35318,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -35362,25 +35362,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "result", "<function edge_neighbors at 0x175616ac0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "edge_neighbors"}], 
                     Column[{
                     
@@ -35402,7 +35402,7 @@ py"]], Appearance -> "Frameless"], " in ", "edge_neighbors"}],
                     
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -36084,7 +36084,7 @@ object at 0x1756459e0>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -36134,7 +36134,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function edge_neighbors at 0x175616ac0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -36177,21 +36177,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                   "result", "<function edge_neighbors at 0x175616ac0>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "edge_neighbors"}], 
             Column[{
               
@@ -36212,7 +36212,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -36225,7 +36225,7 @@ result, names), *args)", " 258.  "}, Background -> {{
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphEdges", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphEdges", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.922802278861539*^9}},
  CellLabel->"In[11]:=",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
 
@@ -36574,14 +36574,14 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
 }, Open  ]],
 
 Cell[BoxData[
- RowBox[{"HyperGraphName", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphName", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.922802303433174*^9}},
  CellLabel->"In[13]:=",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"HyperGraphSize", "[", "hg", "]"}]], "Input",
+ RowBox[{"HypergraphSize", "[", "hg", "]"}]], "Input",
  CellChangeTimes->{{3.9228022006220617`*^9, 3.9228023237263117`*^9}},
  CellLabel->"In[14]:=",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
 
@@ -39481,7 +39481,7 @@ object at 0x175669990>, <generator object WXFParser.tokens at \
 0x175661180>)\""}, {"\"kwargs\"", "\"{}\""}, {"\"expr\"", 
                     "\"ExternalEvaluate`Private`ExternalEvaluateCommand['Call'\
 , (<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
+hypernetx.classes.Hypergraph.Hypergraph)]\""}, {"\"__class__\"", 
                     "\"<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>\""}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -39513,7 +39513,7 @@ object at 0x175669990>, <generator object WXFParser.tokens at \
 0x175661180>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {"__class__", 
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {"__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -39583,7 +39583,7 @@ object at 0x175669990>, <generator object WXFParser.tokens at \
 0x175661180>)"}, {"kwargs", "{}"}, {"expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -39706,7 +39706,7 @@ len(self.globals_registry), len(self.objects_registry)\""}, {
                     "\"<ExternalEvaluateConsumer globals=4 objects=11>\""}, {
                     "\"route\"", "\"Call\""}, {"\"args\"", 
                     "\"(<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
+hypernetx.classes.Hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -39731,7 +39731,7 @@ hypernetx.classes.hypergraph.Hypergraph)\""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "route", "Call"}, {"args", 
                     "(<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, Background -> {
+hypernetx.classes.Hypergraph.Hypergraph)"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -39795,7 +39795,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "route", "Call"}, {"args", 
                     "(<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -39908,9 +39908,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "\"<ExternalEvaluateConsumer globals=4 objects=11>\""}, {
                     "\"result\"", "\"<function size at 0x1756207c0>\""}, {
                     "\"args\"", 
-                    "\"(None, hypernetx.classes.hypergraph.Hypergraph,)\""}, {
+                    "\"(None, hypernetx.classes.Hypergraph.Hypergraph,)\""}, {
                     "\"pos\"", 
-                    "\"[None, hypernetx.classes.hypergraph.Hypergraph]\""}, {
+                    "\"[None, hypernetx.classes.Hypergraph.Hypergraph]\""}, {
                     "\"kwargs\"", "\"{}\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
@@ -39936,9 +39936,9 @@ names), *args)\""}, {"\" 258.  \""}}, GridBoxAlignment -> {
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "result", "<function size at 0x1756207c0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}, False]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -39997,9 +39997,9 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "result", "<function size at 0x1756207c0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}, {
@@ -40015,15 +40015,15 @@ hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}},
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"size\""}, "RowDefault"]}}, 
                     GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
@@ -40040,15 +40040,15 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     TemplateBox[{
                     ButtonBox[
                     StyleBox[
-                    "\"/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "\"/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py\"", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier", 
                     StripOnInput -> False], ButtonFunction :> If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method -> 
                     "Preemptive"], "\" in \"", "\"size\""}, "RowDefault"]}, {
                     "", 
@@ -40102,7 +40102,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"hg\"", 
                     "\"None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>\""}}, GridBoxAlignment -> {
                     "Columns" -> {{Left}}}, AutoDelete -> False, 
                     GridBoxBackground -> {"Columns" -> {{Null}}, "Rows" -> {
                     GrayLevel[0.85]}}, 
@@ -40125,7 +40125,7 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, Background -> {
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, Background -> {
                     Null, {LightGray}}, Alignment -> Left, Frame -> 
                     LightGray]}, False]], DynamicModuleValues -> Automatic], 
                     Setting[#, {0}]& ]}}, GridBoxAlignment -> {
@@ -40148,16 +40148,16 @@ py"]], Appearance -> "Frameless", Evaluator -> Automatic, Method ->
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "size"}], 
                     Column[{
                     
@@ -40177,7 +40177,7 @@ py"]], Appearance -> "Frameless"], " in ", "size"}],
                     OpenerView[{"Local variables", 
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]], DynamicModuleValues -> 
                     Automatic], Setting[#, {0}]& ]}}, 
@@ -40898,7 +40898,7 @@ object at 0x175669990>, <generator object WXFParser.tokens at \
                     "expr", 
                     "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                     "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -40951,7 +40951,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                     "route", "Call"}, {
                     "args", 
                     "(<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, False], 
                     OpenerView[{
@@ -40995,25 +40995,25 @@ result, names), *args)", " 258.  "}, Background -> {{
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "result", "<function size at 0x1756207c0>"}, {
                     "args", 
-                    "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
+                    "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
                     "pos", "[None, \
-hypernetx.classes.hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
+hypernetx.classes.Hypergraph.Hypergraph]"}, {"kwargs", "{}"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True], 
                     OpenerView[{
                     Row[{
                     Button[
                     Style[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py", 
                     RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                     
                     If[
                     FileExistsQ[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"], 
                     SystemOpen[
-                    "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.\
+                    "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.\
 py"]], Appearance -> "Frameless"], " in ", "size"}], 
                     Column[{
                     
@@ -41033,7 +41033,7 @@ py"]], Appearance -> "Frameless"], " in ", "size"}],
                     OpenerView[{"Local variables", 
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
                     Frame -> LightGray]}]}]}, True]}], FontFamily -> 
                     "Courier"]}, True]], DynamicModuleValues -> Automatic], 
@@ -41723,7 +41723,7 @@ object at 0x175669990>, <generator object WXFParser.tokens at \
                   "expr", 
                    "ExternalEvaluate`Private`ExternalEvaluateCommand['Call', \
 (<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)]"}, {
+hypernetx.classes.Hypergraph.Hypergraph)]"}, {
                   "__class__", 
                    "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
@@ -41774,7 +41774,7 @@ len(self.globals_registry), len(self.objects_registry)", " 340.          )",
                   "route", "Call"}, {
                   "args", 
                    "(<function size at 0x1756207c0>, None, \
-hypernetx.classes.hypergraph.Hypergraph)"}}, 
+hypernetx.classes.Hypergraph.Hypergraph)"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, False], 
           OpenerView[{
@@ -41817,21 +41817,21 @@ result, names), *args)", " 258.  "}, Background -> {{
                    "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                   "result", "<function size at 0x1756207c0>"}, {
                   "args", 
-                   "(None, hypernetx.classes.hypergraph.Hypergraph,)"}, {
-                  "pos", "[None, hypernetx.classes.hypergraph.Hypergraph]"}, {
+                   "(None, hypernetx.classes.Hypergraph.Hypergraph,)"}, {
+                  "pos", "[None, hypernetx.classes.Hypergraph.Hypergraph]"}, {
                   "kwargs", "{}"}}, Background -> {Null, {LightGray}}, 
                  Alignment -> Left, Frame -> LightGray]}]}]}, True], 
           OpenerView[{
             Row[{
               Button[
                Style[
-               "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py", 
+               "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py", 
                 RGBColor[0.25, 0.48, 1], Small, FontFamily -> "Courier"], 
                If[
                 FileExistsQ[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"], 
                 SystemOpen[
-                "/Users/arnoudb/hypernetx/Python/hypergraph/hypergraph.py"]], 
+                "/Users/arnoudb/hypernetx/Python/Hypergraph/Hypergraph.py"]], 
                Appearance -> "Frameless"], " in ", "size"}], 
             Column[{
               
@@ -41851,7 +41851,7 @@ result, names), *args)", " 258.  "}, Background -> {{
                 
                 Grid[{{"Key", "Value"}, {
                   "hg", "None, <class \
-'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
+'hypernetx.classes.Hypergraph.Hypergraph'>"}}, 
                  Background -> {Null, {LightGray}}, Alignment -> Left, Frame -> 
                  LightGray]}]}]}, True]}], FontFamily -> "Courier"]}, True]|>],
   Editable->False,
@@ -41870,60 +41870,60 @@ Cell[BoxData[
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"CreateHyperGraph\"\>", 
-   ",", "\<\"HyperGraphAdjacencyMatrix\"\>", 
-   ",", "\<\"HyperGraphAuxiliaryMatrix\"\>", 
-   ",", "\<\"HyperGraphBipartite\"\>", ",", "\<\"HyperGraphCollapseEdges\"\>",
-    ",", "\<\"HyperGraphCollapseNodes\"\>", 
-   ",", "\<\"HyperGraphCollapseNodesAndEdges\"\>", 
-   ",", "\<\"HyperGraphComponents\"\>", 
-   ",", "\<\"HyperGraphComponentSubGraphs\"\>", 
-   ",", "\<\"HyperGraphConnectedComponents\"\>", 
-   ",", "\<\"HyperGraphDataset\"\>", ",", "\<\"HyperGraphDegree\"\>", 
-   ",", "\<\"HyperGraphDiameter\"\>", ",", "\<\"HyperGraphDim\"\>", 
-   ",", "\<\"HyperGraphDistance\"\>", ",", "\<\"HyperGraphDual\"\>", 
-   ",", "\<\"HyperGraphEdgeAdjacencyMatrix\"\>", 
-   ",", "\<\"HyperGraphEdgeCol\"\>", ",", "\<\"HyperGraphEdgeDiameter\"\>", 
-   ",", "\<\"HyperGraphEdgeDistance\"\>", 
-   ",", "\<\"HyperGraphEdgeNeighbors\"\>", 
-   ",", "\<\"HyperGraphEdgeProperties\"\>", 
-   ",", "\<\"HyperGraphEdgeProps\"\>", ",", "\<\"HyperGraphEdges\"\>", 
-   ",", "\<\"HyperGraphEdgeSizeDist\"\>", 
-   ",", "\<\"HyperGraphFromBipartite\"\>", 
-   ",", "\<\"HyperGraphFromIncidenceDataFrame\"\>", 
-   ",", "\<\"HyperGraphFromIncidenceMatrix\"\>", 
-   ",", "\<\"HyperGraphFromNumpyArray\"\>", 
-   ",", "\<\"HyperGraphGetCellProperties\"\>", 
-   ",", "\<\"HyperGraphGetLineGraph\"\>", 
-   ",", "\<\"HyperGraphGetProperties\"\>", 
-   ",", "\<\"HyperGraphIncidenceDataFrame\"\>", 
-   ",", "\<\"HyperGraphIncidenceDict\"\>", 
-   ",", "\<\"HyperGraphIncidenceMatrix\"\>", 
-   ",", "\<\"HyperGraphIsConnected\"\>", 
-   ",", "\<\"HyperGraphMiscCellProperties\"\>", 
-   ",", "\<\"HyperGraphMiscCellPropertiesCol\"\>", 
-   ",", "\<\"HyperGraphMiscPropertiesCol\"\>", ",", "\<\"HyperGraphName\"\>", 
-   ",", "\<\"HyperGraphNeighbors\"\>", ",", "\<\"HyperGraphNodeCol\"\>", 
-   ",", "\<\"HyperGraphNodeDiameters\"\>", 
-   ",", "\<\"HyperGraphNodeProperties\"\>", 
-   ",", "\<\"HyperGraphNodeProps\"\>", ",", "\<\"HyperGraphNodes\"\>", 
-   ",", "\<\"HyperGraphNodeWeightPropCol\"\>", 
-   ",", "\<\"HyperGraphNumberOfEdges\"\>", 
-   ",", "\<\"HyperGraphNumberOfNodes\"\>", ",", "\<\"HyperGraphOrder\"\>", 
-   ",", "\<\"HyperGraphProperties\"\>", ",", "\<\"HyperGraphProps2Dict\"\>", 
-   ",", "\<\"HyperGraphRemove\"\>", ",", "\<\"HyperGraphRemoveEdges\"\>", 
-   ",", "\<\"HyperGraphRemoveNodes\"\>", 
-   ",", "\<\"HyperGraphRemoveSingletons\"\>", 
-   ",", "\<\"HyperGraphRestrictToEdges\"\>", 
-   ",", "\<\"HyperGraphRestrictToNodes\"\>", 
-   ",", "\<\"HyperGraphSComponents\"\>", 
-   ",", "\<\"HyperGraphSComponentSubgraphs\"\>", 
-   ",", "\<\"HyperGraphSConnectedComponents\"\>", 
-   ",", "\<\"HyperGraphSelf\"\>", ",", "\<\"HyperGraphSetState\"\>", 
-   ",", "\<\"HyperGraphSetSystem\"\>", ",", "\<\"HyperGraphShape\"\>", 
-   ",", "\<\"HyperGraphSingletons\"\>", ",", "\<\"HyperGraphSize\"\>", 
-   ",", "\<\"HyperGraphSubGraphs\"\>", ",", "\<\"HyperGraphToplexes\"\>", 
-   ",", "\<\"HyperGraphWeightPropCol\"\>"}], "}"}]], "Output",
+  RowBox[{"\<\"CreateHypergraph\"\>", 
+   ",", "\<\"HypergraphAdjacencyMatrix\"\>", 
+   ",", "\<\"HypergraphAuxiliaryMatrix\"\>", 
+   ",", "\<\"HypergraphBipartite\"\>", ",", "\<\"HypergraphCollapseEdges\"\>",
+    ",", "\<\"HypergraphCollapseNodes\"\>", 
+   ",", "\<\"HypergraphCollapseNodesAndEdges\"\>", 
+   ",", "\<\"HypergraphComponents\"\>", 
+   ",", "\<\"HypergraphComponentSubGraphs\"\>", 
+   ",", "\<\"HypergraphConnectedComponents\"\>", 
+   ",", "\<\"HypergraphDataset\"\>", ",", "\<\"HypergraphDegree\"\>", 
+   ",", "\<\"HypergraphDiameter\"\>", ",", "\<\"HypergraphDim\"\>", 
+   ",", "\<\"HypergraphDistance\"\>", ",", "\<\"HypergraphDual\"\>", 
+   ",", "\<\"HypergraphEdgeAdjacencyMatrix\"\>", 
+   ",", "\<\"HypergraphEdgeCol\"\>", ",", "\<\"HypergraphEdgeDiameter\"\>", 
+   ",", "\<\"HypergraphEdgeDistance\"\>", 
+   ",", "\<\"HypergraphEdgeNeighbors\"\>", 
+   ",", "\<\"HypergraphEdgeProperties\"\>", 
+   ",", "\<\"HypergraphEdgeProps\"\>", ",", "\<\"HypergraphEdges\"\>", 
+   ",", "\<\"HypergraphEdgeSizeDist\"\>", 
+   ",", "\<\"HypergraphFromBipartite\"\>", 
+   ",", "\<\"HypergraphFromIncidenceDataFrame\"\>", 
+   ",", "\<\"HypergraphFromIncidenceMatrix\"\>", 
+   ",", "\<\"HypergraphFromNumpyArray\"\>", 
+   ",", "\<\"HypergraphGetCellProperties\"\>", 
+   ",", "\<\"HypergraphGetLineGraph\"\>", 
+   ",", "\<\"HypergraphGetProperties\"\>", 
+   ",", "\<\"HypergraphIncidenceDataFrame\"\>", 
+   ",", "\<\"HypergraphIncidenceDict\"\>", 
+   ",", "\<\"HypergraphIncidenceMatrix\"\>", 
+   ",", "\<\"HypergraphIsConnected\"\>", 
+   ",", "\<\"HypergraphMiscCellProperties\"\>", 
+   ",", "\<\"HypergraphMiscCellPropertiesCol\"\>", 
+   ",", "\<\"HypergraphMiscPropertiesCol\"\>", ",", "\<\"HypergraphName\"\>", 
+   ",", "\<\"HypergraphNeighbors\"\>", ",", "\<\"HypergraphNodeCol\"\>", 
+   ",", "\<\"HypergraphNodeDiameters\"\>", 
+   ",", "\<\"HypergraphNodeProperties\"\>", 
+   ",", "\<\"HypergraphNodeProps\"\>", ",", "\<\"HypergraphNodes\"\>", 
+   ",", "\<\"HypergraphNodeWeightPropCol\"\>", 
+   ",", "\<\"HypergraphNumberOfEdges\"\>", 
+   ",", "\<\"HypergraphNumberOfNodes\"\>", ",", "\<\"HypergraphOrder\"\>", 
+   ",", "\<\"HypergraphProperties\"\>", ",", "\<\"HypergraphProps2Dict\"\>", 
+   ",", "\<\"HypergraphRemove\"\>", ",", "\<\"HypergraphRemoveEdges\"\>", 
+   ",", "\<\"HypergraphRemoveNodes\"\>", 
+   ",", "\<\"HypergraphRemoveSingletons\"\>", 
+   ",", "\<\"HypergraphRestrictToEdges\"\>", 
+   ",", "\<\"HypergraphRestrictToNodes\"\>", 
+   ",", "\<\"HypergraphSComponents\"\>", 
+   ",", "\<\"HypergraphSComponentSubgraphs\"\>", 
+   ",", "\<\"HypergraphSConnectedComponents\"\>", 
+   ",", "\<\"HypergraphSelf\"\>", ",", "\<\"HypergraphSetState\"\>", 
+   ",", "\<\"HypergraphSetSystem\"\>", ",", "\<\"HypergraphShape\"\>", 
+   ",", "\<\"HypergraphSingletons\"\>", ",", "\<\"HypergraphSize\"\>", 
+   ",", "\<\"HypergraphSubGraphs\"\>", ",", "\<\"HypergraphToplexes\"\>", 
+   ",", "\<\"HypergraphWeightPropCol\"\>"}], "}"}]], "Output",
  CellChangeTimes->{3.922801310882585*^9},
  CellLabel->"Out[25]=",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
 }, Open  ]]
