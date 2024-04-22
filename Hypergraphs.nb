@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   2251244,      42024]
-NotebookOptionsPosition[   2244408,      41897]
-NotebookOutlinePosition[   2244801,      41913]
-CellTagsIndexPosition[   2244758,      41910]
+NotebookDataLength[   2253107,      42057]
+NotebookOptionsPosition[   2246271,      41930]
+NotebookOutlinePosition[   2246664,      41946]
+CellTagsIndexPosition[   2246621,      41943]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,14 +25,14 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.9227953275058317`*^9, 3.9227953388123493`*^9}, 
    3.922801156956365*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
+ CellLabel->"In[43]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
 
 Cell[BoxData[
  RowBox[{"Get", "[", "\"\<hypernetx`\>\"", "]"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.922795340708645*^9, 3.922795351304397*^9}, {
   3.922795429297056*^9, 3.92279542967712*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
+ CellLabel->"In[44]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
 
 Cell[CellGroupData[{
 
@@ -891,7 +891,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.9227955865432177`*^9, 3.922795617018423*^9}, {
   3.922795905423779*^9, 3.922795905593668*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
+ CellLabel->"In[45]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1233,7 +1233,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
     DynamicModuleValues:>{}], "]"}],
   ExternalObject[
    ExternalSessionObject["fd26fdd6-5bb2-4bd9-b112-e6dee26634f0"], 
-   ExternalEvaluate`RPC["Fetch", {6264301456}], <|
+   ExternalEvaluate`RPC["Fetch", {6266600272}], <|
    "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
     False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
     False|>],
@@ -1245,8 +1245,9 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
    3.9227959069317007`*^9}, 3.922796018677496*^9, 3.922796056050644*^9, 
    3.922796108403057*^9, {3.922796147444788*^9, 3.9227961638710127`*^9}, 
    3.922796984745977*^9, 3.922797108508645*^9, 3.9227972860793467`*^9, 
-   3.922797783154752*^9, 3.922801162592709*^9, 3.922802169291438*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"b1f4b084-b1b0-44f6-98ca-4564c3225c57"]
+   3.922797783154752*^9, 3.922801162592709*^9, 3.922802169291438*^9, 
+   3.922811545590131*^9},
+ CellLabel->"Out[45]=",ExpressionUUID->"c90156dd-f99b-4d9e-98a1-3a8e5a3a1925"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1849,105 +1850,118 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{
-      RowBox[{
-       RowBox[{"HyperGraphCollapseEdges", "[", "hg", "]"}], "//", 
-       "HyperGraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
-    "Values"}], "//", "Round"}], "//", 
+      RowBox[{"HyperGraphCollapseEdges", "[", "hg", "]"}], "//", 
+      "HyperGraphDataset"}], "//", "Normal"}], "//", "Values"}], "//", 
+   "Values"}], "//", 
   RowBox[{"ResourceFunction", "[", "\"\<HypergraphPlot\>\"", "]"}]}]], "Input",\
 
  CellChangeTimes->{{3.922797044871284*^9, 3.922797048842415*^9}, {
-  3.92280118195192*^9, 3.92280120925872*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
+  3.92280118195192*^9, 3.92280120925872*^9}, {3.92281154184721*^9, 
+  3.922811542241529*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
 
 Cell[BoxData[
  GraphicsBox[{{{
      {RGBColor[0.264425, 0.423024, 0.3849], Opacity[0.2], 
       FilledCurveBox[
-       BSplineCurve[{{0.5240463596649085, -0.020012689561806074`}, {
-        1.1240463596649086`, -0.020012689561806074`}, {1.955966884872985, 
-        0.5935556412765683}, {1.955966884872985, 1.1935556412765684`}, {
-        1.355966884872985, 1.1935556412765684`}, {0.8267827561023171, 
-        0.8032652075662475}, {0.3, 1.198937414376053}, {-0.3, 
-        1.198937414376053}, {-0.3, 0.5989374143760529}}, SplineClosed -> 
-        True]]}, 
+       BSplineCurve[{{3.981873394061677, 1.6246884779005064`}, {
+        3.2849222780792466`, 2.366855295269751}, {3.0400237855275414`, 
+        3.3034384706504594`}, {2.4400237855275417`, 3.3034384706504594`}, {
+        2.4400237855275417`, 2.7034384706504597`}, {2.5490985090354323`, 
+        2.2862960463244932`}, {1.777178667468647, 1.82845804697916}, {
+        1.777178667468647, 1.22845804697916}, {2.377178667468647, 
+        1.22845804697916}, {2.899561131989242, 1.5382914384408324`}, {
+        3.381873394061677, 1.0246884779005063`}, {3.981873394061677, 
+        1.0246884779005063`}}, SplineClosed -> True]]}, 
      {RGBColor[0.416394, 0.555345, 0.24182], Opacity[0.2], 
       FilledCurveBox[
-       BSplineCurve[{{1.955966884872985, 1.1935556412765684`}, {
-        1.2541040154657717`, 1.6602062043764587`}, {1.3781103847053033`, 
-        2.0240692353655056`}, {1.3781103847053033`, 2.6240692353655053`}, {
-        0.7781103847053032, 2.6240692353655053`}, {0.4873958030859425, 
-        1.771046205424139}, {-0.3, 1.198937414376053}, {-0.3, 
-        0.5989374143760529}, {0.3, 0.5989374143760529}, {0.8007003866790182, 
-        0.9627380490474271}, {1.355966884872985, 0.5935556412765683}, {
-        1.955966884872985, 0.5935556412765683}}, SplineClosed -> True]]}, 
+       BSplineCurve[{{2.6634947711172594`, -0.3}, {3.121517389672674, 
+        0.4854718166038881}, {3.981873394061677, 1.0246884779005063`}, {
+        3.981873394061677, 1.6246884779005064`}, {3.381873394061677, 
+        1.6246884779005064`}, {2.8900954803216723`, 1.3164732235249408`}, {
+        2.377178667468647, 1.82845804697916}, {1.777178667468647, 
+        1.82845804697916}, {1.777178667468647, 1.22845804697916}, {
+        2.3003683330656552`, 0.7062190369459438}, {2.0634947711172598`, 
+        0.3}, {2.0634947711172598`, -0.3}}, SplineClosed -> True]]}, 
      {RGBColor[0.813033, 0.766292, 0.303458], Opacity[0.2], 
       FilledCurveBox[
-       BSplineCurve[{{1.8052289646707347`, -0.3}, {
-        2.4052289646707345`, -0.3}, {3.0454594032873965`, 
-        0.38701799861119207`}, {3.0454594032873965`, 0.987017998611192}, {
-        2.445459403287397, 0.987017998611192}, {2.1949600710566415`, 
-        0.7182123631677061}, {1.955966884872985, 1.1935556412765684`}, {
-        1.355966884872985, 1.1935556412765684`}, {1.355966884872985, 
-        0.5935556412765683}}, SplineClosed -> True]]}, 
+       BSplineCurve[{{2.377178667468647, 1.82845804697916}, {
+        2.3025743676689667`, 2.2897919212679554`}, {3.0400237855275414`, 
+        2.7034384706504597`}, {3.0400237855275414`, 3.3034384706504594`}, {
+        2.4400237855275417`, 3.3034384706504594`}, {1.6136150878790363`, 
+        2.839893313675977}, {0.8089860368451955, 2.281975028194696}, {
+        0.8089860368451955, 1.6819750281946961`}, {1.4089860368451956`, 
+        1.6819750281946961`}, {1.674110011934053, 1.865808203782258}, {
+        1.777178667468647, 1.22845804697916}, {2.377178667468647, 
+        1.22845804697916}}, SplineClosed -> True]]}, 
      {RGBColor[0.812807, 0.518694, 0.303459], Opacity[0.2], 
       FilledCurveBox[
-       BSplineCurve[{{3.0454594032873965`, 0.987017998611192}, {
-        2.2038894472181645`, 2.0263513031243665`}, {1.3781103847053033`, 
-        2.6240692353655053`}, {0.7781103847053032, 2.6240692353655053`}, {
-        0.7781103847053032, 2.0240692353655056`}, {1.4569357590338892`, 
-        1.5327197721545998`}, {1.355966884872985, 1.1935556412765684`}, {
-        1.355966884872985, 0.5935556412765683}, {1.955966884872985, 
-        0.5935556412765683}, {2.0425961041984277`, 0.884551496438166}, {
-        2.445459403287397, 0.38701799861119207`}, {3.0454594032873965`, 
-        0.38701799861119207`}}, SplineClosed -> True]]}, 
+       BSplineCurve[{{2.6634947711172594`, 0.3}, {2.1902673377571844`, 
+        0.8553163103711403}, {2.377178667468647, 1.22845804697916}, {
+        2.377178667468647, 1.82845804697916}, {1.777178667468647, 
+        1.82845804697916}, {1.7038364323685913`, 1.682040764440989}, {
+        1.4089860368451956`, 2.281975028194696}, {0.8089860368451955, 
+        2.281975028194696}, {0.8089860368451955, 1.6819750281946961`}, {
+        1.400982320240434, 0.47743584555869373`}, {
+        2.0634947711172598`, -0.3}, {2.6634947711172594`, -0.3}}, 
+        SplineClosed -> True]]}, 
      {RGBColor[0.72987, 0.239399, 0.230961], Opacity[0.2], 
       FilledCurveBox[
-       BSplineCurve[{{3.0454594032873965`, 0.38701799861119207`}, {
-        3.0454594032873965`, 0.9370407572155975}, {4.004145825681183, 
-        1.116702914733663}, {4.004145825681183, 1.716702914733663}, {
-        3.4041458256811836`, 1.716702914733663}, {2.44207342129112, 
-        1.5364062089247712`}, {1.355966884872985, 1.1935556412765684`}, {
-        1.355966884872985, 0.5935556412765683}, {1.955966884872985, 
-        0.5935556412765683}, {2.4432384721739973`, 0.7473723569515734}, {
-        2.445459403287397, 0.38701799861119207`}}, SplineClosed -> 
+       BSplineCurve[{{0.656713583668765, 1.1446076311275735`}, {
+        1.256713583668765, 1.1446076311275735`}, {2.377178667468647, 
+        1.22845804697916}, {2.377178667468647, 1.82845804697916}, {
+        1.777178667468647, 1.82845804697916}, {1.4089860368451956`, 
+        1.8009042163086275`}, {1.4089860368451956`, 2.281975028194696}, {
+        0.8089860368451955, 2.281975028194696}, {0.6652267401178477, 
+        1.774650443379165}, {0.3, 1.7932010476779006`}, {-0.3, 
+        1.7932010476779006`}, {-0.3, 1.1932010476779005`}}, SplineClosed -> 
         True]]}}, {
      {RGBColor[0.264425, 0.423024, 0.3849], Thickness[0.01], 
-      BSplineCurveBox[{{0., 0.8989374143760529}, {0.8240463596649086, 
-       0.2799873104381939}, {1.655966884872985, 0.8935556412765684}},
+      BSplineCurveBox[{{3.681873394061677, 1.3246884779005064`}, {
+       2.984922278079247, 2.066855295269751}, {2.7400237855275416`, 
+       3.0034384706504595`}},
+       SplineWeights->{1, 6, 1}], 
+      BSplineCurveBox[{{3.681873394061677, 1.3246884779005064`}, {
+       2.984922278079247, 2.066855295269751}, {2.077178667468647, 
+       1.52845804697916}},
        SplineWeights->{1, 6, 1}]}, 
      {RGBColor[0.416394, 0.555345, 0.24182], Thickness[0.01], 
-      BSplineCurveBox[{{0., 0.8989374143760529}, {0.7873958030859425, 
-       1.4710462054241389`}, {1.0781103847053033`, 2.3240692353655055`}},
+      BSplineCurveBox[{{3.681873394061677, 1.3246884779005064`}, {
+       2.821517389672674, 0.7854718166038881}, {2.3634947711172596`, 0.}},
        SplineWeights->{1, 6, 1}], 
-      BSplineCurveBox[{{0., 0.8989374143760529}, {0.7873958030859425, 
-       1.4710462054241389`}, {1.655966884872985, 0.8935556412765684}},
+      BSplineCurveBox[{{3.681873394061677, 1.3246884779005064`}, {
+       2.821517389672674, 0.7854718166038881}, {2.077178667468647, 
+       1.52845804697916}},
        SplineWeights->{1, 6, 1}]}, 
      {RGBColor[0.813033, 0.766292, 0.303458], Thickness[0.01], 
-      BSplineCurveBox[{{2.7454594032873967`, 0.6870179986111921}, {
-       2.1052289646707347`, 0.}, {1.655966884872985, 0.8935556412765684}},
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       1.9136150878790363`, 2.5398933136759774`}, {2.7400237855275416`, 
+       3.0034384706504595`}},
+       SplineWeights->{1, 6, 1}], 
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       1.9136150878790363`, 2.5398933136759774`}, {2.077178667468647, 
+       1.52845804697916}},
        SplineWeights->{1, 6, 1}]}, 
      {RGBColor[0.812807, 0.518694, 0.303459], Thickness[0.01], 
-      BSplineCurveBox[{{2.7454594032873967`, 0.6870179986111921}, {
-       1.9038894472181647`, 1.7263513031243667`}, {1.0781103847053033`, 
-       2.3240692353655055`}},
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       1.700982320240434, 0.7774358455586937}, {2.3634947711172596`, 0.}},
        SplineWeights->{1, 6, 1}], 
-      BSplineCurveBox[{{2.7454594032873967`, 0.6870179986111921}, {
-       1.9038894472181647`, 1.7263513031243667`}, {1.655966884872985, 
-       0.8935556412765684}},
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       1.700982320240434, 0.7774358455586937}, {2.077178667468647, 
+       1.52845804697916}},
        SplineWeights->{1, 6, 1}]}, 
      {RGBColor[0.72987, 0.239399, 0.230961], Thickness[0.01], 
-      BSplineCurveBox[{{2.7454594032873967`, 0.6870179986111921}, {
-       2.7420734212911198`, 1.2364062089247712`}, {3.7041458256811834`, 
-       1.416702914733663}},
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       0.956713583668765, 1.4446076311275735`}, {0., 1.4932010476779005`}},
        SplineWeights->{1, 6, 1}], 
-      BSplineCurveBox[{{2.7454594032873967`, 0.6870179986111921}, {
-       2.7420734212911198`, 1.2364062089247712`}, {1.655966884872985, 
-       0.8935556412765684}},
+      BSplineCurveBox[{{1.1089860368451956`, 1.9819750281946962`}, {
+       0.956713583668765, 1.4446076311275735`}, {2.077178667468647, 
+       1.52845804697916}},
        SplineWeights->{1, 6, 1}]}}}, 
    NamespaceBox[{{}, 
      {GrayLevel[1], EdgeForm[GrayLevel[0]], 
       TagBox[{
-        TagBox[DiskBox[{1.655966884872985, 0.8935556412765684}, 0.15],
+        TagBox[DiskBox[{2.7400237855275416`, 3.0034384706504595`}, 0.15],
          "DynamicName",
          BoxID -> "VertexID$1"], InsetBox[
          StyleBox["1",
@@ -1962,10 +1976,10 @@ Cell[BoxData[
        "DynamicName",
        BoxID -> "VertexLabelID$1"], 
       TagBox[{
-        TagBox[DiskBox[{1.0781103847053033`, 2.3240692353655055`}, 0.15],
+        TagBox[DiskBox[{2.077178667468647, 1.52845804697916}, 0.15],
          "DynamicName",
          BoxID -> "VertexID$2"], InsetBox[
-         StyleBox["2",
+         StyleBox["1.`",
           StripOnInput->False,
           LineColor->GrayLevel[0],
           FrontFaceColor->GrayLevel[0],
@@ -1977,10 +1991,10 @@ Cell[BoxData[
        "DynamicName",
        BoxID -> "VertexLabelID$2"], 
       TagBox[{
-        TagBox[DiskBox[{3.7041458256811834`, 1.416702914733663}, 0.15],
+        TagBox[DiskBox[{2.3634947711172596`, 0.}, 0.15],
          "DynamicName",
          BoxID -> "VertexID$3"], InsetBox[
-         StyleBox["3",
+         StyleBox["2",
           StripOnInput->False,
           LineColor->GrayLevel[0],
           FrontFaceColor->GrayLevel[0],
@@ -1992,11 +2006,10 @@ Cell[BoxData[
        "DynamicName",
        BoxID -> "VertexLabelID$3"], 
       TagBox[{
-        TagBox[DiskBox[{0., 0.8989374143760529}, 0.15],
+        TagBox[DiskBox[{0., 1.4932010476779005`}, 0.15],
          "DynamicName",
          BoxID -> "VertexID$4"], InsetBox[
-         StyleBox[
-          RowBox[{"Round", "[", "\<\"0: 2\"\>", "]"}],
+         StyleBox["3",
           StripOnInput->False,
           LineColor->GrayLevel[0],
           FrontFaceColor->GrayLevel[0],
@@ -2008,11 +2021,10 @@ Cell[BoxData[
        "DynamicName",
        BoxID -> "VertexLabelID$4"], 
       TagBox[{
-        TagBox[DiskBox[{2.7454594032873967`, 0.6870179986111921}, 0.15],
+        TagBox[DiskBox[{3.681873394061677, 1.3246884779005064`}, 0.15],
          "DynamicName",
          BoxID -> "VertexID$5"], InsetBox[
-         StyleBox[
-          RowBox[{"Round", "[", "\<\"2: 1\"\>", "]"}],
+         StyleBox["\<\"0: 2\"\>",
           StripOnInput->False,
           LineColor->GrayLevel[0],
           FrontFaceColor->GrayLevel[0],
@@ -2022,11 +2034,27 @@ Cell[BoxData[
          "VertexID$5", None, Center],
          BaseStyle->"Graphics"]},
        "DynamicName",
-       BoxID -> "VertexLabelID$5"]}}]}]], "Output",
+       BoxID -> "VertexLabelID$5"], 
+      TagBox[{
+        TagBox[DiskBox[{1.1089860368451956`, 1.9819750281946962`}, 0.15],
+         "DynamicName",
+         BoxID -> "VertexID$6"], InsetBox[
+         StyleBox["\<\"2: 1\"\>",
+          StripOnInput->False,
+          LineColor->GrayLevel[0],
+          FrontFaceColor->GrayLevel[0],
+          BackFaceColor->GrayLevel[0],
+          GraphicsColor->GrayLevel[0],
+          FontColor->GrayLevel[0]], DynamicLocation[
+         "VertexID$6", None, Center],
+         BaseStyle->"Graphics"]},
+       "DynamicName",
+       BoxID -> "VertexLabelID$6"]}}]}]], "Output",
  CellChangeTimes->{
   3.922797049272482*^9, 3.9227971106512823`*^9, 3.9227972862035*^9, 
-   3.922797783268017*^9, {3.922801170778264*^9, 3.922801209745586*^9}},
- CellLabel->"Out[12]=",ExpressionUUID->"49a00186-7d85-48d4-a8c9-ffeac06ad144"]
+   3.922797783268017*^9, {3.922801170778264*^9, 3.922801209745586*^9}, 
+   3.922811546119091*^9},
+ CellLabel->"Out[46]=",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4810,9 +4838,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL >U\.01\.00\.00\.00f\
-\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLP-?U\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL >U\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLP-?U\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=20>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -4836,15 +4864,15 @@ object at 0x15561ac10>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
                     DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
                     Baseline], Deployed -> False, StripOnInput -> False], 
                     OpenerView[{"Local variables", 
+                    
                     Grid[{{"Key", "Value"}, {"wxf_input", 
                     "8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
->U\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05\
-Fetchf\.01s\.04ListLP-?U\.01\.00\.00\.00S\nExpression"}, {
-                    "consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL >U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -4913,9 +4941,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
->U\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05\
-Fetchf\.01s\.04ListLP-?U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL >U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                     "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "kwargs", "{}"}, {"parser", 
@@ -5444,6 +5472,7 @@ function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
 **kwargs)\""}, {
                     ItemBox["\" 101.          args = tuple(\"", Background -> 
                     RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    
                     "\" 102.              self.next_expression(tokens, \
 **kwargs) for i in range(current_token.length)\""}, {
                     "\" 103.          )\""}, {
@@ -5700,7 +5729,6 @@ args, **kwargs)\""}, {"\" 108.  \""}}, GridBoxAlignment -> {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\".0\"", 
                     "\"<range_iterator object at 0x155631f80>\""}, {
                     "\"i\"", "\"1\""}, {"\"kwargs\"", "\"{}\""}, {
@@ -5790,6 +5818,7 @@ function`.", "  99.          \"\"\"",
                     " 103.          )", 
                     " 104.          if head == self._LIST:", 
                     " 105.              return args", " 106.          else:", 
+                    
                     " 107.              return self.build_function(head, \
 args, **kwargs)", " 108.  "}, Background -> {{
                     GrayLevel[0.95], 
@@ -6139,7 +6168,6 @@ self.dispatch_wl_object(*expr.args)\""}, {"\" 331.  \""}, {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"self\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=20>\""}, {
                     "\"args\"", 
@@ -6319,7 +6347,6 @@ function`\""}, {"\"  95.          applied to the head and arguments.\""}, {
                     "\"  96.  \""}, {
                     "\"  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override\""}, {
-                    
                     "\"  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
@@ -7185,6 +7212,7 @@ externalevaluate.py\"",
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
                     SystemOpen[
+                    
                     "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless", Evaluator -> Automatic, 
@@ -7536,7 +7564,6 @@ result, names), *args)", " 258.  "}, Background -> {{
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
-                    
                     Grid[{{"Key", "Value"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "result", "<function degree at 0x1553ee520>"}, {
@@ -7815,7 +7842,6 @@ externalevaluate.py",
                     
                     If[
                     FileExistsQ[
-                    
                     "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
@@ -7898,9 +7924,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
->U\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05\
-Fetchf\.01s\.04ListLP-?U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL >U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                     "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                     "kwargs", "{}"}, {
@@ -8098,7 +8124,6 @@ wxfconsumer.py"]], Appearance -> "Frameless"], " in ", "<genexpr>"}],
                     "  96.  ", 
                     "  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override", 
-                    
                     "  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.", "  99.          \"\"\"", 
@@ -8194,7 +8219,6 @@ externalevaluate.py",
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
                     SystemOpen[
-                    
                     "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless"], " in ", 
@@ -8577,6 +8601,7 @@ py"]], Appearance -> "Frameless"], " in ", "degree"}],
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
+                    
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
 'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
@@ -8748,9 +8773,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
->U\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05\
-Fetchf\.01s\.04ListLP-?U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL >U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=20>"}, {
                   "kwargs", "{}"}, {
@@ -10111,9 +10136,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL`>U\.01\.00\.00\.00f\
-\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLP-?U\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL`>U\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLP-?U\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=22>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -10137,14 +10162,15 @@ object at 0x15536e210>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
                     DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
                     Baseline], Deployed -> False, StripOnInput -> False], 
                     OpenerView[{"Local variables", 
+                    
                     Grid[{{"Key", "Value"}, {"wxf_input", 
                     "8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL`>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL`>U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -10213,9 +10239,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL`>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL`>U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -10743,6 +10770,7 @@ function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
 **kwargs)\""}, {
                     ItemBox["\" 101.          args = tuple(\"", Background -> 
                     RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    
                     "\" 102.              self.next_expression(tokens, \
 **kwargs) for i in range(current_token.length)\""}, {
                     "\" 103.          )\""}, {
@@ -10999,7 +11027,6 @@ args, **kwargs)\""}, {"\" 108.  \""}}, GridBoxAlignment -> {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\".0\"", 
                     "\"<range_iterator object at 0x155697b70>\""}, {
                     "\"i\"", "\"1\""}, {"\"kwargs\"", "\"{}\""}, {
@@ -11089,6 +11116,7 @@ function`.", "  99.          \"\"\"",
                     " 103.          )", 
                     " 104.          if head == self._LIST:", 
                     " 105.              return args", " 106.          else:", 
+                    
                     " 107.              return self.build_function(head, \
 args, **kwargs)", " 108.  "}, Background -> {{
                     GrayLevel[0.95], 
@@ -11438,7 +11466,6 @@ self.dispatch_wl_object(*expr.args)\""}, {"\" 331.  \""}, {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"self\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=22>\""}, {
                     "\"args\"", 
@@ -11618,7 +11645,6 @@ function`\""}, {"\"  95.          applied to the head and arguments.\""}, {
                     "\"  96.  \""}, {
                     "\"  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override\""}, {
-                    
                     "\"  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
@@ -13196,9 +13222,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL`>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL`>U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                     "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                     "kwargs", "{}"}, {
@@ -13302,7 +13328,6 @@ self.dispatch_wl_object(*expr.args)", " 331.  ",
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
-                    
                     Grid[{{"Key", "Value"}, {
                     "self", 
                     "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
@@ -13778,6 +13803,7 @@ self.dispatch_wl_object(*expr.args)", " 331.  ", " 332.          return expr",
                     " 335.          return self.routes_registry[route](self, \
 *args)", Background -> LightYellow], " 336.  ", 
                     " 337.      def __repr__(self):", 
+                    
                     " 338.          return \"<{} globals={} \
 objects={}>\".format(", 
                     " 339.              self.__class__.__name__, \
@@ -13973,6 +13999,7 @@ externalevaluate.py",
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
                 SystemOpen[
+                
                 "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless"], " in ", 
@@ -14045,9 +14072,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL`>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL`>U\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=22>"}, {
                   "kwargs", "{}"}, {
@@ -14437,10 +14464,9 @@ wxfconsumer.py"],
 SystemFiles/Components/WolframClientForPython/wolframclient/deserializers/wxf/\
 wxfconsumer.py"]], Appearance -> "Frameless"], " in ", "<genexpr>"}], 
             Column[{
-              
-              Column[{"  95.          applied to the head and arguments.", 
-                "  96.  ", 
-                "  97.          Usually custom parsing rules target \
+              Column[{
+               "  95.          applied to the head and arguments.", "  96.  ",
+                 "  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override", 
                 "  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
@@ -15394,9 +15420,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.00>U\.01\.00\.00\.00\
-f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLP-?U\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.00>U\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLP-?U\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=23>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -15426,9 +15452,9 @@ object at 0x155620f50>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.00>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.00>U\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -15497,9 +15523,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.00>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.00>U\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -18481,9 +18508,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.00>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.00>U\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                     "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                     "kwargs", "{}"}, {
@@ -18581,6 +18608,7 @@ registry(self.builtin_routes, **routes_registry)", " 324.  ",
 **kwargs)", Background -> LightYellow], " 327.  ", 
                     " 328.          if check_wl_symbol(expr, \
 self.hook_symbol):", " 329.              assert len(expr.args) == 2", 
+                    
                     " 330.              return \
 self.dispatch_wl_object(*expr.args)", " 331.  ", 
                     " 332.          return expr"}, Background -> {{
@@ -19330,9 +19358,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.00>U\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLP-?\
-U\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.00>U\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLP-?U\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=23>"}, {
                   "kwargs", "{}"}, {
@@ -19622,6 +19650,7 @@ externalevaluate.py"]], Appearance -> "Frameless"], " in ",
               Column[{" 319.  ", 
                 " 320.      def __init__(self, routes_registry={}, \
 objects_registry={}, globals_registry={}):", 
+                
                 " 321.          self.objects_registry = \
 registry(objects_registry)", 
                 " 322.          self.globals_registry = \
@@ -21061,9 +21090,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLhau\.01\.00\.00\.00f\
-\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLau\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLhau\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLau\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=4>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -21093,9 +21122,9 @@ object at 0x174bb3f10>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLhau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLhau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -21164,9 +21193,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLhau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLhau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -24140,9 +24169,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLhau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLhau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                     "kwargs", "{}"}, {
                     "parser", 
@@ -24252,7 +24282,8 @@ self.dispatch_wl_object(*expr.args)", " 331.  ",
                     "args", 
                     "(<wolframclient.deserializers.wxf.wxfparser.WXFToken \
 object at 0x17563ba10>, <generator object WXFParser.tokens at \
-0x1755b7580>)"}, {"kwargs", "{}"}, {"__class__", 
+0x1755b7580>)"}, {"kwargs", "{}"}, {
+                    "__class__", 
                     "<class \
 'wolframclient.utils.externalevaluate.ExternalEvaluateConsumer'>"}}, 
                     Background -> {Null, {LightGray}}, Alignment -> Left, 
@@ -24438,7 +24469,6 @@ SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless"], " in ", 
                     "consume_function"}], 
                     Column[{
-                    
                     Column[{" 319.  ", 
                     " 320.      def __init__(self, routes_registry={}, \
 objects_registry={}, globals_registry={}):", 
@@ -24915,9 +24945,9 @@ SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless"], " in ", 
               "handle_message"}], 
             Column[{
-              Column[{
-               " 350.          self.socket.send(zmq.Frame(bytes))", " 351.  ",
-                 " 352.      def send_side_effect(self, expr):", 
+              
+              Column[{" 350.          self.socket.send(zmq.Frame(bytes))", 
+                " 351.  ", " 352.      def send_side_effect(self, expr):", 
                 " 353.          self.write(export(self.keep_listening(expr), \
 target_format=\"wxf\"))", " 354.  ", " 355.  ", 
                 " 356.  def handle_message(socket, consumer):", 
@@ -24982,9 +25012,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLhau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLhau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                   "kwargs", "{}"}, {
@@ -25188,8 +25218,8 @@ for i in range(current_token.length)", Background -> LightYellow],
               OpenerView[{"Local variables", 
                 
                 Grid[{{"Key", "Value"}, {
-                  ".0", "<range_iterator object at 0x175631290>"}, {
-                  "i", "1"}, {"kwargs", "{}"}, {
+                  ".0", "<range_iterator object at 0x175631290>"}, {"i", "1"},
+                   {"kwargs", "{}"}, {
                   "self", "<ExternalEvaluateConsumer globals=4 objects=4>"}, {
                   "tokens", 
                    "<generator object WXFParser.tokens at 0x1755b7580>"}}, 
@@ -26332,9 +26362,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL jau\.01\.00\.00\.00f\
-\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLau\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL jau\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLau\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=6>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -26364,10 +26394,9 @@ object at 0x1745d3690>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
-jau\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\
-\.05Fetchf\.01s\.04ListLau\.01\.00\.00\.00S\nExpression"}, {
-                    "consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL jau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -26436,10 +26465,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
-jau\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\
-\.05Fetchf\.01s\.04ListLau\.01\.00\.00\.00S\nExpression"}, {
-                    "consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL jau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -29419,13 +29447,14 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
-jau\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\
-\.05Fetchf\.01s\.04ListLau\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL jau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
                     "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                     "kwargs", "{}"}, {
                     "parser", 
+                    
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
 object at 0x1745d3690>"}}, Background -> {Null, {LightGray}}, Alignment -> 
                     Left, Frame -> LightGray]}]}]}, False], 
@@ -29613,7 +29642,6 @@ wxfconsumer.py"],
 SystemFiles/Components/WolframClientForPython/wolframclient/deserializers/wxf/\
 wxfconsumer.py"]], Appearance -> "Frameless"], " in ", "<genexpr>"}], 
                     Column[{
-                    
                     Column[{
                     "  95.          applied to the head and arguments.", 
                     "  96.  ", 
@@ -30268,9 +30296,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL \
-jau\.01\.00\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\
-\.05Fetchf\.01s\.04ListLau\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL jau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=6>"}, {
                   "kwargs", "{}"}, {
@@ -30553,6 +30581,7 @@ externalevaluate.py"]], Appearance -> "Frameless"], " in ",
             Column[{
               
               Column[{" 319.  ", 
+                
                 " 320.      def __init__(self, routes_registry={}, \
 objects_registry={}, globals_registry={}):", 
                 " 321.          self.objects_registry = \
@@ -31607,9 +31636,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLjau\.01\.00\.00\.00f\
-\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLau\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLjau\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLau\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=7>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -31633,14 +31662,15 @@ object at 0x174b3ead0>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
                     DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
                     Baseline], Deployed -> False, StripOnInput -> False], 
                     OpenerView[{"Local variables", 
+                    
                     Grid[{{"Key", "Value"}, {"wxf_input", 
                     "8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLjau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLjau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -31709,9 +31739,9 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLjau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLjau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -32238,6 +32268,7 @@ function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
 **kwargs)\""}, {
                     ItemBox["\" 101.          args = tuple(\"", Background -> 
                     RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    
                     "\" 102.              self.next_expression(tokens, \
 **kwargs) for i in range(current_token.length)\""}, {
                     "\" 103.          )\""}, {
@@ -32494,7 +32525,6 @@ args, **kwargs)\""}, {"\" 108.  \""}}, GridBoxAlignment -> {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\".0\"", 
                     "\"<range_iterator object at 0x1756735a0>\""}, {
                     "\"i\"", "\"1\""}, {"\"kwargs\"", "\"{}\""}, {
@@ -32584,6 +32614,7 @@ function`.", "  99.          \"\"\"",
                     " 103.          )", 
                     " 104.          if head == self._LIST:", 
                     " 105.              return args", " 106.          else:", 
+                    
                     " 107.              return self.build_function(head, \
 args, **kwargs)", " 108.  "}, Background -> {{
                     GrayLevel[0.95], 
@@ -32932,7 +32963,6 @@ self.dispatch_wl_object(*expr.args)\""}, {"\" 331.  \""}, {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"self\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=7>\""}, {
                     "\"args\"", 
@@ -33112,7 +33142,6 @@ function`\""}, {"\"  95.          applied to the head and arguments.\""}, {
                     "\"  96.  \""}, {
                     "\"  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override\""}, {
-                    
                     "\"  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
@@ -34692,9 +34721,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLjau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLjau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                     "kwargs", "{}"}, {
                     "parser", 
@@ -35541,9 +35571,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLjau\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListLjau\.01\.01\.00\.00\.00f\
+\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04\
+ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=7>"}, {
                   "kwargs", "{}"}, {
@@ -35826,6 +35856,7 @@ externalevaluate.py"]], Appearance -> "Frameless"], " in ",
             Column[{
               
               Column[{" 319.  ", 
+                
                 " 320.      def __init__(self, routes_registry={}, \
 objects_registry={}, globals_registry={}):", 
                 " 321.          self.objects_registry = \
@@ -37236,9 +37267,9 @@ parser.context.is_valid_final_state():\""}, {
                     "\"8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\\nReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`\
 Private`ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`\
-Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.07bu\.01\.00\.00\.00\
-f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04\
-ListLau\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
+Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.07bu\.01\.01\.00\
+\.00\.00f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\
+\.01s\.04ListLau\.01\.01\.00\.00\.00S\\nExpression\""}, {"\"consumer\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=11>\""}, {
                     "\"kwargs\"", "\"{}\""}, {"\"parser\"", 
                     "\"<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -37262,14 +37293,15 @@ object at 0x1758477d0>\""}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
                     DefaultBaseStyle -> "OpenerView", BaselinePosition -> 
                     Baseline], Deployed -> False, StripOnInput -> False], 
                     OpenerView[{"Local variables", 
+                    
                     Grid[{{"Key", "Value"}, {"wxf_input", 
                     "8:f\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.07bu\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.07bu\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLau\.01\.01\.00\.00\.00S\nExpression"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -37338,9 +37370,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.07bu\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.07bu\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "kwargs", "{}"}, {"parser", 
                     "<wolframclient.deserializers.wxf.wxfparser.WXFParser \
@@ -37868,6 +37901,7 @@ function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
 **kwargs)\""}, {
                     ItemBox["\" 101.          args = tuple(\"", Background -> 
                     RGBColor[1, 1, 0.85], StripOnInput -> False]}, {
+                    
                     "\" 102.              self.next_expression(tokens, \
 **kwargs) for i in range(current_token.length)\""}, {
                     "\" 103.          )\""}, {
@@ -38124,7 +38158,6 @@ args, **kwargs)\""}, {"\" 108.  \""}}, GridBoxAlignment -> {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\".0\"", 
                     "\"<range_iterator object at 0x175686b20>\""}, {
                     "\"i\"", "\"1\""}, {"\"kwargs\"", "\"{}\""}, {
@@ -38214,6 +38247,7 @@ function`.", "  99.          \"\"\"",
                     " 103.          )", 
                     " 104.          if head == self._LIST:", 
                     " 105.              return args", " 106.          else:", 
+                    
                     " 107.              return self.build_function(head, \
 args, **kwargs)", " 108.  "}, Background -> {{
                     GrayLevel[0.95], 
@@ -38563,7 +38597,6 @@ self.dispatch_wl_object(*expr.args)\""}, {"\" 331.  \""}, {
                     False], "\"Local variables\""}, {"", 
                     PaneBox[
                     TagBox[
-                    
                     GridBox[{{"\"Key\"", "\"Value\""}, {"\"self\"", 
                     "\"<ExternalEvaluateConsumer globals=4 objects=11>\""}, {
                     "\"args\"", 
@@ -38743,7 +38776,6 @@ function`\""}, {"\"  95.          applied to the head and arguments.\""}, {
                     "\"  96.  \""}, {
                     "\"  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override\""}, {
-                    
                     "\"  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.\""}, {"\"  99.          \\\"\\\"\\\"\""}, {
@@ -39609,6 +39641,7 @@ externalevaluate.py\"",
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
                     SystemOpen[
+                    
                     "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless", Evaluator -> Automatic, 
@@ -39960,7 +39993,6 @@ result, names), *args)", " 258.  "}, Background -> {{
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
-                    
                     Grid[{{"Key", "Value"}, {"consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "result", "<function size at 0x1756207c0>"}, {
@@ -40143,7 +40175,6 @@ py"]], Appearance -> "Frameless"], " in ", "size"}],
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
-                    
                     Grid[{{"Key", "Value"}, {"hg", 
                     "None, <class \
 'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
@@ -40321,9 +40352,10 @@ parser.context.is_valid_final_state():",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.07bu\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {"consumer", 
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.07bu\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
+                    "consumer", 
                     "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                     "kwargs", "{}"}, {
                     "parser", 
@@ -40520,6 +40552,7 @@ wxfconsumer.py"]], Appearance -> "Frameless"], " in ", "<genexpr>"}],
                     "  96.  ", 
                     "  97.          Usually custom parsing rules target \
 Functions, but not List. To do so, it is recommended to override", 
+                    
                     "  98.          \
 :func:`~wolframclient.deserializers.wxf.wxfconsumer.WXFConsumer.build_\
 function`.", "  99.          \"\"\"", 
@@ -40615,6 +40648,7 @@ externalevaluate.py",
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"], 
                     SystemOpen[
+                    
                     "/Applications/Wolfram/Prototype/Wolfram.app/Contents/\
 SystemFiles/Components/WolframClientForPython/wolframclient/utils/\
 externalevaluate.py"]], Appearance -> "Frameless"], " in ", 
@@ -40997,7 +41031,6 @@ py"]], Appearance -> "Frameless"], " in ", "size"}],
                     GrayLevel[0.95], 
                     GrayLevel[1]}}, Frame -> LightGray], 
                     OpenerView[{"Local variables", 
-                    
                     Grid[{{"Key", "Value"}, {
                     "hg", "None, <class \
 'hypernetx.classes.hypergraph.Hypergraph'>"}}, 
@@ -41168,9 +41201,9 @@ expression in WXF format. Expecting more input data.\"", "  44.          )",
 ExternalEvaluateCommandS\n\
 ReturnTypef\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
 ExternalEvaluateCommandS\.04Callf\.02s\.04Listf\.02s0ExternalEvaluate`Private`\
-ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListL\.07bu\.01\.00\.00\.00f\.02\
-s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01s\.04ListLau\
-\.01\.00\.00\.00S\nExpression"}, {
+ExternalEvaluateCommandS\.05Fetchf\.01\.01s\.04ListL\.07bu\.01\.01\.00\.00\.00\
+f\.02s0ExternalEvaluate`Private`ExternalEvaluateCommandS\.05Fetchf\.01\.01s\
+\.04ListLau\.01\.01\.00\.00\.00S\nExpression"}, {
                   "consumer", 
                    "<ExternalEvaluateConsumer globals=4 objects=11>"}, {
                   "kwargs", "{}"}, {
@@ -41912,119 +41945,119 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 312, 7, 45, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396",
+Cell[554, 20, 313, 7, 45, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396",
  InitializationCell->True],
-Cell[869, 29, 292, 5, 45, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f",
+Cell[870, 29, 293, 5, 45, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f",
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1186, 38, 198, 3, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
-Cell[1387, 43, 35788, 831, 359, "Output",ExpressionUUID->"6cee72cb-526a-421b-b1ed-8bbc758eb20e"]
+Cell[1188, 38, 198, 3, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
+Cell[1389, 43, 35788, 831, 359, "Output",ExpressionUUID->"6cee72cb-526a-421b-b1ed-8bbc758eb20e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[37212, 879, 543, 14, 45, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba",
+Cell[37214, 879, 544, 14, 45, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba",
  InitializationCell->True],
-Cell[37758, 895, 19407, 353, 58, "Output",ExpressionUUID->"b1f4b084-b1b0-44f6-98ca-4564c3225c57"]
+Cell[37761, 895, 19434, 354, 58, "Output",ExpressionUUID->"c90156dd-f99b-4d9e-98a1-3a8e5a3a1925"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[57202, 1253, 520, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
-Cell[57725, 1270, 7645, 157, 235, "Output",ExpressionUUID->"66c0ed56-390a-4e28-bcba-ed4a857239bb"]
+Cell[57232, 1254, 520, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
+Cell[57755, 1271, 7645, 157, 235, "Output",ExpressionUUID->"66c0ed56-390a-4e28-bcba-ed4a857239bb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65407, 1432, 355, 7, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
-Cell[65765, 1441, 650, 14, 33, "Output",ExpressionUUID->"11f77fe9-4b7c-4844-af4a-1df4dc98b582"]
+Cell[65437, 1433, 355, 7, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
+Cell[65795, 1442, 650, 14, 33, "Output",ExpressionUUID->"11f77fe9-4b7c-4844-af4a-1df4dc98b582"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[66452, 1460, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
-Cell[66858, 1469, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
+Cell[66482, 1461, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
+Cell[66888, 1470, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67366, 1485, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
-Cell[67734, 1492, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
+Cell[67396, 1486, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
+Cell[67764, 1493, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[86867, 1845, 542, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
-Cell[87412, 1861, 8116, 167, 265, "Output",ExpressionUUID->"49a00186-7d85-48d4-a8c9-ffeac06ad144"]
+Cell[86897, 1846, 555, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
+Cell[87455, 1862, 9283, 194, 321, "Output",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[95565, 2033, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
-Cell[96135, 2049, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
+Cell[96775, 2061, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
+Cell[97345, 2077, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[103689, 2211, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
-Cell[103971, 2217, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
+Cell[104899, 2239, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
+Cell[105181, 2245, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[123107, 2571, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
-Cell[123388, 2577, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
+Cell[124317, 2599, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
+Cell[124598, 2605, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[142793, 2932, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
-Cell[143064, 2938, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
+Cell[144003, 2960, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
+Cell[144274, 2966, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[143396, 2949, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
-Cell[143629, 2954, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
+Cell[144606, 2977, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
+Cell[144839, 2982, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[143943, 2965, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
-Cell[144161, 2970, 50517, 968, 230, "Output",ExpressionUUID->"368929a9-ccd4-4e10-95c5-5166c40b6f28"]
+Cell[145153, 2993, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
+Cell[145371, 2998, 50517, 968, 230, "Output",ExpressionUUID->"368929a9-ccd4-4e10-95c5-5166c40b6f28"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[194715, 3943, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
-Cell[195352, 3962, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
+Cell[195925, 3971, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
+Cell[196562, 3990, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[203091, 4125, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
-Cell[203311, 4130, 285271, 5278, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
+Cell[204301, 4153, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
+Cell[204521, 4158, 285288, 5275, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[488619, 9413, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
-Cell[488838, 9418, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
+Cell[489846, 9438, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
+Cell[490065, 9443, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[489073, 9426, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
-Cell[489288, 9431, 284951, 5273, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
+Cell[490300, 9451, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
+Cell[490515, 9456, 285053, 5274, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[774276, 14709, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
-Cell[774498, 14714, 285506, 5277, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
+Cell[775605, 14735, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
+Cell[775827, 14740, 285645, 5280, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1060041, 19996, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
-Cell[1060259, 20001, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
+Cell[1061509, 20025, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
+Cell[1061727, 20030, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1079439, 20356, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
-Cell[1079752, 20364, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
+Cell[1080907, 20385, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
+Cell[1081220, 20393, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1080218, 20380, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
-Cell[1080438, 20385, 284427, 5245, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
+Cell[1081686, 20409, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
+Cell[1081906, 20414, 284527, 5246, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1364902, 25635, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
-Cell[1365127, 25640, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
+Cell[1366470, 25665, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
+Cell[1366695, 25670, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1365312, 25647, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
-Cell[1365537, 25652, 285442, 5265, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
+Cell[1366880, 25677, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
+Cell[1367105, 25682, 285497, 5264, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1651016, 30922, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
-Cell[1651245, 30927, 285254, 5263, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
+Cell[1652639, 30951, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
+Cell[1652868, 30956, 285372, 5265, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1936536, 36195, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
-Cell[1936755, 36200, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
+Cell[1938277, 36226, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
+Cell[1938496, 36231, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
 }, Open  ]],
-Cell[1955536, 36544, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
+Cell[1957277, 36575, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
 Cell[CellGroupData[{
-Cell[1955776, 36551, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
-Cell[1955996, 36556, 285035, 5271, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
+Cell[1957517, 36582, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
+Cell[1957737, 36587, 285157, 5273, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2241068, 41832, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
-Cell[2241292, 41837, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
+Cell[2242931, 41865, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
+Cell[2243155, 41870, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
 }, Open  ]]
 }
 ]
