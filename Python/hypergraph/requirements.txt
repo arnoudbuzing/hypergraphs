@@ -1,0 +1,4 @@
+hypernetx
+networkx
+matplotlib
+shutup
