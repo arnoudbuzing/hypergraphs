@@ -2,7 +2,7 @@ enclose = Function[expr, Catch[expr, "ff27b3c7-720e-4922-bdaf-a48a35fe3a64"], Ho
 confirm = Function[expr, Replace[expr, f_?FailureQ :> Throw[f, "ff27b3c7-720e-4922-bdaf-a48a35fe3a64"]]]
 
 joinPythonLocation[args___] := FileNameJoin @ {
-    PacletObject["hypernetx"]["AssetLocation", "Python"],
+    PacletObject["hypergraphs"]["AssetLocation", "External"],
     args
 }
 

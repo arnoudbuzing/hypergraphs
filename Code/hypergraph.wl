@@ -4,7 +4,6 @@ CreateHypergraph[nodes_] := executePythonEntrypoint[
     Function[{session, func}, func["Call", nodes] ]
 ]
 
-
 HypergraphAdjacencyMatrix[hg_ExternalObject] := executePythonEntrypoint[
     "hypergraph", 
     "hypergraph.adjacency_matrix", 

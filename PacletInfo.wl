@@ -1,10 +1,10 @@
 Paclet[
-    "Name" -> "hypernetx",
+    "Name" -> "hypergraphs",
     "Version" -> "1.0.0",
     "WolframVersion" -> "14.0+",
     "Creator" -> "Arnoud Buzing",
     "Extensions" -> {
-        {"Kernel", "Root" -> ".", "Context" -> "hypernetx`"},
-        {"Resource", "Root" -> ".", "Resources" -> {"Python"} }
+        {"Kernel", "Root" -> ".", "Context" -> "hypergraphs`"},
+        {"Resource", "Root" -> ".", "Resources" -> {"External"} }
     }
 ]

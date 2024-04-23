@@ -1,4 +1,4 @@
-BeginPackage["hypernetx`"]
+BeginPackage["hypergraphs`"]
 
 (* usages *)
 
