@@ -10,36 +10,38 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   2253107,      42057]
-NotebookOptionsPosition[   2246271,      41930]
-NotebookOutlinePosition[   2246664,      41946]
-CellTagsIndexPosition[   2246621,      41943]
+NotebookDataLength[   2253765,      42063]
+NotebookOptionsPosition[   2246929,      41936]
+NotebookOutlinePosition[   2247322,      41952]
+CellTagsIndexPosition[   2247279,      41949]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
  RowBox[{
-  RowBox[{"PacletDirectoryLoad", "[", "\"\<~/hypernetx\>\"", "]"}], 
+  RowBox[{"PacletDirectoryLoad", "[", "\"\<~/hypergraphs\>\"", "]"}], 
   ";"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.9227953275058317`*^9, 3.9227953388123493`*^9}, 
-   3.922801156956365*^9},
- CellLabel->"In[43]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
+   3.922801156956365*^9, {3.922867048217514*^9, 3.922867050123761*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
 
 Cell[BoxData[
- RowBox[{"Get", "[", "\"\<hypernetx`\>\"", "]"}]], "Input",
+ RowBox[{"Get", "[", "\"\<hypergraphs`\>\"", "]"}]], "Input",
  InitializationCell->True,
  CellChangeTimes->{{3.922795340708645*^9, 3.922795351304397*^9}, {
-  3.922795429297056*^9, 3.92279542967712*^9}},
- CellLabel->"In[44]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
+  3.922795429297056*^9, 3.92279542967712*^9}, {3.9228670552334013`*^9, 
+  3.922867056366378*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"?", "hypernetx`*"}]], "Input",
- CellChangeTimes->{{3.922795352907256*^9, 3.922795357739148*^9}},
- CellLabel->"In[4]:=",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
+ RowBox[{"?", "hypergraphs`*"}]], "Input",
+ CellChangeTimes->{{3.922795352907256*^9, 3.922795357739148*^9}, {
+  3.922867079365137*^9, 3.922867080538315*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
 
 Cell[BoxData[
  StyleBox[
@@ -52,7 +54,7 @@ Cell[BoxData[
           
           DynamicBox[FEPrivate`FrontEndResource[
            "FEBitmaps", "RightPointerOpener"]], " ", 
-          StyleBox["hypernetx`", "InformationGridGroupHeader"]}],
+          StyleBox["hypergraphs`", "InformationGridGroupHeader"]}],
          Appearance->None,
          BaseStyle->"InformationGridLink",
          ButtonFunction:>FEPrivate`Set[Typeset`open$$, True],
@@ -67,7 +69,7 @@ Cell[BoxData[
                "FEBitmaps", "DownPointerOpener"],
                ImageSizeCache->{10., {2.134033203125, 7.865966796875}}], " ", 
               
-              StyleBox["hypernetx`", "InformationGridGroupHeader"]}],
+              StyleBox["hypergraphs`", "InformationGridGroupHeader"]}],
              Appearance->None,
              BaseStyle->"InformationGridLink",
              ButtonFunction:>FEPrivate`Set[Typeset`open$$, False],
@@ -82,9 +84,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "CreateHypergraph", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "CreateHypergraph", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphDistance", "InformationGridButton"],
@@ -92,9 +94,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDistance", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDistance", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphFromNumpyArray", "InformationGridButton"],
@@ -103,9 +105,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphFromNumpyArray", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphFromNumpyArray", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNodeDiameters", "InformationGridButton"],
@@ -114,9 +116,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodeDiameters", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodeDiameters", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -126,9 +128,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRestrictToEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRestrictToEdges", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -139,9 +141,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphAdjacencyMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphAdjacencyMatrix", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphDual", "InformationGridButton"],
@@ -149,9 +151,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDual", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDual", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -161,9 +163,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphGetCellProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphGetCellProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNodeProperties", "InformationGridButton"],
@@ -172,9 +174,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodeProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodeProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -184,9 +186,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRestrictToNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRestrictToNodes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -197,9 +199,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphAuxiliaryMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphAuxiliaryMatrix", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -209,9 +211,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeAdjacencyMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeAdjacencyMatrix", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphGetLineGraph", "InformationGridButton"],
@@ -219,9 +221,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphGetLineGraph", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphGetLineGraph", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNodeProps", "InformationGridButton"],
@@ -229,9 +231,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodeProps", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodeProps", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSComponents", "InformationGridButton"],
@@ -239,9 +241,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSComponents", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSComponents", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -250,9 +252,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphBipartite", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphBipartite", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeCol", "InformationGridButton"],
@@ -260,9 +262,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeCol", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphGetProperties", "InformationGridButton"],
@@ -271,9 +273,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphGetProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphGetProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNodes", "InformationGridButton"],
@@ -281,9 +283,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -293,9 +295,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSComponentSubgraphs", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSComponentSubgraphs", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -305,9 +307,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphCollapseEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphCollapseEdges", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeDiameter", "InformationGridButton"],
@@ -315,9 +317,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeDiameter", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeDiameter", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -327,9 +329,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphIncidenceDataFrame", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphIncidenceDataFrame", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -339,9 +341,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodeWeightPropCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodeWeightPropCol", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -351,9 +353,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSConnectedComponents", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSConnectedComponents", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -363,9 +365,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphCollapseNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphCollapseNodes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeDistance", "InformationGridButton"],
@@ -373,9 +375,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeDistance", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeDistance", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphIncidenceDict", "InformationGridButton"],
@@ -384,9 +386,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphIncidenceDict", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphIncidenceDict", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNumberOfEdges", "InformationGridButton"],
@@ -395,9 +397,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNumberOfEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNumberOfEdges", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSelf", "InformationGridButton"],
@@ -405,9 +407,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSelf", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSelf", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -418,9 +420,10 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphCollapseNodesAndEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphCollapseNodesAndEdges", "hypergraphs`"}, False},
+                 
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeNeighbors", "InformationGridButton"],
@@ -429,9 +432,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeNeighbors", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeNeighbors", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -441,9 +444,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphIncidenceMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphIncidenceMatrix", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNumberOfNodes", "InformationGridButton"],
@@ -452,9 +455,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNumberOfNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNumberOfNodes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSetState", "InformationGridButton"],
@@ -462,9 +465,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSetState", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSetState", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -473,9 +476,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphComponents", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphComponents", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeProperties", "InformationGridButton"],
@@ -484,9 +487,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphIsConnected", "InformationGridButton"],
@@ -494,9 +497,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphIsConnected", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphIsConnected", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphOrder", "InformationGridButton"],
@@ -504,9 +507,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphOrder", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphOrder", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSetSystem", "InformationGridButton"],
@@ -514,9 +517,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSetSystem", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSetSystem", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -527,9 +530,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphComponentSubGraphs", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphComponentSubGraphs", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeProps", "InformationGridButton"],
@@ -537,9 +540,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeProps", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeProps", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -549,9 +552,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphMiscCellProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphMiscCellProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphProperties", "InformationGridButton"],
@@ -559,9 +562,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphProperties", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphProperties", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphShape", "InformationGridButton"],
@@ -569,9 +572,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphShape", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphShape", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -582,9 +585,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphConnectedComponents", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphConnectedComponents", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdges", "InformationGridButton"],
@@ -592,9 +595,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdges", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -604,9 +607,10 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphMiscCellPropertiesCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphMiscCellPropertiesCol", "hypergraphs`"}, False},
+                 
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphProps2Dict", "InformationGridButton"],
@@ -614,9 +618,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphProps2Dict", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphProps2Dict", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSingletons", "InformationGridButton"],
@@ -624,9 +628,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSingletons", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSingletons", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -635,9 +639,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDataset", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDataset", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphEdgeSizeDist", "InformationGridButton"],
@@ -645,9 +649,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphEdgeSizeDist", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphEdgeSizeDist", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -657,9 +661,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphMiscPropertiesCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphMiscPropertiesCol", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphRemove", "InformationGridButton"],
@@ -667,9 +671,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRemove", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRemove", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSize", "InformationGridButton"],
@@ -677,9 +681,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSize", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSize", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -688,9 +692,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDegree", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDegree", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphFromBipartite", "InformationGridButton"],
@@ -699,9 +703,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphFromBipartite", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphFromBipartite", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphName", "InformationGridButton"],
@@ -709,9 +713,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphName", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphName", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphRemoveEdges", "InformationGridButton"],
@@ -719,9 +723,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRemoveEdges", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRemoveEdges", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphSubGraphs", "InformationGridButton"],
@@ -729,9 +733,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphSubGraphs", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphSubGraphs", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -740,9 +744,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDiameter", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDiameter", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -752,9 +756,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphFromIncidenceDataFrame", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphFromIncidenceDataFrame", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNeighbors", "InformationGridButton"],
@@ -762,9 +766,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNeighbors", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNeighbors", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphRemoveNodes", "InformationGridButton"],
@@ -772,9 +776,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRemoveNodes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRemoveNodes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphToplexes", "InformationGridButton"],
@@ -782,9 +786,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphToplexes", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphToplexes", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
                {
                 ButtonBox[
@@ -793,9 +797,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphDim", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphDim", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -805,9 +809,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphFromIncidenceMatrix", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphFromIncidenceMatrix", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphNodeCol", "InformationGridButton"],
@@ -815,9 +819,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphNodeCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphNodeCol", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  
@@ -827,9 +831,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphRemoveSingletons", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphRemoveSingletons", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
                 ButtonBox[
                  StyleBox["HypergraphWeightPropCol", "InformationGridButton"],
@@ -838,9 +842,9 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-22bc4773-8e8c-4899-a5e2-e4d847524b8e", {
-                   "HypergraphWeightPropCol", "hypernetx`"}, False},
-                 ButtonNote->"hypernetx`",
+                  "Info-b9d3f295-5d1d-400e-b1a0-30795f346e9d", {
+                   "HypergraphWeightPropCol", "hypergraphs`"}, False},
+                 ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]}
               },
               DefaultBaseStyle->"Text",
@@ -871,8 +875,9 @@ Cell[BoxData[
    3.922796016272254*^9, 3.922796053683248*^9, 3.9227961062093573`*^9, {
    3.922796143226222*^9, 3.922796162247787*^9}, 3.922796979242429*^9, 
    3.9227971055644493`*^9, 3.922797284435854*^9, 3.922797781485618*^9, 
-   3.92280115913234*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"6cee72cb-526a-421b-b1ed-8bbc758eb20e"]
+   3.92280115913234*^9, 3.922867081102633*^9, 3.9228672996318283`*^9, 
+   3.922868043687945*^9, 3.922868122776121*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"4e153e58-2ba1-4c43-897b-e3ae31f7d55e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -891,7 +896,7 @@ Cell[BoxData[
  InitializationCell->True,
  CellChangeTimes->{{3.9227955865432177`*^9, 3.922795617018423*^9}, {
   3.922795905423779*^9, 3.922795905593668*^9}},
- CellLabel->"In[45]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
+ CellLabel->"In[4]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1038,7 +1043,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                RowBox[{
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
-                 TagBox["\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}], 
+                 TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
                
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
@@ -1194,7 +1199,7 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
                  TagBox[
-                 "\"hypernetx.classes.Hypergraph\"", "SummaryItem"]}]}, {
+                 "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
                RowBox[{
                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
                  "\[InvisibleSpace]", 
@@ -1232,9 +1237,9 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
      "SummaryPanel"],
     DynamicModuleValues:>{}], "]"}],
   ExternalObject[
-   ExternalSessionObject["fd26fdd6-5bb2-4bd9-b112-e6dee26634f0"], 
-   ExternalEvaluate`RPC["Fetch", {6266600272}], <|
-   "IsModule" -> False, "Module" -> "hypernetx.classes.Hypergraph", "IsClass" -> 
+   ExternalSessionObject["3070e346-8a46-4641-950e-5ce1e1190803"], 
+   ExternalEvaluate`RPC["Fetch", {6100867024}], <|
+   "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
     False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
     False|>],
   Editable->False,
@@ -1246,8 +1251,9 @@ J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
    3.922796108403057*^9, {3.922796147444788*^9, 3.9227961638710127`*^9}, 
    3.922796984745977*^9, 3.922797108508645*^9, 3.9227972860793467`*^9, 
    3.922797783154752*^9, 3.922801162592709*^9, 3.922802169291438*^9, 
-   3.922811545590131*^9},
- CellLabel->"Out[45]=",ExpressionUUID->"c90156dd-f99b-4d9e-98a1-3a8e5a3a1925"]
+   3.922811545590131*^9, 3.922867089158771*^9, 3.922867303347473*^9, 
+   3.9228680451983852`*^9, 3.9228681254155283`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"f8493711-b98a-4ebb-9406-39ce5bd0c494"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -41930,7 +41936,7 @@ Cell[BoxData[
 },
 WindowSize->{1440, 847},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (April 19, 2024)",
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (April 17, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"9f661808-dbfe-419d-858e-dca7224ec814"
 ]
@@ -41945,119 +41951,119 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 313, 7, 45, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396",
+Cell[554, 20, 360, 7, 45, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396",
  InitializationCell->True],
-Cell[870, 29, 293, 5, 45, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f",
+Cell[917, 29, 345, 6, 45, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f",
  InitializationCell->True],
 Cell[CellGroupData[{
-Cell[1188, 38, 198, 3, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
-Cell[1389, 43, 35788, 831, 359, "Output",ExpressionUUID->"6cee72cb-526a-421b-b1ed-8bbc758eb20e"]
+Cell[1287, 39, 249, 4, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
+Cell[1539, 45, 36202, 834, 359, "Output",ExpressionUUID->"4e153e58-2ba1-4c43-897b-e3ae31f7d55e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[37214, 879, 544, 14, 45, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba",
+Cell[37778, 884, 543, 14, 45, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba",
  InitializationCell->True],
-Cell[37761, 895, 19434, 354, 58, "Output",ExpressionUUID->"c90156dd-f99b-4d9e-98a1-3a8e5a3a1925"]
+Cell[38324, 900, 19529, 355, 58, "Output",ExpressionUUID->"f8493711-b98a-4ebb-9406-39ce5bd0c494"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[57232, 1254, 520, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
-Cell[57755, 1271, 7645, 157, 235, "Output",ExpressionUUID->"66c0ed56-390a-4e28-bcba-ed4a857239bb"]
+Cell[57890, 1260, 520, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
+Cell[58413, 1277, 7645, 157, 235, "Output",ExpressionUUID->"66c0ed56-390a-4e28-bcba-ed4a857239bb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[65437, 1433, 355, 7, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
-Cell[65795, 1442, 650, 14, 33, "Output",ExpressionUUID->"11f77fe9-4b7c-4844-af4a-1df4dc98b582"]
+Cell[66095, 1439, 355, 7, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
+Cell[66453, 1448, 650, 14, 33, "Output",ExpressionUUID->"11f77fe9-4b7c-4844-af4a-1df4dc98b582"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[66482, 1461, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
-Cell[66888, 1470, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
+Cell[67140, 1467, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
+Cell[67546, 1476, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[67396, 1486, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
-Cell[67764, 1493, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
+Cell[68054, 1492, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
+Cell[68422, 1499, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[86897, 1846, 555, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
-Cell[87455, 1862, 9283, 194, 321, "Output",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
+Cell[87555, 1852, 555, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
+Cell[88113, 1868, 9283, 194, 321, "Output",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[96775, 2061, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
-Cell[97345, 2077, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
+Cell[97433, 2067, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
+Cell[98003, 2083, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[104899, 2239, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
-Cell[105181, 2245, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
+Cell[105557, 2245, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
+Cell[105839, 2251, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[124317, 2599, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
-Cell[124598, 2605, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
+Cell[124975, 2605, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
+Cell[125256, 2611, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144003, 2960, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
-Cell[144274, 2966, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
+Cell[144661, 2966, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
+Cell[144932, 2972, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[144606, 2977, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
-Cell[144839, 2982, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
+Cell[145264, 2983, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
+Cell[145497, 2988, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[145153, 2993, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
-Cell[145371, 2998, 50517, 968, 230, "Output",ExpressionUUID->"368929a9-ccd4-4e10-95c5-5166c40b6f28"]
+Cell[145811, 2999, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
+Cell[146029, 3004, 50517, 968, 230, "Output",ExpressionUUID->"368929a9-ccd4-4e10-95c5-5166c40b6f28"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[195925, 3971, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
-Cell[196562, 3990, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
+Cell[196583, 3977, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
+Cell[197220, 3996, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[204301, 4153, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
-Cell[204521, 4158, 285288, 5275, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
+Cell[204959, 4159, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
+Cell[205179, 4164, 285288, 5275, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[489846, 9438, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
-Cell[490065, 9443, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
+Cell[490504, 9444, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
+Cell[490723, 9449, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[490300, 9451, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
-Cell[490515, 9456, 285053, 5274, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
+Cell[490958, 9457, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
+Cell[491173, 9462, 285053, 5274, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[775605, 14735, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
-Cell[775827, 14740, 285645, 5280, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
+Cell[776263, 14741, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
+Cell[776485, 14746, 285645, 5280, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1061509, 20025, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
-Cell[1061727, 20030, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
+Cell[1062167, 20031, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
+Cell[1062385, 20036, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1080907, 20385, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
-Cell[1081220, 20393, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
+Cell[1081565, 20391, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
+Cell[1081878, 20399, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1081686, 20409, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
-Cell[1081906, 20414, 284527, 5246, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
+Cell[1082344, 20415, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
+Cell[1082564, 20420, 284527, 5246, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1366470, 25665, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
-Cell[1366695, 25670, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
+Cell[1367128, 25671, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
+Cell[1367353, 25676, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1366880, 25677, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
-Cell[1367105, 25682, 285497, 5264, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
+Cell[1367538, 25683, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
+Cell[1367763, 25688, 285497, 5264, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1652639, 30951, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
-Cell[1652868, 30956, 285372, 5265, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
+Cell[1653297, 30957, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
+Cell[1653526, 30962, 285372, 5265, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1938277, 36226, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
-Cell[1938496, 36231, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
+Cell[1938935, 36232, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
+Cell[1939154, 36237, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
 }, Open  ]],
-Cell[1957277, 36575, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
+Cell[1957935, 36581, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
 Cell[CellGroupData[{
-Cell[1957517, 36582, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
-Cell[1957737, 36587, 285157, 5273, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
+Cell[1958175, 36588, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
+Cell[1958395, 36593, 285157, 5273, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2242931, 41865, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
-Cell[2243155, 41870, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
+Cell[2243589, 41871, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
+Cell[2243813, 41876, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
 }, Open  ]]
 }
 ]

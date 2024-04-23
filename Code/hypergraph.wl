@@ -411,4 +411,3 @@ HypergraphWeightPropCol[hg_ExternalObject] := executePythonEntrypoint[
     "hypergraph.weight_prop_col", 
     Function[{session, func}, func["Call", hg] ]
 ]
-
