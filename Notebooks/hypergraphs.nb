@@ -10,30 +10,32 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   2347281,      43697]
-NotebookOptionsPosition[   2338706,      43542]
-NotebookOutlinePosition[   2339372,      43564]
-CellTagsIndexPosition[   2339264,      43559]
+NotebookDataLength[   2261038,      42289]
+NotebookOptionsPosition[   2252406,      42137]
+NotebookOutlinePosition[   2252797,      42153]
+CellTagsIndexPosition[   2252754,      42150]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData["Quit"], "Input",
+ CellChangeTimes->{{3.924611046113881*^9, 3.924611046536087*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"631e04a8-4e29-444e-b9c8-af0ab3cc1886"],
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PacletDirectoryLoad", "[", "\"\<~/hypergraphs\>\"", "]"}], 
   ";"}]], "Input",
- InitializationCell->True,
  CellChangeTimes->{{3.9227953275058317`*^9, 3.9227953388123493`*^9}, 
    3.922801156956365*^9, {3.922867048217514*^9, 3.922867050123761*^9}},
- CellLabel->"In[21]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
+ CellLabel->"In[1]:=",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
 
 Cell[BoxData[
  RowBox[{"Get", "[", "\"\<hypergraphs`\>\"", "]"}]], "Input",
- InitializationCell->True,
  CellChangeTimes->{{3.922795340708645*^9, 3.922795351304397*^9}, {
   3.922795429297056*^9, 3.92279542967712*^9}, {3.9228670552334013`*^9, 
   3.922867056366378*^9}},
- CellLabel->"In[22]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
+ CellLabel->"In[2]:=",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
 
 Cell[CellGroupData[{
 
@@ -41,12 +43,14 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"Names", "[", "\"\<hypergraphs`*\>\"", "]"}], "//", 
   "Length"}]], "Input",
- CellChangeTimes->{{3.9229613441014347`*^9, 3.922961364004706*^9}},
- CellLabel->"In[23]:=",ExpressionUUID->"0a607e33-422a-4ee2-9a4a-66e96fda3f5c"],
+ CellChangeTimes->{{3.922961344101435*^9, 3.922961364004706*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"0a607e33-422a-4ee2-9a4a-66e96fda3f5c"],
 
 Cell[BoxData["70"], "Output",
- CellChangeTimes->{3.922961364455208*^9, 3.922969836922104*^9},
- CellLabel->"Out[23]=",ExpressionUUID->"bd1d3545-c73e-45c9-a1ca-3e31637982fb"]
+ CellChangeTimes->{3.922961364455208*^9, 3.922969836922104*^9, 
+  3.9246105310443172`*^9, 3.924611061464568*^9, 3.924611329782089*^9, 
+  3.924611452282819*^9, 3.9246120688682404`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"90b4d3a4-f10a-4596-ab7e-fcf022f86fe5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -55,7 +59,7 @@ Cell[BoxData[
  RowBox[{"?", "hypergraphs`*"}]], "Input",
  CellChangeTimes->{{3.922795352907256*^9, 3.922795357739148*^9}, {
   3.922867079365137*^9, 3.922867080538315*^9}},
- CellLabel->"In[24]:=",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
+ CellLabel->"In[4]:=",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
 
 Cell[BoxData[
  StyleBox[
@@ -98,7 +102,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "CreateHypergraph", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -108,7 +112,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDistance", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -119,7 +123,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphFromNumpyArray", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -130,7 +134,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodeDiameters", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -142,7 +146,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRestrictToEdges", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -155,7 +159,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphAdjacencyMatrix", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -165,7 +169,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDual", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -177,7 +181,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphGetCellProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -188,7 +192,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodeProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -200,7 +204,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRestrictToNodes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -213,7 +217,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphAuxiliaryMatrix", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -225,7 +229,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeAdjacencyMatrix", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -235,7 +239,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphGetLineGraph", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -245,7 +249,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodeProps", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -255,7 +259,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSComponents", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -266,7 +270,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphBipartite", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -276,7 +280,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeCol", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -287,7 +291,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphGetProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -297,7 +301,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -309,7 +313,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSComponentSubgraphs", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -321,7 +325,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphCollapseEdges", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -331,7 +335,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeDiameter", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -343,7 +347,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphIncidenceDataFrame", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -355,7 +359,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodeWeightPropCol", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -367,7 +371,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSConnectedComponents", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -379,7 +383,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphCollapseNodes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -389,7 +393,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeDistance", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -400,7 +404,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphIncidenceDict", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -411,7 +415,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNumberOfEdges", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -421,7 +425,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSelf", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -434,7 +438,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphCollapseNodesAndEdges", "hypergraphs`"}, False},
                  
                  ButtonNote->"hypergraphs`",
@@ -446,7 +450,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeNeighbors", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -458,7 +462,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphIncidenceMatrix", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -469,7 +473,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNumberOfNodes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -479,7 +483,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSetState", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -490,7 +494,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphComponents", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -501,7 +505,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -511,7 +515,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphIsConnected", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -521,7 +525,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphOrder", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -531,7 +535,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSetSystem", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -544,7 +548,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphComponentSubGraphs", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -554,7 +558,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeProps", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -566,7 +570,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphMiscCellProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -576,7 +580,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphProperties", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -586,7 +590,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphShape", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -599,7 +603,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphConnectedComponents", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -609,7 +613,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdges", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -621,7 +625,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphMiscCellPropertiesCol", "hypergraphs`"}, False},
                  
                  ButtonNote->"hypergraphs`",
@@ -632,7 +636,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphProps2Dict", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -642,7 +646,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSingletons", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -653,7 +657,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDataset", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -663,7 +667,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphEdgeSizeDist", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -675,7 +679,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphMiscPropertiesCol", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -685,7 +689,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRemove", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -695,7 +699,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSize", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -706,7 +710,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDegree", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -717,7 +721,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphFromBipartite", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -727,7 +731,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphName", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -737,7 +741,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRemoveEdges", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -747,7 +751,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphSubGraphs", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -758,7 +762,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDiameter", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -770,7 +774,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphFromIncidenceDataFrame", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -780,7 +784,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNeighbors", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -790,7 +794,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRemoveNodes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -800,7 +804,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphToplexes", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]},
@@ -811,7 +815,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphDim", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -823,7 +827,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphFromIncidenceMatrix", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -833,7 +837,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphNodeCol", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -845,7 +849,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphRemoveSingletons", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic], 
@@ -856,7 +860,7 @@ Cell[BoxData[
                  BaseStyle->"InformationGridLink",
                  
                  ButtonData:>{
-                  "Info-53b4489c-34b6-4385-86cc-4d2858b31383", {
+                  "Info-1739f587-5bca-4471-a068-84424817775d", {
                    "HypergraphWeightPropCol", "hypergraphs`"}, False},
                  ButtonNote->"hypergraphs`",
                  Evaluator->Automatic]}
@@ -884,1352 +888,16 @@ Cell[BoxData[
         Offset[0.2]}}],
    BaseStyle->"InformationTitleFrame"], "InformationGridPlain"]], "Output",
  CellChangeTimes->{
-  3.9227953580801563`*^9, 3.922795432277608*^9, {3.922795585248816*^9, 
+  3.922795358080157*^9, 3.922795432277608*^9, {3.922795585248816*^9, 
    3.922795614815357*^9}, 3.922795655242449*^9, 3.922795783183618*^9, 
-   3.922796016272254*^9, 3.922796053683248*^9, 3.9227961062093573`*^9, {
+   3.922796016272254*^9, 3.922796053683248*^9, 3.9227961062093577`*^9, {
    3.922796143226222*^9, 3.922796162247787*^9}, 3.922796979242429*^9, 
    3.9227971055644493`*^9, 3.922797284435854*^9, 3.922797781485618*^9, 
-   3.92280115913234*^9, 3.922867081102633*^9, 3.9228672996318283`*^9, 
-   3.922868043687945*^9, 3.922868122776121*^9, 3.9229698378299627`*^9},
- CellLabel->"Out[24]=",ExpressionUUID->"ad451e9e-dc05-4990-8552-72397da34862"],
-
-Cell[BoxData[
- InterpretationBox[
-  StyleBox[
-   FrameBox[
-    DynamicModuleBox[{System`InformationDump`open$2329043$$ = False, 
-     System`InformationDump`mouseOver$$ = False}, 
-     PaneSelectorBox[{True->
-      TagBox[GridBox[{
-         {
-          ItemBox[
-           PaneBox[
-            StyleBox[
-             TagBox[
-              TooltipBox[
-               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
-                StripOnInput->False],
-               "\"Symbol\"",
-               TooltipStyle->"TextStyling"],
-              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
-             StripOnInput->False,
-             BaseStyle -> None],
-            FrameMargins->{{4, 0}, {-1, 1}}],
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False], 
-          ItemBox["\<\"\"\>",
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False]},
-         {
-          ItemBox[
-           PaneBox[
-            
-            StyleBox["\<\"HypergraphEdges[hg] returns the edges of the \
-Hypergraph hg.\"\>", "InformationUsageText",
-             StripOnInput->False,
-             LineSpacing->{1.5, 1.5, 3.}],
-            FrameMargins->{{10, 10}, {8, 10}}],
-           BaseStyle->"InformationUsageSubtitleBackground",
-           StripOnInput->False], 
-          ItemBox["\<\"\"\>",
-           BaseStyle->"InformationUsageSubtitleBackground",
-           StripOnInput->False]},
-         {
-          PaneBox[
-           TagBox[GridBox[{
-              {
-               StyleBox[
-                TagBox[
-                 TooltipBox[
-                  StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
-                   StripOnInput->False],
-                  "\"Definitions\"",
-                  TooltipStyle->"TextStyling"],
-                 Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
-                StripOnInput->False]},
-              {
-               TemplateBox[{"\"\[ThinSpace]\"", 
-                 GridBox[{{
-                    RowBox[{
-                    
-                    RowBox[{
-                    "HypergraphEdges", "[", 
-                    "hypergraphs`Private`hg_ExternalObject", "]"}], ":=", 
-                    
-                    RowBox[{
-                    "hypergraphs`Private`executePythonEntrypoint", "[", 
-                    
-                    RowBox[{
-                    "\"hypergraph\"", ",", "\"hypergraph.edges\"", ",", 
-                    RowBox[{"Function", "[", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    
-                    RowBox[{"hypergraphs`Private`session", ",", 
-                    "hypergraphs`Private`func"}], "}"}], ",", 
-                    RowBox[{"hypergraphs`Private`func", "[", 
-                    RowBox[{"\"Call\"", ",", "hypergraphs`Private`hg"}], 
-                    "]"}]}], "]"}]}], "]"}]}]}, {" "}}, 
-                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
-                  DefaultBaseStyle -> "Column", 
-                  GridBoxItemSize -> {
-                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
-                "RowDefault"]}
-             },
-             DefaultBaseStyle->"Column",
-             GridBoxAlignment->{"Columns" -> {{Left}}},
-             
-             GridBoxItemSize->{
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-            "Column"],
-           FrameMargins->{{6, 0}, {3, 6}}], "\<\"\"\>"},
-         {
-          PaneBox[GridBox[{
-             {
-              
-              DynamicModuleBox[{System`InformationDump`open$$ = {
-               False, False, False, False, False, False}}, 
-               StyleBox[GridBox[{
-                  {
-                   TagBox[
-                    TooltipBox[
-                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
-                    StripOnInput->False],
-                    "\"FullName\"",
-                    TooltipStyle->"TextStyling"],
-                    
-                    Annotation[#, "FullName", 
-                    "Tooltip"]& ], "\<\"hypergraphs`HypergraphEdges\"\>"}
-                 },
-                 AutoDelete->False,
-                 GridBoxAlignment->{"Columns" -> {Right, Left}},
-                 GridBoxDividers->None,
-                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
-                 GridBoxSpacings->{"Columns" -> {
-                    Offset[0.27999999999999997`], {
-                    Offset[0.5599999999999999]}, 
-                    Offset[0.27999999999999997`]}, "Rows" -> {
-                    Offset[0.2], {
-                    Offset[0.8]}, 
-                    Offset[0.2]}}], "DialogStyle",
-                StripOnInput->False],
-               DynamicModuleValues:>{}]}
-            },
-            DefaultBaseStyle->"Column",
-            GridBoxAlignment->{"Columns" -> {{Left}}},
-            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
-            
-            GridBoxItemSize->{
-             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
-            GridBoxSpacings->{"Columns" -> {
-                Offset[0.27999999999999997`], {
-                 Offset[0.5599999999999999]}, 
-                Offset[0.27999999999999997`]}, "Rows" -> {
-                Offset[0.2], {
-                 Offset[3.6]}, 
-                Offset[0.2]}}],
-           FrameMargins->{{6, 6}, {6, 3}}], ""},
-         {
-          ItemBox[
-           TagBox[
-            ButtonBox[
-             PaneSelectorBox[{False->
-              
-              DynamicBox[FEPrivate`FrontEndResource[
-               "FEBitmaps", "UpPointerOpener"]], True->
-              
-              DynamicBox[FEPrivate`FrontEndResource[
-               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
-              System`InformationDump`mouseOver$$]],
-             Alignment->Left,
-             Appearance->{"Default" -> None},
-             
-             ButtonFunction:>FEPrivate`Set[
-              System`InformationDump`open$2329043$$, False],
-             Evaluator->Automatic,
-             FrameMargins->{{9, 0}, {0, 0}},
-             ImageMargins->0,
-             ImageSize->Full,
-             Method->"Preemptive"],
-            
-            EventHandlerTag[{
-             "MouseEntered" :> 
-              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
-              "MouseExited" :> 
-              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
-              Method -> "Preemptive", PassEventsDown -> Automatic, 
-              PassEventsUp -> True}]],
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False], "\[SpanFromLeft]"}
-        },
-        AutoDelete->False,
-        FrameStyle->Directive[
-          GrayLevel[0.8], 
-          Thickness[Tiny]],
-        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
-        GridBoxDividers->{
-         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
-        GridBoxItemSize->{
-         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-       "Grid"], False->
-      TagBox[GridBox[{
-         {
-          ItemBox[
-           PaneBox[
-            StyleBox[
-             TagBox[
-              TooltipBox[
-               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
-                StripOnInput->False],
-               "\"Symbol\"",
-               TooltipStyle->"TextStyling"],
-              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
-             StripOnInput->False],
-            FrameMargins->{{4, 0}, {-1, 1}}],
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False], 
-          ItemBox["\<\"\"\>",
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False]},
-         {
-          ItemBox[
-           PaneBox[
-            
-            StyleBox["\<\"HypergraphEdges[hg] returns the edges of the \
-Hypergraph hg.\"\>", "InformationUsageText",
-             StripOnInput->False,
-             LineSpacing->{1.5, 1.5, 3.}],
-            FrameMargins->{{10, 10}, {8, 10}}],
-           BaseStyle->"InformationUsageSubtitleBackground",
-           StripOnInput->False], 
-          ItemBox["\<\"\"\>",
-           BaseStyle->"InformationUsageSubtitleBackground",
-           StripOnInput->False]},
-         {
-          ItemBox[
-           TagBox[
-            ButtonBox[
-             PaneSelectorBox[{False->
-              DynamicBox[FEPrivate`FrontEndResource[
-               "FEBitmaps", "DownPointerOpener"],
-               ImageSizeCache->{10., {1.143798828125, 8.856201171875}}], True->
-              
-              
-              DynamicBox[FEPrivate`FrontEndResource[
-               "FEBitmaps", "DownPointerOpenerHot"],
-               ImageSizeCache->{10., {1.143798828125, 8.856201171875}}]}, 
-              Dynamic[System`InformationDump`mouseOver$$]],
-             Alignment->Left,
-             Appearance->{"Default" -> None},
-             
-             ButtonFunction:>FEPrivate`Set[
-              System`InformationDump`open$2329043$$, True],
-             Evaluator->Automatic,
-             FrameMargins->{{9, 0}, {0, 0}},
-             ImageMargins->0,
-             ImageSize->Full,
-             Method->"Preemptive"],
-            
-            EventHandlerTag[{
-             "MouseEntered" :> 
-              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
-              "MouseExited" :> 
-              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
-              Method -> "Preemptive", PassEventsDown -> Automatic, 
-              PassEventsUp -> True}]],
-           BaseStyle->"InformationTitleBackground",
-           StripOnInput->False], "\[SpanFromLeft]"}
-        },
-        AutoDelete->False,
-        FrameStyle->Directive[
-          GrayLevel[0.8], 
-          Thickness[Tiny]],
-        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
-        GridBoxDividers->{
-         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
-        GridBoxItemSize->{
-         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-       "Grid"]}, Dynamic[System`InformationDump`open$2329043$$],
-      BaselinePosition->Baseline,
-      FrameMargins->0,
-      ImageSize->Automatic],
-     DynamicModuleValues:>{}],
-    BaseStyle->"InformationGridFrame",
-    StripOnInput->False], "InformationGridPlain",
-   StripOnInput->False],
-  InformationData[<|
-   "ObjectType" -> "Symbol", "Usage" -> 
-    "HypergraphEdges[hg] returns the edges of the Hypergraph hg.", 
-    "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
-    "DownValues" -> 
-    Information`InformationValueForm[
-     DownValues, hypergraphs`HypergraphEdges, {hypergraphs`HypergraphEdges[
-         Pattern[hypergraphs`Private`hg, 
-          Blank[ExternalObject]]] :> 
-       hypergraphs`Private`executePythonEntrypoint[
-        "hypergraph", "hypergraph.edges", 
-         Function[{hypergraphs`Private`session, hypergraphs`Private`func}, 
-          hypergraphs`Private`func["Call", hypergraphs`Private`hg]]]}], 
-    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
-    "FormatValues" -> None, "Options" -> None, "Attributes" -> {}, "FullName" -> 
-    "hypergraphs`HypergraphEdges"|>, False]]], "Print",
- CellTags->
-  "Info-53b4489c-34b6-4385-86cc-4d2858b31383",ExpressionUUID->"0826cb2f-f598-\
-4470-b45e-c0c370d30f81"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"EdgeList", "[", "hg", "]"}]], "Input",
- CellChangeTimes->{{3.922970663028651*^9, 3.922970678115376*^9}},
- CellLabel->"In[32]:=",ExpressionUUID->"1232c132-5495-459e-89ff-f0ce4429a081"],
-
-Cell[BoxData[
- TemplateBox[{
-  "EdgeList", "graph", 
-   "\"A graph object is expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
-in \\!\\(\\*RowBox[{\\\"EdgeList\\\", \\\"[\\\", RowBox[{\\\"ExternalObject\\\
-\", \\\"[\\\", \
-RowBox[{InterpretationBox[RowBox[{TagBox[\\\"ExternalSessionObject\\\", \
-\\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[{Typeset`open$$ = False, \
-Set[Typeset`embedState$$, \\\"Ready\\\"]}, \
-TemplateBox[List[PaneSelectorBox[List[Rule[False, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxOpener\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, True]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GraphicsBox[List[Thickness[0.05`], List[FaceForm[List[RGBColor[1.`, 1.`, \
-1.`], Opacity[1.`]]], FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], \
-List[1, 3, 3], List[1, 3, 3]], List[List[1, 4, 3], List[1, 3, 3], List[1, 3, \
-3], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, \
-3], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[0, 1, \
-0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0]], List[List[1, \
-4, 3], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3]], List[List[1, 4, 3], \
-List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], \
-List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3], \
-List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], \
-List[1, 3, 3]]], List[List[List[7.5718000000000005`, 17.7334`], List[7.0998`, \
-17.7334`], List[6.7168`, 17.342399999999998`], List[6.7168`, 16.8624`], \
-List[6.7168`, 16.3854`], List[7.0998`, 15.997399999999999`], \
-List[7.5718000000000005`, 15.997399999999999`], List[8.043800000000001`, \
-15.997399999999999`], List[8.4268`, 16.3854`], List[8.4268`, 16.8624`], \
-List[8.4268`, 17.342399999999998`], List[8.043800000000001`, 17.7334`], \
-List[7.5718000000000005`, 17.7334`]], List[List[3.6828000000000007`, \
-5.741399999999999`], List[2.5738000000000003`, 5.741399999999999`], \
-List[1.7808000000000002`, 6.5014`], List[1.4488000000000012`, \
-7.880399999999998`], List[1.0488000000000008`, 9.5434`], \
-List[1.0488000000000008`, 10.5574`], List[1.4488000000000012`, 12.2214`], \
-List[1.764800000000001`, 13.5404`], List[2.774800000000001`, 14.3604`], \
-List[4.082800000000001`, 14.3604`], List[9.988800000000001`, 14.3604`], \
-List[10.0388`, 14.956399999999999`], List[5.694800000000001`, 15.0054`], \
-List[5.744800000000001`, 16.592399999999998`], List[5.744800000000001`, \
-17.819399999999998`], List[6.059800000000001`, 18.4594`], \
-List[7.8508000000000004`, 18.7754`], List[8.4788`, 18.8864`], List[9.1858`, \
-18.9464`], List[9.8938`, 18.9504`], List[9.8978`, 18.9504`], List[10.6978`, \
-18.9504`], List[11.4258`, 18.8914`], List[12.122800000000002`, 18.7754`], \
-List[13.3428`, 18.5714`], List[14.2288`, 17.6534`], List[14.2288`, \
-16.592399999999998`], List[14.2288`, 12.5034`], List[14.2288`, \
-11.327399999999999`], List[13.2878`, 10.371400000000001`], List[12.1318`, \
-10.371400000000001`], List[7.841800000000001`, 10.371400000000001`], \
-List[6.360800000000001`, 10.371400000000001`], List[5.109800000000001`, \
-9.1264`], List[5.109800000000001`, 7.6533999999999995`], \
-List[5.109800000000001`, 5.741399999999999`]], List[List[12.401800000000001`, \
-4.1044`], List[11.9298`, 4.1044`], List[11.5458`, 3.7164`], List[11.5458`, \
-3.2394`], List[11.5458`, 2.7593999999999994`], List[11.9298`, \
-2.369399999999999`], List[12.401800000000001`, 2.369399999999999`], \
-List[12.872800000000002`, 2.369399999999999`], List[13.2568`, \
-2.7593999999999994`], List[13.2568`, 3.2394`], List[13.2568`, 3.7164`], \
-List[12.872800000000002`, 4.1044`], List[12.401800000000001`, 4.1044`]], \
-List[List[9.9728`, 1.0493999999999986`], List[9.283800000000001`, \
-1.0493999999999986`], List[8.610800000000001`, 1.1534000000000013`], \
-List[7.8558`, 1.375399999999999`], List[7.0678`, 1.6073999999999984`], \
-List[5.744800000000001`, 2.1934000000000005`], List[5.744800000000001`, \
-3.509400000000001`], List[5.744800000000001`, 7.5984`], \
-List[5.744800000000001`, 8.754399999999999`], List[6.7048000000000005`, \
-9.731399999999999`], List[7.841800000000001`, 9.731399999999999`], \
-List[12.1318`, 9.731399999999999`], List[13.6128`, 9.731399999999999`], \
-List[14.863800000000001`, 11.000399999999999`], List[14.863800000000001`, \
-12.5034`], List[14.863800000000001`, 14.4104`], List[16.425800000000002`, \
-14.3604`], List[17.4948`, 14.3604`], List[18.1618`, 13.680399999999999`], \
-List[18.524800000000003`, 12.2214`], List[18.963800000000003`, \
-10.456399999999999`], List[18.963800000000003`, 9.1994`], List[18.5258`, \
-7.884399999999999`], List[18.0638`, 6.495400000000002`], List[17.5918`, \
-5.741399999999999`], List[16.425800000000002`, 5.741399999999999`], \
-List[9.988800000000001`, 5.741399999999999`], List[9.9398`, 5.1464`], \
-List[14.2788`, 5.096400000000001`], List[14.2288`, 3.509400000000001`], \
-List[14.2288`, 2.2513999999999985`], List[13.0808`, 1.654399999999999`], \
-List[12.116800000000001`, 1.375399999999999`], List[11.3628`, \
-1.1563999999999979`], List[10.6608`, 1.0493999999999986`], List[9.9728`, \
-1.0493999999999986`]]]]], List[FaceForm[List[RGBColor[0.20800000000000002`, \
-0.514`, 0.6859999999999999`], Opacity[1.`]]], \
-FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], List[1, 3, 3], List[1, \
-3, 3]], List[List[1, 4, 3], List[1, 3, 3], List[0, 1, 0], List[0, 1, 0], \
-List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], \
-List[1, 3, 3], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0], \
-List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3]]], \
-List[List[List[7.5718000000000005`, 17.6836`], List[8.014800000000001`, \
-17.6836`], List[8.3778`, 17.3156`], List[8.3778`, 16.862599999999997`], \
-List[8.3778`, 16.4116`], List[8.014800000000001`, 16.046599999999998`], \
-List[7.5718000000000005`, 16.046599999999998`], List[7.1268`, \
-16.046599999999998`], List[6.7658000000000005`, 16.4116`], \
-List[6.7658000000000005`, 16.862599999999997`], List[6.7658000000000005`, \
-17.3156`], List[7.1268`, 17.6836`], List[7.5718000000000005`, 17.6836`]], \
-List[List[9.8938`, 18.999599999999997`], List[9.1598`, 18.996599999999997`], \
-List[8.4588`, 18.9336`], List[7.841800000000001`, 18.824599999999997`], \
-List[6.024800000000001`, 18.5036`], List[5.694800000000001`, \
-17.831599999999998`], List[5.694800000000001`, 16.592599999999997`], \
-List[5.694800000000001`, 14.955599999999999`], List[9.988800000000001`, \
-14.955599999999999`], List[9.988800000000001`, 14.410599999999999`], \
-List[5.694800000000001`, 14.410599999999999`], List[4.0838`, \
-14.410599999999999`], List[2.8358`, 14.410599999999999`], \
-List[1.7418000000000005`, 13.660599999999999`], List[1.4008000000000003`, \
-12.2336`], List[1.006800000000001`, 10.597599999999998`], \
-List[0.9888000000000003`, 9.5766`], List[1.4008000000000003`, \
-7.868599999999997`], List[1.7058000000000009`, 6.597599999999998`], \
-List[2.434800000000001`, 5.6915999999999976`], List[3.6828000000000007`, \
-5.6915999999999976`], List[5.158800000000001`, 5.6915999999999976`], \
-List[5.158800000000001`, 7.653599999999999`], List[5.158800000000001`, \
-9.070599999999999`], List[6.385800000000001`, 10.3216`], \
-List[7.841800000000001`, 10.3216`], List[12.1318`, 10.3216`], List[13.3248`, \
-10.3216`], List[14.2788`, 11.304599999999997`], List[14.2788`, \
-12.503599999999999`], List[14.2788`, 16.592599999999997`], List[14.2788`, \
-17.7566`], List[13.296800000000001`, 18.630599999999998`], List[12.1318`, \
-18.824599999999997`], List[11.3938`, 18.947599999999998`], List[10.6278`, \
-19.0036`], List[9.8938`, 18.999599999999997`]]]]], \
-List[FaceForm[List[RGBColor[0.976`, 0.8430000000000001`, 0.353`], \
-Opacity[1.`]]], FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], \
-List[1, 3, 3], List[1, 3, 3]], List[List[0, 2, 0], List[1, 3, 3], List[0, 1, \
-0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[1, 3, \
-3], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, \
-0], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3]]], List[List[List[12.4014`, \
-4.0552`], List[12.846400000000001`, 4.0552`], List[13.2074`, 3.6902`], \
-List[13.2074`, 3.2392000000000003`], List[13.2074`, 2.7862`], \
-List[12.846400000000001`, 2.4182`], List[12.4014`, 2.4182`], \
-List[11.958400000000001`, 2.4182`], List[11.595400000000001`, 2.7862`], \
-List[11.595400000000001`, 3.2392000000000003`], List[11.595400000000001`, \
-3.6902`], List[11.958400000000001`, 4.0552`], List[12.4014`, 4.0552`]], \
-List[List[14.814400000000001`, 14.410200000000003`], \
-List[14.814400000000001`, 12.5032`], List[14.814400000000001`, \
-11.025200000000002`], List[13.560400000000001`, 9.7812`], \
-List[12.131400000000001`, 9.7812`], List[7.841400000000001`, 9.7812`], \
-List[6.667400000000001`, 9.7812`], List[5.694400000000001`, 8.7752`], \
-List[5.694400000000001`, 7.5982`], List[5.694400000000001`, 3.5102`], \
-List[5.694400000000001`, 2.3462000000000005`], List[6.707400000000002`, \
-1.6612000000000005`], List[7.841400000000001`, 1.3272`], List[9.2014`, \
-0.9281999999999999`], List[10.5054`, 0.8552`], List[12.131400000000001`, \
-1.3272`], List[13.2124`, 1.6402000000000005`], List[14.278400000000001`, \
-2.2702`], List[14.278400000000001`, 3.5102`], List[14.278400000000001`, \
-5.1462`], List[9.989400000000002`, 5.1462`], List[9.989400000000002`, \
-5.6922`], List[14.278400000000001`, 5.6922`], List[16.4254`, 5.6922`], \
-List[17.6734`, 5.6922`], List[18.1384`, 6.562200000000001`], \
-List[18.572400000000002`, 7.8682`], List[19.0214`, 9.2142`], List[19.0024`, \
-10.5082`], List[18.572400000000002`, 12.2332`], List[18.264400000000002`, \
-13.475200000000001`], List[17.6754`, 14.410200000000003`], List[16.4254`, \
-14.410200000000003`]]]]]], List[Rule[ImageSize, Dynamic[List[Automatic, \
-Times[3.5`, Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]], Rule[AspectRatio, \
-Automatic], Rule[ImageSize, List[20.`, 20.`]], Rule[PlotRange, List[List[0.`, \
-20.`], List[0.`, 20.`]]]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"System: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"Python\\\\\\\"\\\", \\\"SummaryItem\\\"]]], RowBox[List[TagBox[\\\"\\\\\\\
-\"Name: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"None\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Evaluator: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[PaneBox[\
-\\\"\\\\\\\"/Users/arnoudb/Library/Wolfram/ApplicationData/ExternalEvaluate/\
-Python/Venv/Wolfram-hypergraph/bin/python\\\\\\\"\\\", Rule[BaselinePosition, \
-Baseline]], \\\"SummaryItem\\\"]]], \\\"\\\\[SpanFromLeft]\\\"]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[GridBoxSpacings, List[Rule[\
-\\\"Columns\\\", List[List[2]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[BaseStyle, List[Rule[ShowStringCharacters, False], Rule[NumberMarks, \
-False], Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]], Rule[True, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxCloser\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, False]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GraphicsBox[List[Thickness[0.05`], List[FaceForm[List[RGBColor[1.`, 1.`, \
-1.`], Opacity[1.`]]], FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], \
-List[1, 3, 3], List[1, 3, 3]], List[List[1, 4, 3], List[1, 3, 3], List[1, 3, \
-3], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, \
-3], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[0, 1, \
-0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0]], List[List[1, \
-4, 3], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3]], List[List[1, 4, 3], \
-List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], \
-List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3], \
-List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], \
-List[1, 3, 3]]], List[List[List[7.5718000000000005`, 17.7334`], List[7.0998`, \
-17.7334`], List[6.7168`, 17.342399999999998`], List[6.7168`, 16.8624`], \
-List[6.7168`, 16.3854`], List[7.0998`, 15.997399999999999`], \
-List[7.5718000000000005`, 15.997399999999999`], List[8.043800000000001`, \
-15.997399999999999`], List[8.4268`, 16.3854`], List[8.4268`, 16.8624`], \
-List[8.4268`, 17.342399999999998`], List[8.043800000000001`, 17.7334`], \
-List[7.5718000000000005`, 17.7334`]], List[List[3.6828000000000007`, \
-5.741399999999999`], List[2.5738000000000003`, 5.741399999999999`], \
-List[1.7808000000000002`, 6.5014`], List[1.4488000000000012`, \
-7.880399999999998`], List[1.0488000000000008`, 9.5434`], \
-List[1.0488000000000008`, 10.5574`], List[1.4488000000000012`, 12.2214`], \
-List[1.764800000000001`, 13.5404`], List[2.774800000000001`, 14.3604`], \
-List[4.082800000000001`, 14.3604`], List[9.988800000000001`, 14.3604`], \
-List[10.0388`, 14.956399999999999`], List[5.694800000000001`, 15.0054`], \
-List[5.744800000000001`, 16.592399999999998`], List[5.744800000000001`, \
-17.819399999999998`], List[6.059800000000001`, 18.4594`], \
-List[7.8508000000000004`, 18.7754`], List[8.4788`, 18.8864`], List[9.1858`, \
-18.9464`], List[9.8938`, 18.9504`], List[9.8978`, 18.9504`], List[10.6978`, \
-18.9504`], List[11.4258`, 18.8914`], List[12.122800000000002`, 18.7754`], \
-List[13.3428`, 18.5714`], List[14.2288`, 17.6534`], List[14.2288`, \
-16.592399999999998`], List[14.2288`, 12.5034`], List[14.2288`, \
-11.327399999999999`], List[13.2878`, 10.371400000000001`], List[12.1318`, \
-10.371400000000001`], List[7.841800000000001`, 10.371400000000001`], \
-List[6.360800000000001`, 10.371400000000001`], List[5.109800000000001`, \
-9.1264`], List[5.109800000000001`, 7.6533999999999995`], \
-List[5.109800000000001`, 5.741399999999999`]], List[List[12.401800000000001`, \
-4.1044`], List[11.9298`, 4.1044`], List[11.5458`, 3.7164`], List[11.5458`, \
-3.2394`], List[11.5458`, 2.7593999999999994`], List[11.9298`, \
-2.369399999999999`], List[12.401800000000001`, 2.369399999999999`], \
-List[12.872800000000002`, 2.369399999999999`], List[13.2568`, \
-2.7593999999999994`], List[13.2568`, 3.2394`], List[13.2568`, 3.7164`], \
-List[12.872800000000002`, 4.1044`], List[12.401800000000001`, 4.1044`]], \
-List[List[9.9728`, 1.0493999999999986`], List[9.283800000000001`, \
-1.0493999999999986`], List[8.610800000000001`, 1.1534000000000013`], \
-List[7.8558`, 1.375399999999999`], List[7.0678`, 1.6073999999999984`], \
-List[5.744800000000001`, 2.1934000000000005`], List[5.744800000000001`, \
-3.509400000000001`], List[5.744800000000001`, 7.5984`], \
-List[5.744800000000001`, 8.754399999999999`], List[6.7048000000000005`, \
-9.731399999999999`], List[7.841800000000001`, 9.731399999999999`], \
-List[12.1318`, 9.731399999999999`], List[13.6128`, 9.731399999999999`], \
-List[14.863800000000001`, 11.000399999999999`], List[14.863800000000001`, \
-12.5034`], List[14.863800000000001`, 14.4104`], List[16.425800000000002`, \
-14.3604`], List[17.4948`, 14.3604`], List[18.1618`, 13.680399999999999`], \
-List[18.524800000000003`, 12.2214`], List[18.963800000000003`, \
-10.456399999999999`], List[18.963800000000003`, 9.1994`], List[18.5258`, \
-7.884399999999999`], List[18.0638`, 6.495400000000002`], List[17.5918`, \
-5.741399999999999`], List[16.425800000000002`, 5.741399999999999`], \
-List[9.988800000000001`, 5.741399999999999`], List[9.9398`, 5.1464`], \
-List[14.2788`, 5.096400000000001`], List[14.2288`, 3.509400000000001`], \
-List[14.2288`, 2.2513999999999985`], List[13.0808`, 1.654399999999999`], \
-List[12.116800000000001`, 1.375399999999999`], List[11.3628`, \
-1.1563999999999979`], List[10.6608`, 1.0493999999999986`], List[9.9728`, \
-1.0493999999999986`]]]]], List[FaceForm[List[RGBColor[0.20800000000000002`, \
-0.514`, 0.6859999999999999`], Opacity[1.`]]], \
-FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], List[1, 3, 3], List[1, \
-3, 3]], List[List[1, 4, 3], List[1, 3, 3], List[0, 1, 0], List[0, 1, 0], \
-List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], \
-List[1, 3, 3], List[0, 1, 0], List[0, 1, 0], List[1, 3, 3], List[0, 1, 0], \
-List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3]]], \
-List[List[List[7.5718000000000005`, 17.6836`], List[8.014800000000001`, \
-17.6836`], List[8.3778`, 17.3156`], List[8.3778`, 16.862599999999997`], \
-List[8.3778`, 16.4116`], List[8.014800000000001`, 16.046599999999998`], \
-List[7.5718000000000005`, 16.046599999999998`], List[7.1268`, \
-16.046599999999998`], List[6.7658000000000005`, 16.4116`], \
-List[6.7658000000000005`, 16.862599999999997`], List[6.7658000000000005`, \
-17.3156`], List[7.1268`, 17.6836`], List[7.5718000000000005`, 17.6836`]], \
-List[List[9.8938`, 18.999599999999997`], List[9.1598`, 18.996599999999997`], \
-List[8.4588`, 18.9336`], List[7.841800000000001`, 18.824599999999997`], \
-List[6.024800000000001`, 18.5036`], List[5.694800000000001`, \
-17.831599999999998`], List[5.694800000000001`, 16.592599999999997`], \
-List[5.694800000000001`, 14.955599999999999`], List[9.988800000000001`, \
-14.955599999999999`], List[9.988800000000001`, 14.410599999999999`], \
-List[5.694800000000001`, 14.410599999999999`], List[4.0838`, \
-14.410599999999999`], List[2.8358`, 14.410599999999999`], \
-List[1.7418000000000005`, 13.660599999999999`], List[1.4008000000000003`, \
-12.2336`], List[1.006800000000001`, 10.597599999999998`], \
-List[0.9888000000000003`, 9.5766`], List[1.4008000000000003`, \
-7.868599999999997`], List[1.7058000000000009`, 6.597599999999998`], \
-List[2.434800000000001`, 5.6915999999999976`], List[3.6828000000000007`, \
-5.6915999999999976`], List[5.158800000000001`, 5.6915999999999976`], \
-List[5.158800000000001`, 7.653599999999999`], List[5.158800000000001`, \
-9.070599999999999`], List[6.385800000000001`, 10.3216`], \
-List[7.841800000000001`, 10.3216`], List[12.1318`, 10.3216`], List[13.3248`, \
-10.3216`], List[14.2788`, 11.304599999999997`], List[14.2788`, \
-12.503599999999999`], List[14.2788`, 16.592599999999997`], List[14.2788`, \
-17.7566`], List[13.296800000000001`, 18.630599999999998`], List[12.1318`, \
-18.824599999999997`], List[11.3938`, 18.947599999999998`], List[10.6278`, \
-19.0036`], List[9.8938`, 18.999599999999997`]]]]], \
-List[FaceForm[List[RGBColor[0.976`, 0.8430000000000001`, 0.353`], \
-Opacity[1.`]]], FilledCurveBox[List[List[List[1, 4, 3], List[1, 3, 3], \
-List[1, 3, 3], List[1, 3, 3]], List[List[0, 2, 0], List[1, 3, 3], List[0, 1, \
-0], List[1, 3, 3], List[0, 1, 0], List[1, 3, 3], List[1, 3, 3], List[1, 3, \
-3], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, 0], List[0, 1, \
-0], List[1, 3, 3], List[1, 3, 3], List[1, 3, 3]]], List[List[List[12.4014`, \
-4.0552`], List[12.846400000000001`, 4.0552`], List[13.2074`, 3.6902`], \
-List[13.2074`, 3.2392000000000003`], List[13.2074`, 2.7862`], \
-List[12.846400000000001`, 2.4182`], List[12.4014`, 2.4182`], \
-List[11.958400000000001`, 2.4182`], List[11.595400000000001`, 2.7862`], \
-List[11.595400000000001`, 3.2392000000000003`], List[11.595400000000001`, \
-3.6902`], List[11.958400000000001`, 4.0552`], List[12.4014`, 4.0552`]], \
-List[List[14.814400000000001`, 14.410200000000003`], \
-List[14.814400000000001`, 12.5032`], List[14.814400000000001`, \
-11.025200000000002`], List[13.560400000000001`, 9.7812`], \
-List[12.131400000000001`, 9.7812`], List[7.841400000000001`, 9.7812`], \
-List[6.667400000000001`, 9.7812`], List[5.694400000000001`, 8.7752`], \
-List[5.694400000000001`, 7.5982`], List[5.694400000000001`, 3.5102`], \
-List[5.694400000000001`, 2.3462000000000005`], List[6.707400000000002`, \
-1.6612000000000005`], List[7.841400000000001`, 1.3272`], List[9.2014`, \
-0.9281999999999999`], List[10.5054`, 0.8552`], List[12.131400000000001`, \
-1.3272`], List[13.2124`, 1.6402000000000005`], List[14.278400000000001`, \
-2.2702`], List[14.278400000000001`, 3.5102`], List[14.278400000000001`, \
-5.1462`], List[9.989400000000002`, 5.1462`], List[9.989400000000002`, \
-5.6922`], List[14.278400000000001`, 5.6922`], List[16.4254`, 5.6922`], \
-List[17.6734`, 5.6922`], List[18.1384`, 6.562200000000001`], \
-List[18.572400000000002`, 7.8682`], List[19.0214`, 9.2142`], List[19.0024`, \
-10.5082`], List[18.572400000000002`, 12.2332`], List[18.264400000000002`, \
-13.475200000000001`], List[17.6754`, 14.410200000000003`], List[16.4254`, \
-14.410200000000003`]]]]]], List[Rule[ImageSize, Dynamic[List[Automatic, \
-Times[3.5`, Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]], Rule[AspectRatio, \
-Automatic], Rule[ImageSize, List[20.`, 20.`]], Rule[PlotRange, List[List[0.`, \
-20.`], List[0.`, 20.`]]]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"System: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"Python\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\
-\\\\\\\"Name: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"None\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Evaluator: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[PaneBox[\
-\\\"\\\\\\\"/Users/arnoudb/Library/Wolfram/ApplicationData/ExternalEvaluate/\
-Python/Venv/Wolfram-hypergraph/bin/python\\\\\\\"\\\", Rule[BaselinePosition, \
-Baseline]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Active: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[DynamicBox[ToBoxes[If[TrueQ[ExternalEvaluate`Private`getSessionOpts[\\\
-\"b624fb94-eedb-491e-86ae-4f511002b477\\\", \\\"Exists\\\"]], \
-ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\"][\\\"\
-Active\\\"], False], StandardForm], RuleDelayed[TrackedSymbols, \
-List[ExternalEvaluate`Private`$Links]]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Evaluator: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"/Users/arnoudb/Library/Wolfram/ApplicationData/ExternalEvaluate/Python/\
-Venv/Wolfram-hypergraph/bin/python\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"ID: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\\\\\"\\\", \
-\\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\\\\\"Epilog: \\\\\\\"\
-\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\
-\"Automatic\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Process: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[InterpretationBox[RowBox[List[TagBox[\\\"ProcessObject\\\", \
-\\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[List[Set[Typeset`open$$, \
-False], Set[Typeset`embedState$$, \\\"Ready\\\"]], \
-TemplateBox[List[PaneSelectorBox[List[Rule[False, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxOpener\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, True]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"Program: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"python3.11\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\
-\\\"\\\\\\\"PID: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"20432\\\", \\\"SummaryItem\\\"]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[GridBoxSpacings, List[Rule[\
-\\\"Columns\\\", List[List[2]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[BaseStyle, List[Rule[ShowStringCharacters, False], Rule[NumberMarks, \
-False], Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]], Rule[True, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxCloser\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, False]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"Program: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"python3.11\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\
-\\\"\\\\\\\"PID: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"20432\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Parent PID: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"19768\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\
-\\\\\"User: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\\\"arnoudb\\\\\\\"\\\", \
-\\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\\\\\"Path: \\\\\\\"\\\
-\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\
-\\\\\\\"/Users/arnoudb/Library/Wolfram/ApplicationData/ExternalEvaluate/\
-Python/Main/3.11/bin/python3.11\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Memory:\\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[TemplateBox[List[\\\"184.89344`\\\", \\\"\\\\\\\"MB\\\\\\\"\\\", \
-\\\"megabytes\\\", \\\"\\\\\\\"Megabytes\\\\\\\"\\\"], \\\"Quantity\\\", \
-Rule[SyntaxForm, Mod]], \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\
-\\\\\\\"Threads: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"17\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Start Time: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[TemplateBox[List[RowBox[List[\\\"\\\\\\\"Wed 24 Apr 2024 \
-12:51:26\\\\\\\"\\\", StyleBox[RowBox[List[\\\"\\\\\\\"GMT\\\\\\\"\\\", \
-\\\"\\\\[InvisibleSpace]\\\", StyleBox[RowBox[List[\\\"-\\\", \\\"5\\\"]], \
-Rule[NumberMarks, False], Rule[StripOnInput, False]]]], Rule[FontColor, \
-GrayLevel[0.5`]], Rule[FontSize, Plus[-4, Inherited]]]]], \
-RowBox[List[\\\"DateObject\\\", \\\"[\\\", RowBox[List[RowBox[List[\\\"{\\\", \
-RowBox[List[\\\"2024\\\", \\\",\\\", \\\"4\\\", \\\",\\\", \\\"24\\\", \
-\\\",\\\", \\\"12\\\", \\\",\\\", \\\"51\\\", \\\",\\\", \\\"26\\\"]], \
-\\\"}\\\"]], \\\",\\\", \\\"\\\\\\\"Instant\\\\\\\"\\\", \\\",\\\", \
-\\\"\\\\\\\"Gregorian\\\\\\\"\\\", \\\",\\\", RowBox[List[\\\"-\\\", \
-\\\"5.`\\\"]]]], \\\"]\\\"]]], \\\"DateObject\\\", Rule[Editable, False]], \\\
-\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\\\\\"System Time: \
-\\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[TemplateBox[List[\\\"0.0679410000000000014`5.\\\", \\\"\\\\\\\"s\\\\\\\
-\"\\\", \\\"seconds\\\", \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", \
-Rule[SyntaxForm, Mod]], \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\
-\\\\\\\"User Time: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", \
-TagBox[TemplateBox[List[\\\"0.0453280000000000002`5.\\\", \\\"\\\\\\\"s\\\\\\\
-\"\\\", \\\"seconds\\\", \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", \
-Rule[SyntaxForm, Mod]], \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\
-\\\\\\\"Real Time: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[TemplateBox[List[\\\"13\\\", \
-\\\"13.`5.\\\", RowBox[List[\\\"\\\\[ThinSpace]\\\", \
-\\\"\\\\\\\"min\\\\\\\"\\\"]], RowBox[List[\\\"\\\\[ThinSpace]\\\", \
-\\\"\\\\\\\"s\\\\\\\"\\\"]], \\\"minutes,seconds\\\", RowBox[List[\\\"{\\\", \
-RowBox[List[\\\"\\\\\\\"Minutes\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Seconds\\\
-\\\\\"\\\"]], \\\"}\\\"]]], \\\"QuantityMixedUnit2\\\"], \
-\\\"SummaryItem\\\"]]]]], Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", \
-List[List[Left]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[AutoDelete, False], Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", \
-List[List[Automatic]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", List[List[2]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
-List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
-Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
-\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
-\\\"]\\\"]], ProcessObject[Association[Rule[\\\"ManagedProcess\\\", True], \
-Rule[\\\"UID\\\", 0], Rule[\\\"PID\\\", 20432], Rule[\\\"PPID\\\", 19768], \
-Rule[\\\"Program\\\", \\\"python3.11\\\"], Rule[\\\"Path\\\", \
-\\\"/Users/arnoudb/Library/Wolfram/ApplicationData/ExternalEvaluate/Python/\
-Main/3.11/bin/python3.11\\\"], Rule[\\\"User\\\", \\\"arnoudb\\\"], \
-Rule[\\\"StartTime\\\", DateObject[List[2024, 4, 24, 12, 51, 26], \\\"Instant\
-\\\", \\\"Gregorian\\\", -5.`]]]], Rule[Selectable, False], Rule[Editable, \
-False], Rule[SelectWithContents, True]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Prolog: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"Automatic\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\
-\"\\\\\\\"ReturnType: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\\\"Expression\\\\\\\"\\\", \
-\\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\\\\\"SessionEpilog: \
-\\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"Automatic\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\
-\"\\\\\\\"SessionProlog: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\
-\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\\\"from \
-wolframclient.utils.importutils import import_string as wolfram_import_string\
-\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"Socket: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[InterpretationBox[RowBox[List[TagBox[\\\"SocketObject\\\", \
-\\\"SummaryHead\\\"], \\\"[\\\", DynamicModuleBox[List[Set[Typeset`open$$, \
-False], Set[Typeset`embedState$$, \\\"Ready\\\"]], \
-TemplateBox[List[PaneSelectorBox[List[Rule[False, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxOpener\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, True]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GraphicsBox[GeometricTransformationBox[List[List[List[FilledCurveBox[List[\
-List[Line[List[List[36.558`, 8.569`], List[40.947`, 8.569`], List[40.947`, \
-43.684000000000005`], List[36.558`, 43.684000000000005`], List[36.558`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[59.053`, 8.569`], \
-List[63.443`, 8.569`], List[63.443`, 43.684000000000005`], List[59.053`, \
-43.684000000000005`], List[59.053`, 8.569`]]]]]]], \
-List[List[FilledCurveBox[List[List[Line[List[List[55.487`, 8.569`], \
-List[56.95`, 8.569`], List[56.95`, 21.188000000000002`], List[55.487`, \
-21.188000000000002`], List[55.487`, 8.569`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[52.562`, 8.569`], List[54.025`, \
-8.569`], List[54.025`, 21.188000000000002`], List[52.562`, \
-21.188000000000002`], List[52.562`, 8.569`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[49.636`, 8.569`], \
-List[51.099000000000004`, 8.569`], List[51.099000000000004`, \
-21.188000000000002`], List[49.636`, 21.188000000000002`], List[49.636`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[46.709`, 8.569`], \
-List[48.172000000000004`, 8.569`], List[48.172000000000004`, \
-21.188000000000002`], List[46.709`, 21.188000000000002`], List[46.709`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[43.783`, 8.569`], \
-List[45.246`, 8.569`], List[45.246`, 21.188000000000002`], List[43.783`, \
-21.188000000000002`], List[43.783`, 8.569`]]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[40.947`, 4.911`], \
-List[59.787000000000006`, 4.911`], List[59.787000000000006`, 6.922`], \
-List[40.947`, 6.922`], List[40.947`, 4.911`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[44.057`, 31.675`], \
-List[56.678000000000004`, 31.675`], List[56.678000000000004`, 39.051`], \
-List[44.057`, 39.051`], List[44.057`, 31.675`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[44.057`, 43.685`], \
-List[56.678000000000004`, 43.685`], List[56.678000000000004`, 65.089`], \
-List[44.057`, 65.089`], List[44.057`, 43.685`]]]]]]]]], List[List[List[1, 0], \
-List[0, -1]], Center]], List[Rule[ImageSize, List[Automatic, \
-Dynamic[Times[3.5`, Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]], Rule[PlotRange, \
-List[List[20, 80], List[0, 70]]], Rule[BaseStyle, List[Rule[CacheGraphics, \
-False]]], Rule[ImageSize, 30]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"IPAddress: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"127.0.0.1\\\\\\\"\\\", \\\"SummaryItem\\\"]]], \
-RowBox[List[TagBox[\\\"\\\\\\\"Port: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"56283\\\", \\\"SummaryItem\\\"]]], \
-RowBox[List[TagBox[\\\"\\\\\\\"Type: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"ZMQ_PAIR\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\
-\"\\\\\\\"UUID: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"\\\\\\\"081c2801-a633-4a75-837d-8691db29c675\\\\\\\"\\\", \
-\\\"SummaryItem\\\"]]], \\\"\\\\[SpanFromLeft]\\\", \
-\\\"\\\\[SpanFromLeft]\\\"]], Rule[GridBoxAlignment, \
-List[Rule[\\\"Columns\\\", List[List[Left]]], Rule[\\\"Rows\\\", \
-List[List[Automatic]]]]], Rule[AutoDelete, False], Rule[GridBoxItemSize, \
-List[Rule[\\\"Columns\\\", List[List[Automatic]]], Rule[\\\"Rows\\\", \
-List[List[Automatic]]]]], Rule[GridBoxSpacings, List[Rule[\\\"Columns\\\", \
-List[List[2]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaseStyle, \
-List[Rule[ShowStringCharacters, False], Rule[NumberMarks, False], \
-Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]], Rule[True, \
-GridBox[List[List[PaneBox[ButtonBox[DynamicBox[FEPrivate`FrontEndResource[\\\"\
-FEBitmaps\\\", \\\"SummaryBoxCloser\\\"]], RuleDelayed[ButtonFunction, \
-Set[Typeset`open$$, False]], Rule[Appearance, None], Rule[BaseStyle, List[]], \
-Rule[Evaluator, Automatic], Rule[Method, \\\"Preemptive\\\"]], \
-Rule[Alignment, List[Center, Center]], Rule[ImageSize, \
-Dynamic[List[Automatic, Times[3.5`, \
-Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]]], \
-GraphicsBox[GeometricTransformationBox[List[List[List[FilledCurveBox[List[\
-List[Line[List[List[36.558`, 8.569`], List[40.947`, 8.569`], List[40.947`, \
-43.684000000000005`], List[36.558`, 43.684000000000005`], List[36.558`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[59.053`, 8.569`], \
-List[63.443`, 8.569`], List[63.443`, 43.684000000000005`], List[59.053`, \
-43.684000000000005`], List[59.053`, 8.569`]]]]]]], \
-List[List[FilledCurveBox[List[List[Line[List[List[55.487`, 8.569`], \
-List[56.95`, 8.569`], List[56.95`, 21.188000000000002`], List[55.487`, \
-21.188000000000002`], List[55.487`, 8.569`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[52.562`, 8.569`], List[54.025`, \
-8.569`], List[54.025`, 21.188000000000002`], List[52.562`, \
-21.188000000000002`], List[52.562`, 8.569`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[49.636`, 8.569`], \
-List[51.099000000000004`, 8.569`], List[51.099000000000004`, \
-21.188000000000002`], List[49.636`, 21.188000000000002`], List[49.636`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[46.709`, 8.569`], \
-List[48.172000000000004`, 8.569`], List[48.172000000000004`, \
-21.188000000000002`], List[46.709`, 21.188000000000002`], List[46.709`, \
-8.569`]]]]]]], List[FilledCurveBox[List[List[Line[List[List[43.783`, 8.569`], \
-List[45.246`, 8.569`], List[45.246`, 21.188000000000002`], List[43.783`, \
-21.188000000000002`], List[43.783`, 8.569`]]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[40.947`, 4.911`], \
-List[59.787000000000006`, 4.911`], List[59.787000000000006`, 6.922`], \
-List[40.947`, 6.922`], List[40.947`, 4.911`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[44.057`, 31.675`], \
-List[56.678000000000004`, 31.675`], List[56.678000000000004`, 39.051`], \
-List[44.057`, 39.051`], List[44.057`, 31.675`]]]]]]], \
-List[FilledCurveBox[List[List[Line[List[List[44.057`, 43.685`], \
-List[56.678000000000004`, 43.685`], List[56.678000000000004`, 65.089`], \
-List[44.057`, 65.089`], List[44.057`, 43.685`]]]]]]]]], List[List[List[1, 0], \
-List[0, -1]], Center]], List[Rule[ImageSize, List[Automatic, \
-Dynamic[Times[3.5`, Times[CurrentValue[\\\"FontCapHeight\\\"], \
-Power[AbsoluteCurrentValue[Magnification], -1]]]]]], Rule[PlotRange, \
-List[List[20, 80], List[0, 70]]], Rule[BaseStyle, List[Rule[CacheGraphics, \
-False]]], Rule[ImageSize, 30]]], \
-GridBox[List[List[RowBox[List[TagBox[\\\"\\\\\\\"IPAddress: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"127.0.0.1\\\\\\\"\\\", \\\"SummaryItem\\\"]]], \
-RowBox[List[TagBox[\\\"\\\\\\\"Port: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"56283\\\", \\\"SummaryItem\\\"]]], \
-RowBox[List[TagBox[\\\"\\\\\\\"Type: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", TagBox[\\\"\\\\\
-\\\"ZMQ_PAIR\\\\\\\"\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\
-\"\\\\\\\"UUID: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"\\\\\\\"081c2801-a633-4a75-837d-8691db29c675\\\\\\\"\\\", \
-\\\"SummaryItem\\\"]]], \\\"\\\\[SpanFromLeft]\\\", \
-\\\"\\\\[SpanFromLeft]\\\"], List[RowBox[List[TagBox[\\\"\\\\\\\"Endpoint: \\\
-\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"\\\\\\\"tcp://127.0.0.1:56283\\\\\\\"\\\", \\\"SummaryItem\\\"]]], \
-\\\"\\\\[SpanFromLeft]\\\", \\\"\\\\[SpanFromLeft]\\\"]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[GridBoxSpacings, List[Rule[\
-\\\"Columns\\\", List[List[2]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[BaseStyle, List[Rule[ShowStringCharacters, False], Rule[NumberMarks, \
-False], Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
-\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
-\\\"]\\\"]], SocketObject[\\\"081c2801-a633-4a75-837d-8691db29c675\\\"], \
-Rule[Selectable, False], Rule[Editable, False], Rule[SelectWithContents, \
-True]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"StandardOutputFunction: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[\\\"Print\\\", \\\"SummaryItem\\\"]]]], List[RowBox[List[TagBox[\\\"\\\
-\\\\\"EvaluationCount: \\\\\\\"\\\", \\\"SummaryItemAnnotation\\\"], \
-\\\"\\\\[InvisibleSpace]\\\", \
-TagBox[DynamicBox[ToBoxes[If[TrueQ[ExternalEvaluate`Private`getSessionOpts[\\\
-\"b624fb94-eedb-491e-86ae-4f511002b477\\\", \\\"Exists\\\"]], \
-ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\"][\\\"\
-EvaluationCount\\\"], None], StandardForm], RuleDelayed[TrackedSymbols, \
-List[ExternalEvaluate`Private`$Links]]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"ProcessMemory: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[DynamicBox[ToBoxes[If[TrueQ[ExternalEvaluate`Private`getSessionOpts[\\\
-\"b624fb94-eedb-491e-86ae-4f511002b477\\\", \\\"Exists\\\"]], \
-Refresh[ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\"][\\\
-\"ProcessMemory\\\"], Rule[UpdateInterval, 5]], \
-Missing[\\\"NotAvailable\\\"]], StandardForm], RuleDelayed[TrackedSymbols, \
-List[ExternalEvaluate`Private`$Links]]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"ProcessThreads: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[DynamicBox[ToBoxes[If[TrueQ[ExternalEvaluate`Private`getSessionOpts[\\\
-\"b624fb94-eedb-491e-86ae-4f511002b477\\\", \\\"Exists\\\"]], \
-Refresh[ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\"][\\\
-\"ProcessThreads\\\"], Rule[UpdateInterval, 5]], \
-Missing[\\\"NotAvailable\\\"]], StandardForm], RuleDelayed[TrackedSymbols, \
-List[ExternalEvaluate`Private`$Links]]], \\\"SummaryItem\\\"]]]], \
-List[RowBox[List[TagBox[\\\"\\\\\\\"SessionTime: \\\\\\\"\\\", \
-\\\"SummaryItemAnnotation\\\"], \\\"\\\\[InvisibleSpace]\\\", \
-TagBox[DynamicBox[ToBoxes[If[TrueQ[ExternalEvaluate`Private`getSessionOpts[\\\
-\"b624fb94-eedb-491e-86ae-4f511002b477\\\", \\\"Exists\\\"]], \
-Refresh[ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\"][\\\
-\"SessionTime\\\"], Rule[UpdateInterval, 1]], Missing[\\\"NotAvailable\\\"]], \
-StandardForm], RuleDelayed[TrackedSymbols, \
-List[ExternalEvaluate`Private`$Links]]], \\\"SummaryItem\\\"]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[GridBoxSpacings, List[Rule[\
-\\\"Columns\\\", List[List[2]]], Rule[\\\"Rows\\\", List[List[Automatic]]]]], \
-Rule[BaseStyle, List[Rule[ShowStringCharacters, False], Rule[NumberMarks, \
-False], Rule[PrintPrecision, 3], Rule[ShowSyntaxStyles, False]]]]]], \
-Rule[GridBoxAlignment, List[Rule[\\\"Columns\\\", List[List[Left]]], \
-Rule[\\\"Rows\\\", List[List[Top]]]]], Rule[AutoDelete, False], \
-Rule[GridBoxItemSize, List[Rule[\\\"Columns\\\", List[List[Automatic]]], \
-Rule[\\\"Rows\\\", List[List[Automatic]]]]], Rule[BaselinePosition, List[1, \
-1]]]]], Dynamic[Typeset`open$$], Rule[ImageSize, Automatic]]], \
-\\\"SummaryPanel\\\"], RuleDelayed[DynamicModuleValues, List[]]], \
-\\\"]\\\"}], ExternalSessionObject[\\\"b624fb94-eedb-491e-86ae-4f511002b477\\\
-\"], Rule[Selectable, False], Rule[Editable, False], Rule[SelectWithContents, \
-True]], \\\",\\\", RowBox[{\\\"ExternalEvaluate`RPC\\\", \\\"[\\\", \
-RowBox[{\\\"\\\\\\\"GetReference\\\\\\\"\\\", \\\",\\\", \
-\\\"6067606864\\\"}], \\\"]\\\"}], \\\",\\\", \
-RowBox[{\\\"\[LeftAssociation]\\\", \
-RowBox[{RowBox[{\\\"\\\\\\\"IsModule\\\\\\\"\\\", \\\"\[Rule]\\\", \
-\\\"False\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"Module\\\\\\\"\\\", \\\"\
-\[Rule]\\\", \\\"\\\\\\\"hypernetx.classes.hypergraph\\\\\\\"\\\"}], \
-\\\",\\\", RowBox[{\\\"\\\\\\\"IsClass\\\\\\\"\\\", \\\"\[Rule]\\\", \
-\\\"False\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"IsFunction\\\\\\\"\\\", \\\"\
-\[Rule]\\\", \\\"False\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"IsMethod\\\\\\\"\
-\\\", \\\"\[Rule]\\\", \\\"False\\\"}], \\\",\\\", \
-RowBox[{\\\"\\\\\\\"IsCallable\\\\\\\"\\\", \\\"\[Rule]\\\", \
-\\\"False\\\"}]}], \\\"\[RightAssociation]\\\"}]}], \\\"]\\\"}], \
-\\\"]\\\"}]\\).\"", 2, 32, 186, 34656813220257792848, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.922970679351091*^9},
- CellLabel->
-  "During evaluation of \
-In[32]:=",ExpressionUUID->"88115a15-4f0e-481c-bcff-3870c02f1395"],
-
-Cell[BoxData[
- RowBox[{"EdgeList", "[", 
-  InterpretationBox[
-   RowBox[{
-    TagBox["ExternalObject",
-     "SummaryHead"], "[", 
-    DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
-     TemplateBox[{
-       PaneSelectorBox[{False -> GridBox[{{
-             PaneBox[
-              ButtonBox[
-               DynamicBox[
-                FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
-               ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
-               BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-               "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-              Dynamic[{
-                Automatic, 
-                 3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                  Magnification])}]], 
-             GraphicsBox[{
-               Thickness[0.05], {
-                FaceForm[{
-                  RGBColor[1., 1., 1.], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
-                  0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {
-                  1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3,
-                   3}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                  0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
-                  1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3,
-                   3}, {1, 3, 3}}}, {{{7.5718000000000005`, 17.7334}, {7.0998,
-                   17.7334}, {6.7168, 17.342399999999998`}, {6.7168, 
-                  16.8624}, {6.7168, 16.3854}, {7.0998, 
-                  15.997399999999999`}, {7.5718000000000005`, 
-                  15.997399999999999`}, {8.043800000000001, 
-                  15.997399999999999`}, {8.4268, 16.3854}, {8.4268, 
-                  16.8624}, {8.4268, 17.342399999999998`}, {8.043800000000001,
-                   17.7334}, {7.5718000000000005`, 17.7334}}, CompressedData["
-
-1:eJxTTMoPSmViYGBQAWIQvXD12hvxZbwODSxH+w2/izl86QsuUZnOAuezVHCr
-aNT9se+5ncGQzyjl8EZ2+QsPve/2X6bfndzeKu/Qst2h6dHxD/ZfvSLbLMSU
-4fz1U1I7kmVV4erNVtuFRxdqOCRs3P9mns0fe98WXv/1ItoOR9qWh58yYnP4
-+AVowA4dh6z8D60nQwTg/EsTY/45/1KG87O1v02/K6zi8O7kYae1L3UdBLi3
-Lqs8Lubw+zRQhEnPwdnuxc01v8QcGtQOtS2fbgDng2w5ctHQgc1E0MzGVsLB
-+wS77exSIwfP/bWyFunyDs2BnnMbjhk5+CzjclP9quCwVMdZ5vUjI4cJhuW6
-ivFKDqbvLVzdPxk5JIYEqS84qezgLyeW5fvZyGHaJp7CNacRfAOQAamqcD63
-m2op0y01h3aQA54YOZx6ar/kvp0G3D4rZa/q5vVaEPMnQe0v1XG4bgIUWG4I
-58P8A+M/mCO4dC+jJpy/M5vz54Llag73gLESNVkLEm/7VBwOWgItcNaA86PE
-t19kiJOH80OmKfaVFkrC+ZbpLpn5BSIOx3JNGrY7KMH5UZf3PBaZKwfnw9IH
-AO506oE=
-                  "], {{12.401800000000001`, 4.1044}, {11.9298, 4.1044}, {
-                  11.5458, 3.7164}, {11.5458, 3.2394}, {11.5458, 
-                  2.7593999999999994`}, {11.9298, 2.369399999999999}, {
-                  12.401800000000001`, 2.369399999999999}, {
-                  12.872800000000002`, 2.369399999999999}, {13.2568, 
-                  2.7593999999999994`}, {13.2568, 3.2394}, {13.2568, 
-                  3.7164}, {12.872800000000002`, 4.1044}, {
-                  12.401800000000001`, 4.1044}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQ/Uei+LrQJ2UHhUNty8NPfbBfaXrW2m+iEpyvdVrg
-+C4LRYcC3899wSWf7M+tOn81LEfe4cBGvbzFjN/sb635FZPrKuPgUPST/+X2
-n/bOdi9urvkl5sARP8NHtIfRAcY/smKJn4MwD5y/aIv5j0MpcnB+rknDdocm
-RQepRxHi2y9KOeyeNoG/qkzZIQrIY4iTh/MPWip7VTtrwPkuv96+PmCpDedf
-mhjzz3mXroPFtaO5JgxqcP6DOYJL9zJqwvldfU8+yV/ScWBbPMmKMdfA4eMX
-r8i2HToOE/mrzFbXGcL5GnU9O7M1jRympHYkx8ZoO9z8AJIwcjBbbRceXajh
-0Pzo+Izd34wc3p087LT2pQqcL7R070HxNCWH+TY6V2YB1SeEBKkv6JR3kKlJ
-NAoVAKo/APTIb0kHkDMbphs6NLAc7Tf8LgZ3D4wPdu8vZTgfSJbrPlR2WNC5
-4eHLqSIOz+yX3N/Xp+OQF1a7bluSiIPPMi431VIdeHjD+CLAYLzHxOQwi0N6
-XpymlsMFzgylnIpf9lURK4AxrgGPT3B47lRzWNAU6Dm34ZP94ZRVQKerwtMD
-enoBAPI7A7I=
-                  "]}]}, {
-                FaceForm[{
-                  RGBColor[0.20800000000000002`, 0.514, 0.6859999999999999], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
-                  0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
-                  0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1,
-                   0}, {1, 3, 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 
-                  17.6836}, {8.014800000000001, 17.6836}, {8.3778, 17.3156}, {
-                  8.3778, 16.862599999999997`}, {8.3778, 16.4116}, {
-                  8.014800000000001, 16.046599999999998`}, {
-                  7.5718000000000005`, 16.046599999999998`}, {7.1268, 
-                  16.046599999999998`}, {6.7658000000000005`, 16.4116}, {
-                  6.7658000000000005`, 16.862599999999997`}, {
-                  6.7658000000000005`, 17.3156}, {7.1268, 17.6836}, {
-                  7.5718000000000005`, 17.6836}}, CompressedData["
-1:eJxTTMoPSmViYGBQBWIQnRgSpL7gpLLDYxHZk0//GzmYnbX2uxio5NBvWK6r
-COQ7nU+7+vyVgsOa7tsZDO+NHKLEt19kiJN3EPMI+CNx2cgh6fBl7VRJCYd/
-zr/evm4wchDg3rqs8riYQ2vU5T2PrxjC+XxzjBdtmW4A59fKWqS7vNR1uDQx
-BqhVGYMPVKRpdUkHrh7Gb5l3dtX5UAE4v+gn/8vt69ng/DOHndZm3vttD+YH
-aTt8OAkS+Gb/aUNA9qxyDQeec5KBt6Q/2N/XnbDgh6GqgwTQ2/ZL3tt77Ae6
-QF0Zrv6Nhat7UaW8wxWXGx++eP223xet4PgxWcqBJ0Mpp6KK2aFlefgpoyNi
-DgtXr70RX8YL5wcBbZmzSASDP2llU6DnXDk4/4fhs3WqKkoOb/V3q/N3Szq0
-nQw5uGKJCjx8YfyDlspe1c4acL5XdbO+zzItOP+Z/ZL7+/p0HJR2/mn/MlsN
-zgfybl9n1ITzYeEP4wNjvXPDQUOHa8+ztL9N13IARW/+QiO4fbD4haQPNYfO
-DQ9fTv1k5NADUueoColvBmMH9PQDAFGHDrQ=
-                  "]}]}, {
-                FaceForm[{
-                  RGBColor[0.976, 0.8430000000000001, 0.353], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                  0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {
-                  0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3,
-                   3}}}, {{{12.4014, 4.0552}, {12.846400000000001`, 4.0552}, {
-                  13.2074, 3.6902}, {13.2074, 3.2392000000000003`}, {13.2074, 
-                  2.7862}, {12.846400000000001`, 2.4182}, {12.4014, 2.4182}, {
-                  11.958400000000001`, 2.4182}, {11.595400000000001`, 
-                  2.7862}, {11.595400000000001`, 3.2392000000000003`}, {
-                  11.595400000000001`, 3.6902}, {11.958400000000001`, 
-                  4.0552}, {12.4014, 4.0552}}, CompressedData["
-1:eJxTTMoPSmViYGBQBGIQ3bszm/PnAl2HgsWMe1gv6TjA+Ec26uUtZtSE819t
-X8/8nEfNISJ64/43ctoOlq7uRT/7lR06k2PvuDlrwPkvs7S/TY+Vh/MvpF19
-nrVaCs6fH6d5WuC4mMNLkHk9inB+1r3Crr4UOTi/LerynsciPAh5hvxGlqNM
-Dr8OpaxKuCLlcO96Y7HblF/2MPtesZgImtl8tde5MuuZbLqSw52tLTUXNr+1
-/3363cnDTKoOCo4fk8/EvraHuRem3j4c6KEcLQel5HdRTna/7Ndlghyi4zCL
-Q3penCaTA4wPcw+Mn7H5VfHWqSIO6sGsiyf9UsbgG2itFL5wRAyuHsYH+zvH
-AM6PATlsjSGcbwwKeGUjhzV2QIfZSzn8sSo41zHJyKGuBxgRlfIOGUo5FVWs
-xg62s0Pnr85VcljVFOg5l8HYoX15+CkjFlW4+l23uv6mlms4/OIH2uhs5BAg
-J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
-                  "]}]}}, {
-              ImageSize -> 
-               Dynamic[{
-                 Automatic, 
-                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                   Magnification])}], AspectRatio -> Automatic, 
-               ImageSize -> {20., 20.}, PlotRange -> {{0., 20.}, {0., 20.}}}], 
-             GridBox[{{
-                RowBox[{
-                  TagBox["\"System: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["\"Python\"", "SummaryItem"]}], 
-                RowBox[{
-                  TagBox["\"IsModule: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}], ""}, {
-                RowBox[{
-                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
-                RowBox[{
-                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
-              GridBoxAlignment -> {
-               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-              False, GridBoxItemSize -> {
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-              GridBoxSpacings -> {
-               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-              BaseStyle -> {
-               ShowStringCharacters -> False, NumberMarks -> False, 
-                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-           GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-           AutoDelete -> False, 
-           GridBoxItemSize -> {
-            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-           BaselinePosition -> {1, 1}], True -> GridBox[{{
-             PaneBox[
-              ButtonBox[
-               DynamicBox[
-                FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
-               ButtonFunction :> (Typeset`open$$ = False), Appearance -> None,
-                BaseStyle -> {}, Evaluator -> Automatic, Method -> 
-               "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
-              Dynamic[{
-                Automatic, 
-                 3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                  Magnification])}]], 
-             GraphicsBox[{
-               Thickness[0.05], {
-                FaceForm[{
-                  RGBColor[1., 1., 1.], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
-                  0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {
-                  1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3,
-                   3}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                  0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
-                  1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3,
-                   3}, {1, 3, 3}}}, {{{7.5718000000000005`, 17.7334}, {7.0998,
-                   17.7334}, {6.7168, 17.342399999999998`}, {6.7168, 
-                  16.8624}, {6.7168, 16.3854}, {7.0998, 
-                  15.997399999999999`}, {7.5718000000000005`, 
-                  15.997399999999999`}, {8.043800000000001, 
-                  15.997399999999999`}, {8.4268, 16.3854}, {8.4268, 
-                  16.8624}, {8.4268, 17.342399999999998`}, {8.043800000000001,
-                   17.7334}, {7.5718000000000005`, 17.7334}}, CompressedData["
-
-1:eJxTTMoPSmViYGBQAWIQvXD12hvxZbwODSxH+w2/izl86QsuUZnOAuezVHCr
-aNT9se+5ncGQzyjl8EZ2+QsPve/2X6bfndzeKu/Qst2h6dHxD/ZfvSLbLMSU
-4fz1U1I7kmVV4erNVtuFRxdqOCRs3P9mns0fe98WXv/1ItoOR9qWh58yYnP4
-+AVowA4dh6z8D60nQwTg/EsTY/45/1KG87O1v02/K6zi8O7kYae1L3UdBLi3
-Lqs8Lubw+zRQhEnPwdnuxc01v8QcGtQOtS2fbgDng2w5ctHQgc1E0MzGVsLB
-+wS77exSIwfP/bWyFunyDs2BnnMbjhk5+CzjclP9quCwVMdZ5vUjI4cJhuW6
-ivFKDqbvLVzdPxk5JIYEqS84qezgLyeW5fvZyGHaJp7CNacRfAOQAamqcD63
-m2op0y01h3aQA54YOZx6ar/kvp0G3D4rZa/q5vVaEPMnQe0v1XG4bgIUWG4I
-58P8A+M/mCO4dC+jJpy/M5vz54Llag73gLESNVkLEm/7VBwOWgItcNaA86PE
-t19kiJOH80OmKfaVFkrC+ZbpLpn5BSIOx3JNGrY7KMH5UZf3PBaZKwfnw9IH
-AO506oE=
-                  "], {{12.401800000000001`, 4.1044}, {11.9298, 4.1044}, {
-                  11.5458, 3.7164}, {11.5458, 3.2394}, {11.5458, 
-                  2.7593999999999994`}, {11.9298, 2.369399999999999}, {
-                  12.401800000000001`, 2.369399999999999}, {
-                  12.872800000000002`, 2.369399999999999}, {13.2568, 
-                  2.7593999999999994`}, {13.2568, 3.2394}, {13.2568, 
-                  3.7164}, {12.872800000000002`, 4.1044}, {
-                  12.401800000000001`, 4.1044}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQ/Uei+LrQJ2UHhUNty8NPfbBfaXrW2m+iEpyvdVrg
-+C4LRYcC3899wSWf7M+tOn81LEfe4cBGvbzFjN/sb635FZPrKuPgUPST/+X2
-n/bOdi9urvkl5sARP8NHtIfRAcY/smKJn4MwD5y/aIv5j0MpcnB+rknDdocm
-RQepRxHi2y9KOeyeNoG/qkzZIQrIY4iTh/MPWip7VTtrwPkuv96+PmCpDedf
-mhjzz3mXroPFtaO5JgxqcP6DOYJL9zJqwvldfU8+yV/ScWBbPMmKMdfA4eMX
-r8i2HToOE/mrzFbXGcL5GnU9O7M1jRympHYkx8ZoO9z8AJIwcjBbbRceXajh
-0Pzo+Izd34wc3p087LT2pQqcL7R070HxNCWH+TY6V2YB1SeEBKkv6JR3kKlJ
-NAoVAKo/APTIb0kHkDMbphs6NLAc7Tf8LgZ3D4wPdu8vZTgfSJbrPlR2WNC5
-4eHLqSIOz+yX3N/Xp+OQF1a7bluSiIPPMi431VIdeHjD+CLAYLzHxOQwi0N6
-XpymlsMFzgylnIpf9lURK4AxrgGPT3B47lRzWNAU6Dm34ZP94ZRVQKerwtMD
-enoBAPI7A7I=
-                  "]}]}, {
-                FaceForm[{
-                  RGBColor[0.20800000000000002`, 0.514, 0.6859999999999999], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
-                  0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
-                  0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1,
-                   0}, {1, 3, 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 
-                  17.6836}, {8.014800000000001, 17.6836}, {8.3778, 17.3156}, {
-                  8.3778, 16.862599999999997`}, {8.3778, 16.4116}, {
-                  8.014800000000001, 16.046599999999998`}, {
-                  7.5718000000000005`, 16.046599999999998`}, {7.1268, 
-                  16.046599999999998`}, {6.7658000000000005`, 16.4116}, {
-                  6.7658000000000005`, 16.862599999999997`}, {
-                  6.7658000000000005`, 17.3156}, {7.1268, 17.6836}, {
-                  7.5718000000000005`, 17.6836}}, CompressedData["
-1:eJxTTMoPSmViYGBQBWIQnRgSpL7gpLLDYxHZk0//GzmYnbX2uxio5NBvWK6r
-COQ7nU+7+vyVgsOa7tsZDO+NHKLEt19kiJN3EPMI+CNx2cgh6fBl7VRJCYd/
-zr/evm4wchDg3rqs8riYQ2vU5T2PrxjC+XxzjBdtmW4A59fKWqS7vNR1uDQx
-BqhVGYMPVKRpdUkHrh7Gb5l3dtX5UAE4v+gn/8vt69ng/DOHndZm3vttD+YH
-aTt8OAkS+Gb/aUNA9qxyDQeec5KBt6Q/2N/XnbDgh6GqgwTQ2/ZL3tt77Ae6
-QF0Zrv6Nhat7UaW8wxWXGx++eP223xet4PgxWcqBJ0Mpp6KK2aFlefgpoyNi
-DgtXr70RX8YL5wcBbZmzSASDP2llU6DnXDk4/4fhs3WqKkoOb/V3q/N3Szq0
-nQw5uGKJCjx8YfyDlspe1c4acL5XdbO+zzItOP+Z/ZL7+/p0HJR2/mn/MlsN
-zgfybl9n1ITzYeEP4wNjvXPDQUOHa8+ztL9N13IARW/+QiO4fbD4haQPNYfO
-DQ9fTv1k5NADUueoColvBmMH9PQDAFGHDrQ=
-                  "]}]}, {
-                FaceForm[{
-                  RGBColor[0.976, 0.8430000000000001, 0.353], 
-                  Opacity[1.]}], 
-                
-                FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                  3}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                  0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {
-                  0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3,
-                   3}}}, {{{12.4014, 4.0552}, {12.846400000000001`, 4.0552}, {
-                  13.2074, 3.6902}, {13.2074, 3.2392000000000003`}, {13.2074, 
-                  2.7862}, {12.846400000000001`, 2.4182}, {12.4014, 2.4182}, {
-                  11.958400000000001`, 2.4182}, {11.595400000000001`, 
-                  2.7862}, {11.595400000000001`, 3.2392000000000003`}, {
-                  11.595400000000001`, 3.6902}, {11.958400000000001`, 
-                  4.0552}, {12.4014, 4.0552}}, CompressedData["
-1:eJxTTMoPSmViYGBQBGIQ3bszm/PnAl2HgsWMe1gv6TjA+Ec26uUtZtSE819t
-X8/8nEfNISJ64/43ctoOlq7uRT/7lR06k2PvuDlrwPkvs7S/TY+Vh/MvpF19
-nrVaCs6fH6d5WuC4mMNLkHk9inB+1r3Crr4UOTi/LerynsciPAh5hvxGlqNM
-Dr8OpaxKuCLlcO96Y7HblF/2MPtesZgImtl8tde5MuuZbLqSw52tLTUXNr+1
-/3363cnDTKoOCo4fk8/EvraHuRem3j4c6KEcLQel5HdRTna/7Ndlghyi4zCL
-Q3penCaTA4wPcw+Mn7H5VfHWqSIO6sGsiyf9UsbgG2itFL5wRAyuHsYH+zvH
-AM6PATlsjSGcbwwKeGUjhzV2QIfZSzn8sSo41zHJyKGuBxgRlfIOGUo5FVWs
-xg62s0Pnr85VcljVFOg5l8HYoX15+CkjFlW4+l23uv6mlms4/OIH2uhs5BAg
-J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
-                  "]}]}}, {
-              ImageSize -> 
-               Dynamic[{
-                 Automatic, 
-                  3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                   Magnification])}], AspectRatio -> Automatic, 
-               ImageSize -> {20., 20.}, PlotRange -> {{0., 20.}, {0., 20.}}}], 
-             GridBox[{{
-                RowBox[{
-                  TagBox["\"System: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["\"Python\"", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"IsModule: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"Module: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox[
-                  "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"IsFunction: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"IsMethod: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"IsCallable: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["False", "SummaryItem"]}]}, {
-                RowBox[{
-                  TagBox["\"Status: \"", "SummaryItemAnnotation"], 
-                  "\[InvisibleSpace]", 
-                  TagBox["\"Evaluated\"", "SummaryItem"]}]}}, 
-              GridBoxAlignment -> {
-               "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
-              False, GridBoxItemSize -> {
-               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-              GridBoxSpacings -> {
-               "Columns" -> {{2}}, "Rows" -> {{Automatic}}}, 
-              BaseStyle -> {
-               ShowStringCharacters -> False, NumberMarks -> False, 
-                PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
-           GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
-           AutoDelete -> False, 
-           GridBoxItemSize -> {
-            "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-           BaselinePosition -> {1, 1}]}, 
-        Dynamic[Typeset`open$$], ImageSize -> Automatic]},
-      "SummaryPanel"],
-     DynamicModuleValues:>{}], "]"}],
-   ExternalObject[
-    ExternalSessionObject["b624fb94-eedb-491e-86ae-4f511002b477"], 
-    ExternalEvaluate`RPC["GetReference", 6067606864], <|
-    "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", 
-     "IsClass" -> False, "IsFunction" -> False, "IsMethod" -> False, 
-     "IsCallable" -> False|>],
-   Editable->False,
-   SelectWithContents->True,
-   Selectable->False], "]"}]], "Output",
- CellChangeTimes->{3.9229706793673687`*^9},
- CellLabel->"Out[32]=",ExpressionUUID->"d9cd3308-150d-47a1-8873-3e85f85ffe49"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"HypergraphDiameter", "[", "hg", "]"}]], "Input",
- CellChangeTimes->{{3.922970429317768*^9, 3.922970437764165*^9}},
- CellLabel->"In[31]:=",ExpressionUUID->"f2d79d29-dcdc-4de1-b84a-bd4a63a941f1"],
-
-Cell[BoxData["2"], "Output",
- CellChangeTimes->{3.922970438260908*^9},
- CellLabel->"Out[31]=",ExpressionUUID->"775a7b37-61f8-472c-aa53-256bdebd3468"]
+   3.92280115913234*^9, 3.922867081102633*^9, 3.922867299631828*^9, 
+   3.922868043687945*^9, 3.922868122776121*^9, 3.9229698378299627`*^9, 
+   3.9246105325474997`*^9, 3.924611062148445*^9, 3.92461133043784*^9, 
+   3.9246114529798594`*^9, 3.9246120690276423`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"62bc86b7-48ba-4f1b-b882-7299bcd1ad76"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2247,368 +915,216 @@ Cell[BoxData[
       RowBox[{"2", ",", "3"}], "}"}], ",", 
      RowBox[{"{", 
       RowBox[{"3", ",", "0"}], "}"}]}], "}"}], "]"}]}]], "Input",
- InitializationCell->True,
+ CellLabel->"In[5]:=",ExpressionUUID->"32942c54-cd77-43a3-815b-76fc1cfb0c19"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"0", ",", "1", ",", "2", ",", "3"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.924610935323501*^9, {3.924611042680155*^9, 3.924611063883483*^9}, 
+   3.9246113459456167`*^9, 3.924611487482264*^9, 3.924612071860248*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"1597867d-50dc-4a9a-acd0-017b0111559b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"EdgeList", "[", "hg", "]"}]], "Input",
+ CellChangeTimes->{{3.922970663028651*^9, 3.922970678115376*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"1232c132-5495-459e-89ff-f0ce4429a081"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "EdgeList", "graph", 
+   "\"A graph object is expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"EdgeList\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"0\\\", \\\",\\\", \\\"1\\\", \\\",\\\", \\\"2\\\", \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\"]\\\"}]\\).\"", 2, 6, 1, 34667620212106922149, 
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.922970679351091*^9, 3.924612010942917*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"971cd552-e591-48e2-bc14-4aaeaeb725d0"],
+
+Cell[BoxData[
+ RowBox[{"EdgeList", "[", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "2", ",", "3"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{3.9229706793673687`*^9, 3.9246120109470367`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"f73e19dc-2e7b-426a-bf24-c77c86341ec3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"HypergraphDiameter", "[", "hg", "]"}]], "Input",
+ CellChangeTimes->{{3.922970429317768*^9, 3.922970437764165*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"f2d79d29-dcdc-4de1-b84a-bd4a63a941f1"],
+
+Cell[BoxData[
+ RowBox[{"HypergraphDiameter", "[", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "2", ",", "3"}], "}"}], "]"}]], "Output",
+ CellChangeTimes->{3.922970438260908*^9, 3.924612016390398*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"10161453-770c-4d13-b5cd-ac0e3b00d4f3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"hg", "=", 
+  RowBox[{"CreateHypergraph", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"0", ",", "1"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"2", ",", "3"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"3", ",", "0"}], "}"}]}], "}"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.9227955865432177`*^9, 3.922795617018423*^9}, {
   3.922795905423779*^9, 3.922795905593668*^9}, {3.922872882301714*^9, 
-  3.9228729421508408`*^9}},
- CellLabel->"In[25]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
+  3.9228729421508403`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StartExternalSession", "unknownOpts", 
+   "\"The options \\!\\(\\*RowBox[{\\\"{\\\", \
+\\\"\\\\\\\"ProcessDirectory\\\\\\\"\\\", \\\"}\\\"}]\\) aren't valid options \
+for StartExternalSession.\"", 2, 3, 1, 34667614418706237210, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.92461052858282*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"efe0c78d-0885-41ed-8639-9c24fe5eae11"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{
-   TagBox["ExternalObject",
+   TagBox["Failure",
     "SummaryHead"], "[", 
-   DynamicModuleBox[{Typeset`open$$ = True, Typeset`embedState$$ = "Ready"}, 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
     TemplateBox[{
       PaneSelectorBox[{False -> GridBox[{{
-            PaneBox[
-             ButtonBox[
-              DynamicBox[
-               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"], 
-               ImageSizeCache -> {10.6984921875, {0., 10.6984921875}}], 
-              Appearance -> None, BaseStyle -> {}, 
-              ButtonFunction :> (Typeset`open$$ = True), Evaluator -> 
-              Automatic, Method -> "Preemptive"], 
-             Alignment -> {Center, Center}, ImageSize -> 
-             Dynamic[{
-               Automatic, 
-                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                 Magnification])}]], 
-            GraphicsBox[{
-              Thickness[0.05], {
-               FaceForm[{
-                 RGBColor[1., 1., 1.], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
-                 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {
-                 1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
-                 3}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
-                 1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
-                 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 17.7334}, {7.0998, 
-                 17.7334}, {6.7168, 17.342399999999998`}, {6.7168, 16.8624}, {
-                 6.7168, 16.3854}, {7.0998, 15.997399999999999`}, {
-                 7.5718000000000005`, 15.997399999999999`}, {
-                 8.043800000000001, 15.997399999999999`}, {8.4268, 16.3854}, {
-                 8.4268, 16.8624}, {8.4268, 17.342399999999998`}, {
-                 8.043800000000001, 17.7334}, {7.5718000000000005`, 
-                 17.7334}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQvXD12hvxZbwODSxH+w2/izl86QsuUZnOAuezVHCr
-aNT9se+5ncGQzyjl8EZ2+QsPve/2X6bfndzeKu/Qst2h6dHxD/ZfvSLbLMSU
-4fz1U1I7kmVV4erNVtuFRxdqOCRs3P9mns0fe98WXv/1ItoOR9qWh58yYnP4
-+AVowA4dh6z8D60nQwTg/EsTY/45/1KG87O1v02/K6zi8O7kYae1L3UdBLi3
-Lqs8Lubw+zRQhEnPwdnuxc01v8QcGtQOtS2fbgDng2w5ctHQgc1E0MzGVsLB
-+wS77exSIwfP/bWyFunyDs2BnnMbjhk5+CzjclP9quCwVMdZ5vUjI4cJhuW6
-ivFKDqbvLVzdPxk5JIYEqS84qezgLyeW5fvZyGHaJp7CNacRfAOQAamqcD63
-m2op0y01h3aQA54YOZx6ar/kvp0G3D4rZa/q5vVaEPMnQe0v1XG4bgIUWG4I
-58P8A+M/mCO4dC+jJpy/M5vz54Llag73gLESNVkLEm/7VBwOWgItcNaA86PE
-t19kiJOH80OmKfaVFkrC+ZbpLpn5BSIOx3JNGrY7KMH5UZf3PBaZKwfnw9IH
-AO506oE=
-                 "], {{12.401800000000001`, 4.1044}, {11.9298, 4.1044}, {
-                 11.5458, 3.7164}, {11.5458, 3.2394}, {11.5458, 
-                 2.7593999999999994`}, {11.9298, 2.369399999999999}, {
-                 12.401800000000001`, 2.369399999999999}, {
-                 12.872800000000002`, 2.369399999999999}, {13.2568, 
-                 2.7593999999999994`}, {13.2568, 3.2394}, {13.2568, 3.7164}, {
-                 12.872800000000002`, 4.1044}, {12.401800000000001`, 
-                 4.1044}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQ/Uei+LrQJ2UHhUNty8NPfbBfaXrW2m+iEpyvdVrg
-+C4LRYcC3899wSWf7M+tOn81LEfe4cBGvbzFjN/sb635FZPrKuPgUPST/+X2
-n/bOdi9urvkl5sARP8NHtIfRAcY/smKJn4MwD5y/aIv5j0MpcnB+rknDdocm
-RQepRxHi2y9KOeyeNoG/qkzZIQrIY4iTh/MPWip7VTtrwPkuv96+PmCpDedf
-mhjzz3mXroPFtaO5JgxqcP6DOYJL9zJqwvldfU8+yV/ScWBbPMmKMdfA4eMX
-r8i2HToOE/mrzFbXGcL5GnU9O7M1jRympHYkx8ZoO9z8AJIwcjBbbRceXajh
-0Pzo+Izd34wc3p087LT2pQqcL7R070HxNCWH+TY6V2YB1SeEBKkv6JR3kKlJ
-NAoVAKo/APTIb0kHkDMbphs6NLAc7Tf8LgZ3D4wPdu8vZTgfSJbrPlR2WNC5
-4eHLqSIOz+yX3N/Xp+OQF1a7bluSiIPPMi431VIdeHjD+CLAYLzHxOQwi0N6
-XpymlsMFzgylnIpf9lURK4AxrgGPT3B47lRzWNAU6Dm34ZP94ZRVQKerwtMD
-enoBAPI7A7I=
-                 "]}]}, {
-               FaceForm[{
-                 RGBColor[0.20800000000000002`, 0.514, 0.6859999999999999], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
-                 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
-                 0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 
-                 17.6836}, {8.014800000000001, 17.6836}, {8.3778, 17.3156}, {
-                 8.3778, 16.862599999999997`}, {8.3778, 16.4116}, {
-                 8.014800000000001, 16.046599999999998`}, {
-                 7.5718000000000005`, 16.046599999999998`}, {7.1268, 
-                 16.046599999999998`}, {6.7658000000000005`, 16.4116}, {
-                 6.7658000000000005`, 16.862599999999997`}, {
-                 6.7658000000000005`, 17.3156}, {7.1268, 17.6836}, {
-                 7.5718000000000005`, 17.6836}}, CompressedData["
-1:eJxTTMoPSmViYGBQBWIQnRgSpL7gpLLDYxHZk0//GzmYnbX2uxio5NBvWK6r
-COQ7nU+7+vyVgsOa7tsZDO+NHKLEt19kiJN3EPMI+CNx2cgh6fBl7VRJCYd/
-zr/evm4wchDg3rqs8riYQ2vU5T2PrxjC+XxzjBdtmW4A59fKWqS7vNR1uDQx
-BqhVGYMPVKRpdUkHrh7Gb5l3dtX5UAE4v+gn/8vt69ng/DOHndZm3vttD+YH
-aTt8OAkS+Gb/aUNA9qxyDQeec5KBt6Q/2N/XnbDgh6GqgwTQ2/ZL3tt77Ae6
-QF0Zrv6Nhat7UaW8wxWXGx++eP223xet4PgxWcqBJ0Mpp6KK2aFlefgpoyNi
-DgtXr70RX8YL5wcBbZmzSASDP2llU6DnXDk4/4fhs3WqKkoOb/V3q/N3Szq0
-nQw5uGKJCjx8YfyDlspe1c4acL5XdbO+zzItOP+Z/ZL7+/p0HJR2/mn/MlsN
-zgfybl9n1ITzYeEP4wNjvXPDQUOHa8+ztL9N13IARW/+QiO4fbD4haQPNYfO
-DQ9fTv1k5NADUueoColvBmMH9PQDAFGHDrQ=
-                 "]}]}, {
-               FaceForm[{
-                 RGBColor[0.976, 0.8430000000000001, 0.353], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {
-                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}}, {{{12.4014, 4.0552}, {12.846400000000001`, 4.0552}, {
-                 13.2074, 3.6902}, {13.2074, 3.2392000000000003`}, {13.2074, 
-                 2.7862}, {12.846400000000001`, 2.4182}, {12.4014, 2.4182}, {
-                 11.958400000000001`, 2.4182}, {11.595400000000001`, 
-                 2.7862}, {11.595400000000001`, 3.2392000000000003`}, {
-                 11.595400000000001`, 3.6902}, {11.958400000000001`, 
-                 4.0552}, {12.4014, 4.0552}}, CompressedData["
-1:eJxTTMoPSmViYGBQBGIQ3bszm/PnAl2HgsWMe1gv6TjA+Ec26uUtZtSE819t
-X8/8nEfNISJ64/43ctoOlq7uRT/7lR06k2PvuDlrwPkvs7S/TY+Vh/MvpF19
-nrVaCs6fH6d5WuC4mMNLkHk9inB+1r3Crr4UOTi/LerynsciPAh5hvxGlqNM
-Dr8OpaxKuCLlcO96Y7HblF/2MPtesZgImtl8tde5MuuZbLqSw52tLTUXNr+1
-/3363cnDTKoOCo4fk8/EvraHuRem3j4c6KEcLQel5HdRTna/7Ndlghyi4zCL
-Q3penCaTA4wPcw+Mn7H5VfHWqSIO6sGsiyf9UsbgG2itFL5wRAyuHsYH+zvH
-AM6PATlsjSGcbwwKeGUjhzV2QIfZSzn8sSo41zHJyKGuBxgRlfIOGUo5FVWs
-xg62s0Pnr85VcljVFOg5l8HYoX15+CkjFlW4+l23uv6mlms4/OIH2uhs5BAg
-J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
-                 "]}]}}, AspectRatio -> Automatic, ImageSize -> 
-             Dynamic[{
-               Automatic, 
-                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                 Magnification])}], PlotRange -> {{0., 20.}, {0., 20.}}], 
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
             GridBox[{{
-               RowBox[{
-                 TagBox["\"System: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"Python\"", "SummaryItem"]}], 
-               RowBox[{
-                 TagBox["\"IsModule: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}], ""}, {
-               RowBox[{
-                 TagBox["\"Module: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"hypernetx.classes.hypergraph\"", "SummaryItem"]}], 
-               
-               RowBox[{
-                 TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}], "\[SpanFromLeft]"}}, 
-             AutoDelete -> False, 
-             BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}, 
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"The options \\!\\(\\*TagBox[RowBox[{\\\"{\\\", \\\"\\\\\
+\\\"ProcessDirectory\\\\\\\"\\\", \\\"}\\\"}], Function[Short[Slot[1], \
+5]]]\\) aren't valid options for StartExternalSession.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"ExternalEvaluateFailure\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"ErrorTag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"unknownOpts\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
              GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {
-              "Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}}, AutoDelete -> 
-          False, BaselinePosition -> {1, 1}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
           GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
           GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], True -> 
-        GridBox[{{
-            PaneBox[
-             ButtonBox[
-              DynamicBox[
-               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"], 
-               ImageSizeCache -> {10.6984921875, {0., 10.6984921875}}], 
-              Appearance -> None, BaseStyle -> {}, 
-              ButtonFunction :> (Typeset`open$$ = False), Evaluator -> 
-              Automatic, Method -> "Preemptive"], 
-             Alignment -> {Center, Center}, ImageSize -> 
-             Dynamic[{
-               Automatic, 
-                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                 Magnification])}]], 
-            GraphicsBox[{
-              Thickness[0.05], {
-               FaceForm[{
-                 RGBColor[1., 1., 1.], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
-                 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {
-                 1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
-                 3}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {
-                 1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
-                 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 17.7334}, {7.0998, 
-                 17.7334}, {6.7168, 17.342399999999998`}, {6.7168, 16.8624}, {
-                 6.7168, 16.3854}, {7.0998, 15.997399999999999`}, {
-                 7.5718000000000005`, 15.997399999999999`}, {
-                 8.043800000000001, 15.997399999999999`}, {8.4268, 16.3854}, {
-                 8.4268, 16.8624}, {8.4268, 17.342399999999998`}, {
-                 8.043800000000001, 17.7334}, {7.5718000000000005`, 
-                 17.7334}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQvXD12hvxZbwODSxH+w2/izl86QsuUZnOAuezVHCr
-aNT9se+5ncGQzyjl8EZ2+QsPve/2X6bfndzeKu/Qst2h6dHxD/ZfvSLbLMSU
-4fz1U1I7kmVV4erNVtuFRxdqOCRs3P9mns0fe98WXv/1ItoOR9qWh58yYnP4
-+AVowA4dh6z8D60nQwTg/EsTY/45/1KG87O1v02/K6zi8O7kYae1L3UdBLi3
-Lqs8Lubw+zRQhEnPwdnuxc01v8QcGtQOtS2fbgDng2w5ctHQgc1E0MzGVsLB
-+wS77exSIwfP/bWyFunyDs2BnnMbjhk5+CzjclP9quCwVMdZ5vUjI4cJhuW6
-ivFKDqbvLVzdPxk5JIYEqS84qezgLyeW5fvZyGHaJp7CNacRfAOQAamqcD63
-m2op0y01h3aQA54YOZx6ar/kvp0G3D4rZa/q5vVaEPMnQe0v1XG4bgIUWG4I
-58P8A+M/mCO4dC+jJpy/M5vz54Llag73gLESNVkLEm/7VBwOWgItcNaA86PE
-t19kiJOH80OmKfaVFkrC+ZbpLpn5BSIOx3JNGrY7KMH5UZf3PBaZKwfnw9IH
-AO506oE=
-                 "], {{12.401800000000001`, 4.1044}, {11.9298, 4.1044}, {
-                 11.5458, 3.7164}, {11.5458, 3.2394}, {11.5458, 
-                 2.7593999999999994`}, {11.9298, 2.369399999999999}, {
-                 12.401800000000001`, 2.369399999999999}, {
-                 12.872800000000002`, 2.369399999999999}, {13.2568, 
-                 2.7593999999999994`}, {13.2568, 3.2394}, {13.2568, 3.7164}, {
-                 12.872800000000002`, 4.1044}, {12.401800000000001`, 
-                 4.1044}}, CompressedData["
-1:eJxTTMoPSmViYGBQAWIQ/Uei+LrQJ2UHhUNty8NPfbBfaXrW2m+iEpyvdVrg
-+C4LRYcC3899wSWf7M+tOn81LEfe4cBGvbzFjN/sb635FZPrKuPgUPST/+X2
-n/bOdi9urvkl5sARP8NHtIfRAcY/smKJn4MwD5y/aIv5j0MpcnB+rknDdocm
-RQepRxHi2y9KOeyeNoG/qkzZIQrIY4iTh/MPWip7VTtrwPkuv96+PmCpDedf
-mhjzz3mXroPFtaO5JgxqcP6DOYJL9zJqwvldfU8+yV/ScWBbPMmKMdfA4eMX
-r8i2HToOE/mrzFbXGcL5GnU9O7M1jRympHYkx8ZoO9z8AJIwcjBbbRceXajh
-0Pzo+Izd34wc3p087LT2pQqcL7R070HxNCWH+TY6V2YB1SeEBKkv6JR3kKlJ
-NAoVAKo/APTIb0kHkDMbphs6NLAc7Tf8LgZ3D4wPdu8vZTgfSJbrPlR2WNC5
-4eHLqSIOz+yX3N/Xp+OQF1a7bluSiIPPMi431VIdeHjD+CLAYLzHxOQwi0N6
-XpymlsMFzgylnIpf9lURK4AxrgGPT3B47lRzWNAU6Dm34ZP94ZRVQKerwtMD
-enoBAPI7A7I=
-                 "]}]}, {
-               FaceForm[{
-                 RGBColor[0.20800000000000002`, 0.514, 0.6859999999999999], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{1, 4, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
-                 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {
-                 0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {1, 3, 3}}}, {{{7.5718000000000005`, 
-                 17.6836}, {8.014800000000001, 17.6836}, {8.3778, 17.3156}, {
-                 8.3778, 16.862599999999997`}, {8.3778, 16.4116}, {
-                 8.014800000000001, 16.046599999999998`}, {
-                 7.5718000000000005`, 16.046599999999998`}, {7.1268, 
-                 16.046599999999998`}, {6.7658000000000005`, 16.4116}, {
-                 6.7658000000000005`, 16.862599999999997`}, {
-                 6.7658000000000005`, 17.3156}, {7.1268, 17.6836}, {
-                 7.5718000000000005`, 17.6836}}, CompressedData["
-1:eJxTTMoPSmViYGBQBWIQnRgSpL7gpLLDYxHZk0//GzmYnbX2uxio5NBvWK6r
-COQ7nU+7+vyVgsOa7tsZDO+NHKLEt19kiJN3EPMI+CNx2cgh6fBl7VRJCYd/
-zr/evm4wchDg3rqs8riYQ2vU5T2PrxjC+XxzjBdtmW4A59fKWqS7vNR1uDQx
-BqhVGYMPVKRpdUkHrh7Gb5l3dtX5UAE4v+gn/8vt69ng/DOHndZm3vttD+YH
-aTt8OAkS+Gb/aUNA9qxyDQeec5KBt6Q/2N/XnbDgh6GqgwTQ2/ZL3tt77Ae6
-QF0Zrv6Nhat7UaW8wxWXGx++eP223xet4PgxWcqBJ0Mpp6KK2aFlefgpoyNi
-DgtXr70RX8YL5wcBbZmzSASDP2llU6DnXDk4/4fhs3WqKkoOb/V3q/N3Szq0
-nQw5uGKJCjx8YfyDlspe1c4acL5XdbO+zzItOP+Z/ZL7+/p0HJR2/mn/MlsN
-zgfybl9n1ITzYeEP4wNjvXPDQUOHa8+ztL9N13IARW/+QiO4fbD4haQPNYfO
-DQ9fTv1k5NADUueoColvBmMH9PQDAFGHDrQ=
-                 "]}]}, {
-               FaceForm[{
-                 RGBColor[0.976, 0.8430000000000001, 0.353], 
-                 Opacity[1.]}], 
-               
-               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}, {{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
-                 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {
-                 0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
-                 3}}}, {{{12.4014, 4.0552}, {12.846400000000001`, 4.0552}, {
-                 13.2074, 3.6902}, {13.2074, 3.2392000000000003`}, {13.2074, 
-                 2.7862}, {12.846400000000001`, 2.4182}, {12.4014, 2.4182}, {
-                 11.958400000000001`, 2.4182}, {11.595400000000001`, 
-                 2.7862}, {11.595400000000001`, 3.2392000000000003`}, {
-                 11.595400000000001`, 3.6902}, {11.958400000000001`, 
-                 4.0552}, {12.4014, 4.0552}}, CompressedData["
-1:eJxTTMoPSmViYGBQBGIQ3bszm/PnAl2HgsWMe1gv6TjA+Ec26uUtZtSE819t
-X8/8nEfNISJ64/43ctoOlq7uRT/7lR06k2PvuDlrwPkvs7S/TY+Vh/MvpF19
-nrVaCs6fH6d5WuC4mMNLkHk9inB+1r3Crr4UOTi/LerynsciPAh5hvxGlqNM
-Dr8OpaxKuCLlcO96Y7HblF/2MPtesZgImtl8tde5MuuZbLqSw52tLTUXNr+1
-/3363cnDTKoOCo4fk8/EvraHuRem3j4c6KEcLQel5HdRTna/7Ndlghyi4zCL
-Q3penCaTA4wPcw+Mn7H5VfHWqSIO6sGsiyf9UsbgG2itFL5wRAyuHsYH+zvH
-AM6PATlsjSGcbwwKeGUjhzV2QIfZSzn8sSo41zHJyKGuBxgRlfIOGUo5FVWs
-xg62s0Pnr85VcljVFOg5l8HYoX15+CkjFlW4+l23uv6mlms4/OIH2uhs5BAg
-J5bl+1kLYj/QPlh8w9wD4wMA37PnHw==
-                 "]}]}}, AspectRatio -> Automatic, ImageSize -> 
-             Dynamic[{
-               Automatic, 
-                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                 Magnification])}], PlotRange -> {{0., 20.}, {0., 20.}}], 
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            FrameBox[
+             StyleBox["\"\[WarningSign]\"", 
+              Directive["Message", 35], StripOnInput -> False], 
+             ContentPadding -> False, FrameStyle -> None, 
+             FrameMargins -> {{0, 0}, {0, 0}}, StripOnInput -> False], 
             GridBox[{{
-               RowBox[{
-                 TagBox["\"System: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"Python\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"IsModule: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Module: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox[
-                 "\"hypernetx.classes.hypergraph\"", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"IsClass: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"IsFunction: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"IsMethod: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"IsCallable: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["False", "SummaryItem"]}]}, {
-               RowBox[{
-                 TagBox["\"Status: \"", "SummaryItemAnnotation"], 
-                 "\[InvisibleSpace]", 
-                 TagBox["\"Evaluated\"", "SummaryItem"]}]}}, AutoDelete -> 
-             False, BaseStyle -> {
-              ShowStringCharacters -> False, NumberMarks -> False, 
-               PrintPrecision -> 3, ShowSyntaxStyles -> False}, 
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Message: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox[
+                   "\"The options \\!\\(\\*TagBox[RowBox[{\\\"{\\\", \\\"\\\\\
+\\\"ProcessDirectory\\\\\\\"\\\", \\\"}\\\"}], Function[Short[Slot[1], \
+5]]]\\) aren't valid options for StartExternalSession.\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"Tag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"ExternalEvaluateFailure\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}, {
+               TagBox[
+                GridBox[{{
+                   TagBox["\"ErrorTag: \"", "SummaryItemAnnotation"], 
+                   "\[InvisibleSpace]", 
+                   TagBox["\"unknownOpts\"", "SummaryItem"]}}, 
+                 GridBoxItemSize -> {"Columns" -> {6.5, All, Automatic}}, 
+                 GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                 GridBoxSpacings -> {"Columns" -> {{0}}}], "SummaryItem"]}}, 
              GridBoxAlignment -> {
-              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
-             GridBoxItemSize -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             GridBoxSpacings -> {
-              "Columns" -> {{2}}, "Rows" -> {{Automatic}}}]}}, AutoDelete -> 
-          False, BaselinePosition -> {1, 1}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
           GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
           GridBoxItemSize -> {
-           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]}, 
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
        Dynamic[Typeset`open$$], ImageSize -> Automatic]},
      "SummaryPanel"],
     DynamicModuleValues:>{}], "]"}],
-  ExternalObject[
-   ExternalSessionObject["b624fb94-eedb-491e-86ae-4f511002b477"], 
-   ExternalEvaluate`RPC["GetReference", 6067606864], <|
-   "IsModule" -> False, "Module" -> "hypernetx.classes.hypergraph", "IsClass" -> 
-    False, "IsFunction" -> False, "IsMethod" -> False, "IsCallable" -> 
-    False|>],
+  Failure[
+  "ExternalEvaluateFailure", <|
+   "MessageTemplate" :> MessageName[StartExternalSession, "unknownOpts"], 
+    "MessageParameters" -> {{"ProcessDirectory"}}, "ErrorTag" -> 
+    "unknownOpts"|>],
   Editable->False,
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.922795596118929*^9, 3.922795617363843*^9}, 
    3.92279565724866*^9, 3.922795783923118*^9, {3.92279590092385*^9, 
    3.9227959069317007`*^9}, 3.922796018677496*^9, 3.922796056050644*^9, 
-   3.922796108403057*^9, {3.922796147444788*^9, 3.9227961638710127`*^9}, 
-   3.922796984745977*^9, 3.922797108508645*^9, 3.9227972860793467`*^9, 
+   3.922796108403057*^9, {3.922796147444788*^9, 3.922796163871013*^9}, 
+   3.922796984745977*^9, 3.922797108508645*^9, 3.9227972860793476`*^9, 
    3.922797783154752*^9, 3.922801162592709*^9, 3.922802169291438*^9, 
    3.922811545590131*^9, 3.922867089158771*^9, 3.922867303347473*^9, 
-   3.9228680451983852`*^9, 3.9228681254155283`*^9, 3.922872856602092*^9, {
-   3.922872892116643*^9, 3.922872942878398*^9}, 3.922969888961095*^9},
- CellLabel->"Out[25]=",ExpressionUUID->"597fe4eb-38fd-43d8-9f3f-55409aa832d6"]
+   3.9228680451983843`*^9, 3.9228681254155273`*^9, 3.922872856602092*^9, {
+   3.922872892116643*^9, 3.922872942878398*^9}, 3.922969888961095*^9, 
+   3.924610528684407*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"c05f8fdc-e0aa-4b95-8d8c-46106806bab8"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -2647,165 +1163,244 @@ Cell[BoxData[
   
   RowBox[{"ResourceFunction", "[", "\"\<HypergraphPlot\>\"", "]"}]}]], "Input",\
 
- CellLabel->"In[27]:=",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
+ CellLabel->"In[8]:=",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
 
 Cell[BoxData[
- GraphicsBox[{{{
-     {RGBColor[0.25634450000000003`, 0.36442575, 0.5148382499999999], Opacity[
-      0.2], FilledCurveBox[
-       BSplineCurve[{{0.37409384061003553`, 2.3288488209569196`}, {
-        0.9740938406100355, 2.3288488209569196`}, {0.9740938406100355, 
-        2.9288488209569192`}, {0.37409384061003553`, 2.9288488209569192`}}, 
-        SplineClosed -> True]]}, 
-     {RGBColor[0.277947, 0.45009699999999997`, 0.32815550000000004`], Opacity[
-      0.2], FilledCurveBox[
-       BSplineCurve[{{0.9740938406100355, 2.3288488209569196`}, {
-        1.6640935558187884`, 2.584800851507984}, {2.322233501844897, 
-        2.3764615502659554`}, {2.9222335018448966`, 2.3764615502659554`}, {
-        2.9222335018448966`, 2.976461550265955}, {1.9403609829015376`, 
-        3.287280906757796}, {1.3403609829015375`, 3.287280906757796}, {
-        0.37409384061003553`, 2.9288488209569192`}, {0.37409384061003553`, 
-        2.3288488209569196`}}, SplineClosed -> True]]}, 
-     {RGBColor[0.38516275, 0.53580125, 0.24921775000000002`], Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{2.322233501844897, 2.3764615502659554`}, {
-        2.9222335018448966`, 2.3764615502659554`}, {2.9222335018448966`, 
-        2.976461550265955}, {2.322233501844897, 2.976461550265955}}, 
-        SplineClosed -> True]]}, 
-     {RGBColor[0.624866, 0.673302, 0.264296], Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{3.2811666002483486`, 1.4110529361484707`}, {
-        3.2811666002483486`, 2.0110529361484706`}, {2.9222335018448966`, 
-        2.976461550265955}, {2.322233501844897, 2.976461550265955}, {
-        2.322233501844897, 2.3764615502659554`}, {2.5784577765431487`, 
-        1.6873049273744793`}, {2.3696551535845014`, 1.0291391440365691`}, {
-        2.3696551535845014`, 0.4291391440365692}, {2.969655153584501, 
-        0.4291391440365692}}, SplineClosed -> True]]}, 
-     {RGBColor[0.8292435, 0.75748025, 0.3093175], Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{2.3696551535845014`, 0.4291391440365692}, {
-        2.969655153584501, 0.4291391440365692}, {2.969655153584501, 
-        1.0291391440365691`}, {2.3696551535845014`, 1.0291391440365691`}}, 
-        SplineClosed -> True]]}, 
-     {RGBColor[0.8453409999999999, 0.6248695, 0.3151775], Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{1.4043849430288688`, 0.07103345353928142}, {
-        2.0043849430288687`, 0.07103345353928142}, {2.969655153584501, 
-        0.4291391440365692}, {2.969655153584501, 1.0291391440365691`}, {
-        2.3696551535845014`, 1.0291391440365691`}, {1.6806460518916484`, 
-        0.7735235895291875}, {1.0217429740694932`, 0.9821209125537373}, {
-        0.4217429740694932, 0.9821209125537373}, {0.4217429740694932, 
-        0.3821209125537374}}, SplineClosed -> True]]}, 
-     {RGBColor[0.75060425, 0.30922275000000005`, 0.24908550000000002`], 
-      Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{0.4217429740694932, 0.3821209125537374}, {
-        1.0217429740694932`, 0.3821209125537374}, {1.0217429740694932`, 
-        0.9821209125537373}, {0.4217429740694932, 0.9821209125537373}}, 
-        SplineClosed -> True]]}, 
-     {RGBColor[0.72987, 0.239399, 0.230961], Opacity[0.2], 
-      FilledCurveBox[
-       BSplineCurve[{{0.37409384061003553`, 2.9288488209569192`}, {
-        0.06270272642834201, 1.9473143053750814`}, {0.06270272642834201, 
-        1.3473143053750813`}, {0.4217429740694932, 0.3821209125537374}, {
-        1.0217429740694932`, 0.3821209125537374}, {1.0217429740694932`, 
-        0.9821209125537373}, {0.7654362065527405, 1.6711400410995145`}, {
-        0.9740938406100355, 2.3288488209569196`}, {0.9740938406100355, 
-        2.9288488209569192`}}, SplineClosed -> True]]}}, {
-     {RGBColor[0.25634450000000003`, 0.36442575, 0.5148382499999999], 
-      Thickness[0.01]}, 
-     {RGBColor[0.277947, 0.45009699999999997`, 0.32815550000000004`], 
-      Thickness[0.01], 
-      BSplineCurveBox[{{0.6740938406100355, 2.6288488209569194`}, {
-       1.6403609829015375`, 2.987280906757796}, {2.622233501844897, 
-       2.6764615502659552`}},
-       SplineWeights->{1, 6, 1}]}, 
-     {RGBColor[0.38516275, 0.53580125, 0.24921775000000002`], Thickness[
-      0.01]}, 
-     {RGBColor[0.624866, 0.673302, 0.264296], Thickness[0.01], 
-      BSplineCurveBox[{{2.622233501844897, 2.6764615502659552`}, {
-       2.981166600248349, 1.7110529361484708`}, {2.6696551535845012`, 
-       0.7291391440365692}},
-       SplineWeights->{1, 6, 1}]}, 
-     {RGBColor[0.8292435, 0.75748025, 0.3093175], Thickness[0.01]}, 
-     {RGBColor[0.8453409999999999, 0.6248695, 0.3151775], Thickness[0.01], 
-      BSplineCurveBox[{{2.6696551535845012`, 0.7291391440365692}, {
-       1.704384943028869, 0.3710334535392814}, {0.7217429740694932, 
-       0.6821209125537374}},
-       SplineWeights->{1, 6, 1}]}, 
-     {RGBColor[0.75060425, 0.30922275000000005`, 0.24908550000000002`], 
-      Thickness[0.01]}, 
-     {RGBColor[0.72987, 0.239399, 0.230961], Thickness[0.01], 
-      BSplineCurveBox[{{0.7217429740694932, 0.6821209125537374}, {
-       0.362702726428342, 1.6473143053750814`}, {0.6740938406100355, 
-       2.6288488209569194`}},
-       SplineWeights->{1, 6, 1}]}}}, 
-   NamespaceBox[{{}, 
-     {GrayLevel[1], EdgeForm[GrayLevel[0]], 
-      TagBox[{
-        TagBox[DiskBox[{0.6740938406100355, 2.6288488209569194`}, 0.15],
-         "DynamicName",
-         BoxID -> "VertexID$1"], InsetBox[
-         StyleBox["0",
-          StripOnInput->False,
-          LineColor->GrayLevel[0],
-          FrontFaceColor->GrayLevel[0],
-          BackFaceColor->GrayLevel[0],
-          GraphicsColor->GrayLevel[0],
-          FontColor->GrayLevel[0]], DynamicLocation[
-         "VertexID$1", None, Center],
-         BaseStyle->"Graphics"]},
-       "DynamicName",
-       BoxID -> "VertexLabelID$1"], 
-      TagBox[{
-        TagBox[DiskBox[{2.622233501844897, 2.6764615502659552`}, 0.15],
-         "DynamicName",
-         BoxID -> "VertexID$2"], InsetBox[
-         StyleBox["1",
-          StripOnInput->False,
-          LineColor->GrayLevel[0],
-          FrontFaceColor->GrayLevel[0],
-          BackFaceColor->GrayLevel[0],
-          GraphicsColor->GrayLevel[0],
-          FontColor->GrayLevel[0]], DynamicLocation[
-         "VertexID$2", None, Center],
-         BaseStyle->"Graphics"]},
-       "DynamicName",
-       BoxID -> "VertexLabelID$2"], 
-      TagBox[{
-        TagBox[DiskBox[{2.6696551535845012`, 0.7291391440365692}, 0.15],
-         "DynamicName",
-         BoxID -> "VertexID$3"], InsetBox[
-         StyleBox["2",
-          StripOnInput->False,
-          LineColor->GrayLevel[0],
-          FrontFaceColor->GrayLevel[0],
-          BackFaceColor->GrayLevel[0],
-          GraphicsColor->GrayLevel[0],
-          FontColor->GrayLevel[0]], DynamicLocation[
-         "VertexID$3", None, Center],
-         BaseStyle->"Graphics"]},
-       "DynamicName",
-       BoxID -> "VertexLabelID$3"], 
-      TagBox[{
-        TagBox[DiskBox[{0.7217429740694932, 0.6821209125537374}, 0.15],
-         "DynamicName",
-         BoxID -> "VertexID$4"], InsetBox[
-         StyleBox["3",
-          StripOnInput->False,
-          LineColor->GrayLevel[0],
-          FrontFaceColor->GrayLevel[0],
-          BackFaceColor->GrayLevel[0],
-          GraphicsColor->GrayLevel[0],
-          FontColor->GrayLevel[0]], DynamicLocation[
-         "VertexID$4", None, Center],
-         BaseStyle->"Graphics"]},
-       "DynamicName",
-       BoxID -> "VertexLabelID$4"]}}]}]], "Output",
+ TemplateBox[{
+  "Values", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{RowBox[{\\\"HypergraphDataset\\\", \
+\\\"[\\\", RowBox[{\\\"{\\\", RowBox[{\\\"0\\\", \\\",\\\", \\\"1\\\", \
+\\\",\\\", \\\"2\\\", \\\",\\\", \\\"3\\\"}], \\\"}\\\"}], \\\"]\\\"}], \\\"[\
+\\\", RowBox[{\\\"All\\\", \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"edges\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"nodes\\\\\\\"\\\
+\"}], \\\"}\\\"}]}], \\\"]\\\"}]\\) is not a valid Association or a list of \
+rules.\"", 2, 8, 2, 34667620212106922149, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.924612032054213*^9},
+ CellLabel->
+  "During evaluation of \
+In[8]:=",ExpressionUUID->"02c25cea-4a42-403b-b37f-b506f3b8b561"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Values", "invrl", 
+   "\"The argument \\!\\(\\*RowBox[{\\\"Values\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"HypergraphDataset\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"0\\\", \\\",\\\", \\\"1\\\", \\\",\\\", \\\"2\\\", \\\",\\\", \
+\\\"3\\\"}], \\\"}\\\"}], \\\"]\\\"}], \\\"[\\\", RowBox[{\\\"All\\\", \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"edges\\\\\\\"\\\", \
+\\\",\\\", \\\"\\\\\\\"nodes\\\\\\\"\\\"}], \\\"}\\\"}]}], \\\"]\\\"}], \\\"]\
+\\\"}]\\) is not a valid Association or a list of rules.\"", 2, 8, 3, 
+   34667620212106922149, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.92461203205658*^9},
+ CellLabel->
+  "During evaluation of \
+In[8]:=",ExpressionUUID->"0ae614d1-8119-4475-9d9d-b5edfbc2c9ba"],
+
+Cell[BoxData[
+ RowBox[{
+  InterpretationBox[
+   TagBox[
+    TagBox[
+     DynamicModuleBox[{Typeset`open = False}, 
+      FrameBox[
+       PaneSelectorBox[{False->GridBox[{
+          {
+           PaneBox[GridBox[{
+              {
+               StyleBox[
+                StyleBox[
+                 AdjustmentBox["\<\"[\[FilledSmallSquare]]\"\>",
+                  BoxBaselineShift->-0.25,
+                  BoxMargins->{{0, 0}, {-1, -1}}], "ResourceFunctionIcon",
+                 
+                 FontColor->RGBColor[
+                  0.8745098039215686, 0.2784313725490196, 
+                   0.03137254901960784]],
+                ShowStringCharacters->False,
+                FontFamily->"Source Sans Pro Black",
+                FontSize->0.6538461538461539 Inherited,
+                FontWeight->"Heavy",
+                PrivateFontOptions->{"OperatorSubstitution"->False}], 
+               StyleBox[
+                RowBox[{
+                 StyleBox["HypergraphPlot", "ResourceFunctionLabel"], " "}],
+                ShowAutoStyles->False,
+                ShowStringCharacters->False,
+                FontSize->Rational[12, 13] Inherited,
+                FontColor->GrayLevel[0.1]]}
+             },
+             GridBoxSpacings->{"Columns" -> {{0.25}}}],
+            Alignment->Left,
+            BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+            BaselinePosition->Baseline,
+            FrameMargins->{{3, 0}, {0, 0}}], 
+           ItemBox[
+            PaneBox[
+             TogglerBox[Dynamic[Typeset`open], {True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "IconizeCloser"],
+               
+               ImageSizeCache->{
+                11., {0.878509521484375, 10.121490478515625`}}], False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "IconizeOpener"],
+               
+               ImageSizeCache->{
+                11., {0.878509521484375, 10.121490478515625`}}]},
+              Appearance->None,
+              BaselinePosition->Baseline,
+              ContentPadding->False,
+              FrameMargins->0],
+             Alignment->Left,
+             BaselinePosition->Baseline,
+             FrameMargins->{{1, 1}, {0, 0}}],
+            Frame->{{
+               RGBColor[
+               0.8313725490196079, 0.8470588235294118, 0.8509803921568627, 
+                0.5], False}, {False, False}}]}
+         },
+         BaselinePosition->{1, 1},
+         GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+         GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}], True->
+        GridBox[{
+          {GridBox[{
+             {
+              PaneBox[GridBox[{
+                 {
+                  StyleBox[
+                   AdjustmentBox[
+                    
+                    StyleBox["\<\"[\[FilledSmallSquare]]\"\>", 
+                    "ResourceFunctionIcon",
+                    
+                    FontColor->RGBColor[
+                    0.8745098039215686, 0.2784313725490196, 
+                    0.03137254901960784]],
+                    BoxBaselineShift->-0.25,
+                    BoxMargins->{{0, 0}, {-1, -1}}],
+                   ShowStringCharacters->False,
+                   FontFamily->"Source Sans Pro Black",
+                   FontSize->0.6538461538461539 Inherited,
+                   FontWeight->"Heavy",
+                   PrivateFontOptions->{"OperatorSubstitution"->False}], 
+                  StyleBox[
+                   RowBox[{
+                    StyleBox["HypergraphPlot", "ResourceFunctionLabel"], " "}],
+                   ShowAutoStyles->False,
+                   ShowStringCharacters->False,
+                   FontSize->Rational[12, 13] Inherited,
+                   FontColor->GrayLevel[0.1]]}
+                },
+                GridBoxSpacings->{"Columns" -> {{0.25}}}],
+               Alignment->Left,
+               BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+               BaselinePosition->Baseline,
+               FrameMargins->{{3, 0}, {0, 0}}], 
+              ItemBox[
+               PaneBox[
+                TogglerBox[Dynamic[Typeset`open], {True->
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "FEBitmaps", "IconizeCloser"]], False->
+                 
+                 DynamicBox[FEPrivate`FrontEndResource[
+                  "FEBitmaps", "IconizeOpener"]]},
+                 Appearance->None,
+                 BaselinePosition->Baseline,
+                 ContentPadding->False,
+                 FrameMargins->0],
+                Alignment->Left,
+                BaselinePosition->Baseline,
+                FrameMargins->{{1, 1}, {0, 0}}],
+               Frame->{{
+                  RGBColor[
+                  0.8313725490196079, 0.8470588235294118, 0.8509803921568627, 
+                   0.5], False}, {False, False}}]}
+            },
+            BaselinePosition->{1, 1},
+            GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+            
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}]},
+          {
+           StyleBox[
+            PaneBox[GridBox[{
+               {
+                RowBox[{
+                 TagBox["\<\"Version (latest): \"\>",
+                  "IconizedLabel"], " ", 
+                 TagBox["\<\"2.1.0\"\>",
+                  "IconizedItem"]}]},
+               {
+                TagBox[
+                 
+                 TemplateBox[{
+                  "\"Documentation \[RightGuillemet]\"", 
+                   "https://resources.wolframcloud.com/FunctionRepository/\
+resources/e9bc95c7-b561-4aff-a947-8443522e0d42/"},
+                  "HyperlinkURL"],
+                 "IconizedItem"]}
+              },
+              DefaultBaseStyle->"Column",
+              GridBoxAlignment->{"Columns" -> {{Left}}},
+              
+              GridBoxItemSize->{
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+             Alignment->Left,
+             BaselinePosition->Baseline,
+             FrameMargins->{{5, 4}, {0, 4}}], "DialogStyle",
+            FontFamily->"Roboto",
+            FontSize->11]}
+         },
+         BaselinePosition->{1, 1},
+         GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+         GridBoxDividers->{"Columns" -> {{None}}, "Rows" -> {False, {
+              GrayLevel[0.8]}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]}, Dynamic[
+        Typeset`open],
+        BaselinePosition->Baseline,
+        ImageSize->Automatic],
+       Background->RGBColor[
+        0.9686274509803922, 0.9764705882352941, 0.984313725490196],
+       BaselinePosition->Baseline,
+       DefaultBaseStyle->{},
+       FrameMargins->{{0, 0}, {1, 0}},
+       FrameStyle->RGBColor[
+        0.8313725490196079, 0.8470588235294118, 0.8509803921568627],
+       RoundingRadius->4]],
+     #& ,
+     TagBoxNote->" "],
+    {"FunctionResourceBox", 
+     RGBColor[0.8745098039215686, 0.2784313725490196, 0.03137254901960784], 
+     "HypergraphPlot"},
+    TagBoxNote->"FunctionResourceBox"],
+   ResourceFunction["HypergraphPlot"],
+   Selectable->False], "[", 
+  RowBox[{"Round", "[", 
+   RowBox[{"Values", "[", 
+    RowBox[{"Values", "[", 
+     RowBox[{
+      RowBox[{"HypergraphDataset", "[", 
+       RowBox[{"{", 
+        RowBox[{"0", ",", "1", ",", "2", ",", "3"}], "}"}], "]"}], "[", 
+      RowBox[{"All", ",", 
+       RowBox[{"{", 
+        RowBox[{"\<\"edges\"\>", ",", "\<\"nodes\"\>"}], "}"}]}], "]"}], 
+     "]"}], "]"}], "]"}], "]"}]], "Output",
  CellChangeTimes->{
   3.922797830636592*^9, 3.922801164237329*^9, 3.9228728613037863`*^9, {
-   3.922872893058642*^9, 3.922872943507905*^9}, 3.9229701571590557`*^9},
- CellLabel->"Out[27]=",ExpressionUUID->"759e5ce2-21cd-463e-ae2c-3d4bd349001e"]
+   3.922872893058642*^9, 3.922872943507905*^9}, 3.9229701571590557`*^9, 
+   3.924612032087153*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"83cabaef-1dcf-4577-894c-4c1841a68d60"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2913,9 +1508,9 @@ Cell[BoxData[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{{3.922795909208838*^9, 3.922795917202877*^9}, 
-   3.922796019755248*^9, 3.92279605692837*^9, 3.9227961094402657`*^9, {
+   3.922796019755248*^9, 3.92279605692837*^9, 3.922796109440265*^9, {
    3.9227961450902233`*^9, 3.922796169863625*^9}, 3.9227969858300037`*^9, 
-   3.9227971085818653`*^9, 3.9227972861574574`*^9, 3.922797783227025*^9, 
+   3.9227971085818653`*^9, 3.9227972861574583`*^9, 3.922797783227025*^9, 
    3.92280116753654*^9, 3.9229701685904284`*^9},
  CellLabel->"Out[28]=",ExpressionUUID->"d9b0f15a-643e-4e06-a2cc-07d3951c2247"]
 }, Open  ]],
@@ -43542,7 +42137,7 @@ Cell[BoxData[
 },
 WindowSize->{1440, 847},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (April 23, 2024)",
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (May 13, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"9f661808-dbfe-419d-858e-dca7224ec814"
 ]
@@ -43550,154 +42145,151 @@ ExpressionUUID->"9f661808-dbfe-419d-858e-dca7224ec814"
 
 (* Internal cache information *)
 (*CellTagsOutline
-CellTagsIndex->{
- "Info-53b4489c-34b6-4385-86cc-4d2858b31383"->{
-  Cell[38241, 895, 11336, 282, 78, "Print",ExpressionUUID->"0826cb2f-f598-4470-b45e-c0c370d30f81",
-   CellTags->"Info-53b4489c-34b6-4385-86cc-4d2858b31383"]}
- }
+CellTagsIndex->{}
 *)
 (*CellTagsIndex
-CellTagsIndex->{
- {"Info-53b4489c-34b6-4385-86cc-4d2858b31383", 2339082, 43553}
- }
+CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[554, 20, 361, 7, 45, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396",
- InitializationCell->True],
-Cell[918, 29, 346, 6, 45, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f",
- InitializationCell->True],
+Cell[554, 20, 174, 2, 29, "Input",ExpressionUUID->"631e04a8-4e29-444e-b9c8-af0ab3cc1886"],
+Cell[731, 24, 333, 6, 29, "Input",ExpressionUUID->"259332d2-4b14-4c3e-a9db-b355c9453396"],
+Cell[1067, 32, 318, 5, 29, "Input",ExpressionUUID->"3dd7fc1d-8355-4c10-95ee-3695ce06211f"],
 Cell[CellGroupData[{
-Cell[1289, 39, 257, 5, 29, "Input",ExpressionUUID->"0a607e33-422a-4ee2-9a4a-66e96fda3f5c"],
-Cell[1549, 46, 172, 2, 33, "Output",ExpressionUUID->"bd1d3545-c73e-45c9-a1ca-3e31637982fb"]
+Cell[1410, 41, 254, 5, 29, "Input",ExpressionUUID->"0a607e33-422a-4ee2-9a4a-66e96fda3f5c"],
+Cell[1667, 48, 291, 4, 33, "Output",ExpressionUUID->"90b4d3a4-f10a-4596-ab7e-fcf022f86fe5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1758, 53, 250, 4, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
-Cell[2011, 59, 36227, 834, 359, "Output",ExpressionUUID->"ad451e9e-dc05-4990-8552-72397da34862"],
-Cell[38241, 895, 11336, 282, 78, "Print",ExpressionUUID->"0826cb2f-f598-4470-b45e-c0c370d30f81",
- CellTags->"Info-53b4489c-34b6-4385-86cc-4d2858b31383"]
+Cell[1995, 57, 249, 4, 29, "Input",ExpressionUUID->"61978bf5-4672-4f2b-9700-62c7bb0413eb"],
+Cell[2247, 63, 36345, 836, 359, "Output",ExpressionUUID->"62bc86b7-48ba-4f1b-b882-7299bcd1ad76"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[49614, 1182, 207, 3, 29, "Input",ExpressionUUID->"1232c132-5495-459e-89ff-f0ce4429a081"],
-Cell[49824, 1187, 46868, 681, 73, "Message",ExpressionUUID->"88115a15-4f0e-481c-bcff-3870c02f1395"],
-Cell[96695, 1870, 19314, 349, 58, "Output",ExpressionUUID->"d9cd3308-150d-47a1-8873-3e85f85ffe49"]
+Cell[38629, 904, 452, 13, 29, "Input",ExpressionUUID->"32942c54-cd77-43a3-815b-76fc1cfb0c19"],
+Cell[39084, 919, 334, 6, 33, "Output",ExpressionUUID->"1597867d-50dc-4a9a-acd0-017b0111559b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116046, 2224, 217, 3, 29, "Input",ExpressionUUID->"f2d79d29-dcdc-4de1-b84a-bd4a63a941f1"],
-Cell[116266, 2229, 149, 2, 33, "Output",ExpressionUUID->"775a7b37-61f8-472c-aa53-256bdebd3468"]
+Cell[39455, 930, 206, 3, 29, "Input",ExpressionUUID->"1232c132-5495-459e-89ff-f0ce4429a081"],
+Cell[39664, 935, 577, 12, 26, "Message",ExpressionUUID->"971cd552-e591-48e2-bc14-4aaeaeb725d0"],
+Cell[40244, 949, 275, 5, 33, "Output",ExpressionUUID->"f73e19dc-2e7b-426a-bf24-c77c86341ec3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116452, 2236, 648, 17, 45, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba",
- InitializationCell->True],
-Cell[117103, 2255, 19680, 355, 138, "Output",ExpressionUUID->"597fe4eb-38fd-43d8-9f3f-55409aa832d6"]
-}, Open  ]],
-Cell[136798, 2613, 221, 3, 29, "Input",ExpressionUUID->"1c7a09f2-ed11-4ac3-a883-73e7f6bfa461"],
-Cell[137022, 2618, 196, 4, 29, "Input",ExpressionUUID->"7c7a9e64-b257-41b7-84b4-eeb50cf8e5e0"],
-Cell[137221, 2624, 249, 6, 42, "Input",ExpressionUUID->"d949d34d-a76a-461f-a9c2-634b79f580db"],
-Cell[CellGroupData[{
-Cell[137495, 2634, 521, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
-Cell[138019, 2651, 7716, 156, 376, "Output",ExpressionUUID->"759e5ce2-21cd-463e-ae2c-3d4bd349001e"]
+Cell[40556, 959, 216, 3, 29, "Input",ExpressionUUID->"f2d79d29-dcdc-4de1-b84a-bd4a63a941f1"],
+Cell[40775, 964, 281, 5, 33, "Output",ExpressionUUID->"10161453-770c-4d13-b5cd-ac0e3b00d4f3"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[145772, 2812, 374, 5, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
-Cell[146149, 2819, 4751, 100, 58, "Output",ExpressionUUID->"d9b0f15a-643e-4e06-a2cc-07d3951c2247"]
+Cell[41093, 974, 620, 16, 29, "Input",ExpressionUUID->"0aa97b9d-d1a6-4820-b6f5-391b8e502cba"],
+Cell[41716, 992, 455, 10, 26, "Message",ExpressionUUID->"efe0c78d-0885-41ed-8639-9c24fe5eae11"],
+Cell[42174, 1004, 6444, 122, 71, "Output",ExpressionUUID->"c05f8fdc-e0aa-4b95-8d8c-46106806bab8"]
+}, Open  ]],
+Cell[48633, 1129, 221, 3, 29, "Input",ExpressionUUID->"1c7a09f2-ed11-4ac3-a883-73e7f6bfa461"],
+Cell[48857, 1134, 196, 4, 29, "Input",ExpressionUUID->"7c7a9e64-b257-41b7-84b4-eeb50cf8e5e0"],
+Cell[49056, 1140, 249, 6, 42, "Input",ExpressionUUID->"d949d34d-a76a-461f-a9c2-634b79f580db"],
+Cell[CellGroupData[{
+Cell[49330, 1150, 520, 15, 29, "Input",ExpressionUUID->"f60edcf3-aa0f-4260-9176-3d165642e0af"],
+Cell[49853, 1167, 730, 14, 26, "Message",ExpressionUUID->"02c25cea-4a42-403b-b37f-b506f3b8b561"],
+Cell[50586, 1183, 781, 15, 26, "Message",ExpressionUUID->"0ae614d1-8119-4475-9d9d-b5edfbc2c9ba"],
+Cell[51370, 1200, 8067, 202, 36, "Output",ExpressionUUID->"83cabaef-1dcf-4577-894c-4c1841a68d60"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[150937, 2924, 406, 7, 29, "Input",ExpressionUUID->"c5d65ca1-3231-4f07-8de5-633da3cc0dd7"],
-Cell[151346, 2933, 490, 12, 33, "Output",ExpressionUUID->"dec508fa-41a1-4646-a965-915ab606014d"]
+Cell[59474, 1407, 374, 5, 29, "Input",ExpressionUUID->"e1163130-c9c3-4dff-a04c-334dcb3a4ebf"],
+Cell[59851, 1414, 4749, 100, 58, "Output",ExpressionUUID->"d9b0f15a-643e-4e06-a2cc-07d3951c2247"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[151873, 2950, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
-Cell[152279, 2959, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
+Cell[64637, 1519, 406, 7, 29, "Input",ExpressionUUID->"c5d65ca1-3231-4f07-8de5-633da3cc0dd7"],
+Cell[65046, 1528, 490, 12, 33, "Output",ExpressionUUID->"dec508fa-41a1-4646-a965-915ab606014d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[152787, 2975, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
-Cell[153155, 2982, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
+Cell[65573, 1545, 403, 7, 29, "Input",ExpressionUUID->"c31bc834-4eff-42ff-9708-663ec24afd25"],
+Cell[65979, 1554, 471, 11, 33, "Output",ExpressionUUID->"ae047ddb-8190-4df7-bf3d-43c2227e6f0b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[172288, 3335, 555, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
-Cell[172846, 3351, 9283, 194, 321, "Output",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
+Cell[66487, 1570, 365, 5, 29, "Input",ExpressionUUID->"f7a07880-678d-4dc2-bda8-a95a82053c48"],
+Cell[66855, 1577, 19096, 348, 58, "Output",ExpressionUUID->"bae7c094-a733-4529-8e02-459e4f887af0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[182166, 3550, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
-Cell[182736, 3566, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
+Cell[85988, 1930, 555, 14, 29, "Input",ExpressionUUID->"9770261a-27b5-4c10-8e3f-2eb01657073a"],
+Cell[86546, 1946, 9283, 194, 321, "Output",ExpressionUUID->"a9fb38ce-8a1c-4106-ba21-8bf28136cf6a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[190290, 3728, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
-Cell[190572, 3734, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
+Cell[95866, 2145, 567, 14, 29, "Input",ExpressionUUID->"1302eafc-1d00-4c3d-aca7-12d4cbda0e82"],
+Cell[96436, 2161, 7517, 157, 213, "Output",ExpressionUUID->"56263802-e530-4f7a-9d18-209ba5ddd434"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[209708, 4088, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
-Cell[209989, 4094, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
+Cell[103990, 2323, 279, 4, 29, "Input",ExpressionUUID->"8f665633-8c02-4078-acf0-18a236f1985a"],
+Cell[104272, 2329, 19099, 349, 58, "Output",ExpressionUUID->"0082faac-0f96-4157-a60f-4649da84de1a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[229394, 4449, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
-Cell[229665, 4455, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
+Cell[123408, 2683, 278, 4, 29, "Input",ExpressionUUID->"d632371c-bea8-4a98-b640-1eee36774dc6"],
+Cell[123689, 2689, 19368, 350, 58, "Output",ExpressionUUID->"d65b0afa-3a4a-4032-8b2b-c4b216730bc8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[229997, 4466, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
-Cell[230230, 4471, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
+Cell[143094, 3044, 268, 4, 29, "Input",ExpressionUUID->"334b2d25-f5f8-4c57-ae14-d1617d2f17bd"],
+Cell[143365, 3050, 295, 6, 33, "Output",ExpressionUUID->"f0ded48f-614a-4de8-8f1d-12082b74caae"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[230544, 4482, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
-Cell[230762, 4487, 53912, 1039, 257, "Output",ExpressionUUID->"63851126-43d4-46e0-9045-195d0ba1df16"]
+Cell[143697, 3061, 230, 3, 29, "Input",ExpressionUUID->"617bd72a-0dee-48b2-94da-7e536b230cd0"],
+Cell[143930, 3066, 277, 6, 33, "Output",ExpressionUUID->"37030c1e-aff0-4637-8f9e-ca4fe2db7a40"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[284711, 5531, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
-Cell[285348, 5550, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
+Cell[144244, 3077, 215, 3, 29, "Input",ExpressionUUID->"d24ef874-1d9e-4a6e-a8f7-fc3442ae16ed"],
+Cell[144462, 3082, 53912, 1039, 257, "Output",ExpressionUUID->"63851126-43d4-46e0-9045-195d0ba1df16"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[293087, 5713, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
-Cell[293307, 5718, 285818, 5283, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
+Cell[198411, 4126, 634, 17, 29, "Input",ExpressionUUID->"4ef14c39-ced9-4d69-98ff-7f858205ac37"],
+Cell[199048, 4145, 7702, 158, 235, "Output",ExpressionUUID->"1fb287d7-6b96-410f-8886-5a2e10472ff5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[579162, 11006, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
-Cell[579381, 11011, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
+Cell[206787, 4308, 217, 3, 29, "Input",ExpressionUUID->"c897d70c-a0f1-44d4-bea5-ceecb7ce9ec4"],
+Cell[207007, 4313, 285818, 5283, 60, "Output",ExpressionUUID->"6ce31973-cb0f-455e-a646-14e11d6ec597"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[579616, 11019, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
-Cell[579831, 11024, 285561, 5281, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
+Cell[492862, 9601, 216, 3, 29, "Input",ExpressionUUID->"61da78d8-104b-4011-babe-4337df3d24d5"],
+Cell[493081, 9606, 198, 3, 33, "Output",ExpressionUUID->"d1225344-a400-45f9-b5db-a7981369a18a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[865429, 16310, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
-Cell[865651, 16315, 286099, 5284, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
+Cell[493316, 9614, 212, 3, 29, "Input",ExpressionUUID->"b52d46a5-71b9-4ae0-8e7b-b9b846791ec1"],
+Cell[493531, 9619, 285561, 5281, 60, "Output",ExpressionUUID->"f3284da2-0227-47d7-a3b6-a0bb78d5632a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1151787, 21604, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
-Cell[1152005, 21609, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
+Cell[779129, 14905, 219, 3, 29, "Input",ExpressionUUID->"98ad4638-d6ba-40c4-ac44-fc98787ea972"],
+Cell[779351, 14910, 286099, 5284, 60, "Output",ExpressionUUID->"9650b378-7c90-4bce-b3fa-bd01cadc5633"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1171185, 21964, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
-Cell[1171498, 21972, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
+Cell[1065487, 20199, 215, 3, 29, "Input",ExpressionUUID->"60c250a6-d5ad-48ad-8161-1ae6b00393a1"],
+Cell[1065705, 20204, 19143, 350, 58, "Output",ExpressionUUID->"d551a87c-79a4-4a31-991c-3344de7b0f16"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1171964, 21988, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
-Cell[1172184, 21993, 285103, 5256, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
+Cell[1084885, 20559, 310, 6, 29, "Input",ExpressionUUID->"423ae3fe-b675-42bb-82e8-03133a321f9a"],
+Cell[1085198, 20567, 429, 11, 33, "Output",ExpressionUUID->"873ee98e-eda4-4dae-8fc1-1ecf3448d407"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1457324, 27254, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
-Cell[1457549, 27259, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
+Cell[1085664, 20583, 217, 3, 29, "Input",ExpressionUUID->"3fc89d98-2bb9-4551-aa89-badc9ba08834"],
+Cell[1085884, 20588, 285103, 5256, 60, "Output",ExpressionUUID->"fedd32b7-58a0-46ef-baac-acbaa3dd40b4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1457734, 27266, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
-Cell[1457959, 27271, 286035, 5272, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
+Cell[1371024, 25849, 222, 3, 29, "Input",ExpressionUUID->"27bbd6b3-189f-4590-b3ec-bf314e6fa1bd"],
+Cell[1371249, 25854, 148, 2, 33, "Output",ExpressionUUID->"e706d98c-b65a-4e9f-a73e-acafd2aa4516"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1744031, 32548, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
-Cell[1744260, 32553, 285906, 5273, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
+Cell[1371434, 25861, 222, 3, 29, "Input",ExpressionUUID->"47337a17-5e61-4b53-8cd9-78c136646899"],
+Cell[1371659, 25866, 286035, 5272, 60, "Output",ExpressionUUID->"37e9441a-f3b5-422f-8b28-feb6d80437ad"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2030203, 37831, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
-Cell[2030422, 37836, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
-}, Open  ]],
-Cell[2049203, 38180, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
-Cell[CellGroupData[{
-Cell[2049443, 38187, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
-Cell[2049663, 38192, 285666, 5280, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
+Cell[1657731, 31143, 226, 3, 29, "Input",ExpressionUUID->"b134d811-5bce-4b52-8329-31849bb3882d"],
+Cell[1657960, 31148, 285906, 5273, 60, "Output",ExpressionUUID->"3c1f0096-ea73-422b-9832-a2c44f8e7346"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2335366, 43477, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
-Cell[2335590, 43482, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
+Cell[1943903, 36426, 216, 3, 29, "Input",ExpressionUUID->"77a1f17a-189d-470c-9cb6-7dd95a44237e"],
+Cell[1944122, 36431, 18766, 341, 58, "Output",ExpressionUUID->"4f6dce20-ffa7-4da9-a944-688c816650ed"]
+}, Open  ]],
+Cell[1962903, 36775, 215, 3, 29, "Input",ExpressionUUID->"d71a5e14-7d04-4190-8e99-87713f839c04"],
+Cell[CellGroupData[{
+Cell[1963143, 36782, 217, 3, 29, "Input",ExpressionUUID->"4bf62deb-8929-4ba5-bf60-8230d44f0d43"],
+Cell[1963363, 36787, 285666, 5280, 60, "Output",ExpressionUUID->"56af103b-4e82-4626-a1fd-308ed8d06065"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2249066, 42072, 221, 3, 29, "Input",ExpressionUUID->"f57bb396-5edf-4d72-933f-bdfbc45607a8"],
+Cell[2249290, 42077, 3100, 57, 237, "Output",ExpressionUUID->"808d71e9-7822-4888-b5b5-e4ba3e554c40"]
 }, Open  ]]
 }
 ]
